@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공룡월드: 시간을 뛰어넘는 공룡 탐험</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 헤더 시작 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo-img" aria-label="공룡월드 홈으로 가기"></a>
+                <h1>공룡월드</h1>
+            </div>
+            <nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="#home">홈</a></li>
+                    <li class="dropdown">
+                        <a href="#explore">공룡 탐험하기 <i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="herbivores.html">육지의 거인들 (초식공룡)</a></li>
+                            <li><a href="carnivores.html">무시무시한 사냥꾼들 (육식공룡)</a></li>
+                            <li><a href="flying.html">하늘의 지배자들 (비행 파충류)</a></li>
+                            <li><a href="marine.html">바다의 공포 (해양 파충류)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="timeline.html">공룡 시대 여행</a></li>
+                    <li><a href="dictionary.html">공룡 도감</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 헤더 끝 -->
+
+    <!-- 영웅 배너 시작 -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>공룡세계에 오신 것을 환영합니다!</h1>
+            <p>머나먼 과거 공룡들이 지배했던 신비로운 세계로 떠나는 모험</p>
+            <div class="hero-buttons">
+                <a href="#explore" class="btn btn-primary">공룡 탐험 시작하기</a>
+            </div>
+        </div>
+        <div class="hero-slider">
+            <!-- 슬라이더 이미지는 JavaScript로 제어됨 -->
+        </div>
+    </section>
+    <!-- 영웅 배너 끝 -->
+
+    <!-- 카테고리 섹션 시작 -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">공룡 카테고리</h2>
+            <div class="category-grid">
+                <a href="herbivores.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/brachiosaurus.png" alt="초식공룡" loading="lazy">
+                    </div>
+                    <h3>초식공룡</h3>
+                    <p>거대한 초식공룡들의 세계</p>
+                </a>
+                <a href="carnivores.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/tyrannosaurus.png" alt="육식공룡" loading="lazy">
+                    </div>
+                    <h3>육식공룡</h3>
+                    <p>포식자들의 생존 전략</p>
+                </a>
+                <a href="flying.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/pteranodon.png" alt="날아다니는 파충류" loading="lazy">
+                    </div>
+                    <h3>날아다니는 파충류</h3>
+                    <p>하늘을 지배한 날개 달린 파충류</p>
+                </a>
+                <a href="marine.html" class="category-card">
+                    <div class="category-image">
+                        <img src="images/mosasaurus.png" alt="해양 파충류" loading="lazy">
+                    </div>
+                    <h3>해양 파충류</h3>
+                    <p>바다를 지배한 거대 파충류</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- 카테고리 섹션 끝 -->
+
+    <!-- 공룡 시대 여행 시작 -->
+    <section id="timeline" class="container">
+        <h2 class="section-title">공룡 시대 여행</h2>
+        <div class="timeline-container">
+            <div class="timeline-period">
+                <h3>트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)</h3>
+                <div class="period-content">
+                    <div class="period-info">
+                        <h4>세계와 환경</h4>
+                        <p>판게아 초대륙 시기, 덥고 건조한 기후가 지배적이었습니다. 대부분 사막 환경이었으나, 열대와 아열대 지역에는 울창한 숲이 있었습니다.</p>
+                        <h4>주요 공룡들</h4>
+                        <ul>
+                            <li>코엘로피시스: 작고 빠른 초기 육식 공룡</li>
+                            <li>프라테오사우루스: 초기 대형 초식 공룡</li>
+                            <li>에오랍토르: 가장 초기의 공룡 중 하나</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-period">
+                <h3>쥐라기 (2억 100만 년 전 - 1억 4500만 년 전)</h3>
+                <div class="period-content">
+                    <div class="period-info">
+                        <h4>세계와 환경</h4>
+                        <p>판게아가 분리되기 시작하여 로라시아와 곤드와나로 나뉘었습니다. 기후는 따뜻하고 습했으며, 전 세계가 온난했습니다.</p>
+                        <h4>주요 공룡들</h4>
+                        <ul>
+                            <li>디플로도쿠스: 매우 긴 목과 꼬리를 가진 거대 초식공룡</li>
+                            <li>브라키오사우루스: 기린처럼 긴 목을 가진 거대 초식공룡</li>
+                            <li>스테고사우루스: 등에 특징적인 판을 가진 갑옷 공룡</li>
+                            <li>알로사우루스: 당대 최강의 육식공룡</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-period">
+                <h3>백악기 (1억 4500만 년 전 - 6600만 년 전)</h3>
+                <div class="period-content">
+                    <div class="period-info">
+                        <h4>세계와 환경</h4>
+                        <p>현대와 가장 비슷한 대륙 배치가 형성되었고, 꽃피는 식물이 최초로 등장했습니다. 기후는 점차 냉각되기 시작했습니다.</p>
+                        <h4>주요 공룡들</h4>
+                        <ul>
+                            <li>티라노사우루스 렉스: 역사상 가장 강력한 육식공룡</li>
+                            <li>트리케라톱스: 세 개의 뿔을 가진 강력한 초식공룡</li>
+                            <li>벨로시랍토르: 깃털을 가진 지능높은 소형 육식공룡</li>
+                            <li>스피노사우루스: 등에 돛을 가진 반수생 육식공룡</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 공룡 시대 여행 끝 -->
+
+    <!-- 공룡 도감 시작 -->
+    <section id="dictionary" class="container dino-content">
+        <h2 class="section-title">공룡 도감</h2>
+        <div class="dinosaur-grid">
+            <div class="dino-detail-card">
+                <div class="dino-image">
+                    <img src="images/tyrannosaurus.png" alt="티라노사우루스 렉스" loading="lazy">
+                </div>
+                <h3>티라노사우루스 렉스</h3>
+                <ul class="dino-stats">
+                    <li><strong>시대:</strong> 백악기 후기</li>
+                    <li><strong>크기:</strong> 길이 12-14m</li>
+                    <li><strong>무게:</strong> 8-14톤</li>
+                </ul>
+                <div class="dino-description">
+                    <p>가장 강력한 육식공룡으로, 강력한 턱과 날카로운 이빨을 가졌습니다.</p>
+                    <h4>특이사항</h4>
+                    <ul>
+                        <li>최대 60cm 길이의 이빨</li>
+                        <li>강력한 턱 근육</li>
+                        <li>뛰어난 후각 능력</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dino-detail-card">
+                <div class="dino-image">
+                    <img src="images/brachiosaurus.png" alt="브라키오사우루스" loading="lazy">
+                </div>
+                <h3>브라키오사우루스</h3>
+                <ul class="dino-stats">
+                    <li><strong>시대:</strong> 쥐라기 후기</li>
+                    <li><strong>크기:</strong> 키 13m</li>
+                    <li><strong>무게:</strong> 35-58톤</li>
+                </ul>
+                <div class="dino-description">
+                    <p>앞다리가 뒷다리보다 길어 몸이 기울어진 독특한 체형을 가진 거대 공룡입니다.</p>
+                    <h4>특이사항</h4>
+                    <ul>
+                        <li>머리 위쪽에 위치한 콧구멍</li>
+                        <li>강력한 심장</li>
+                        <li>효율적인 혈압 조절 시스템</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dino-detail-card">
+                <div class="dino-image">
+                    <img src="images/triceratops.png" alt="트리케라톱스" loading="lazy">
+                </div>
+                <h3>트리케라톱스</h3>
+                <ul class="dino-stats">
+                    <li><strong>시대:</strong> 백악기 후기</li>
+                    <li><strong>크기:</strong> 길이 8-9m</li>
+                    <li><strong>무게:</strong> 6-12톤</li>
+                </ul>
+                <div class="dino-description">
+                    <p>세 개의 뿔과 큰 프릴을 가진 강력한 초식공룡입니다.</p>
+                    <h4>특이사항</h4>
+                    <ul>
+                        <li>1m 길이의 이마 뿔</li>
+                        <li>800개 이상의 교체 가능한 이빨</li>
+                        <li>강력한 부리</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 공룡 도감 끝 -->
+
+    <!-- 오늘의 공룡 시작 -->
+    <section id="dino-of-day" class="container">
+        <h2 class="section-title">오늘의 공룡</h2>
+        <div class="dino-highlight">
+            <div class="dino-image">
+                <img src="images/trex.png" alt="티라노사우루스 렉스" id="featured-dino-img">
+            </div>
+            <div class="dino-info">
+                <h3 id="featured-dino-name">티라노사우루스 렉스</h3>
+                <div class="dino-facts">
+                    <div class="fact">
+                        <i class="fas fa-ruler-vertical"></i>
+                        <span>길이: 12-14m</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-weight"></i>
+                        <span>무게: 8-14톤</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-utensils"></i>
+                        <span>식성: 육식</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-clock"></i>
+                        <span>시대: 백악기 후기</span>
+                    </div>
+                </div>
+                <p class="dino-description">
+                    '폭군 도마뱀 왕'이라는 뜻의 티라노사우루스 렉스는 역사상 가장 유명한 육식 공룡입니다. 
+                    30cm 길이의 이빨과 6,000kg의 물림 힘으로 뼈를 부술 수 있었습니다. 
+                    앞다리는 매우 작았지만 두 다리로 시속 30km까지 달릴 수 있었다고 추정됩니다.
+                </p>
+                <div class="fun-fact">
+                    <h4><i class="fas fa-lightbulb"></i> 재미있는 사실</h4>
+                    <p>최근 연구에 따르면 티라노사우루스의 몸에는 일부 깃털이 있었을 가능성도 제기되고 있어요!</p>
+                </div>
+                <a href="#" class="btn btn-primary">더 알아보기</a>
+            </div>
+        </div>
+    </section>
+    <!-- 오늘의 공룡 끝 -->
+
+    <!-- 위로 가기 버튼 -->
+    <button id="scroll-to-top" aria-label="맨 위로 이동">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- 푸터 시작 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="공룡월드 로고" class="logo-img">
+                    <h3>공룡월드</h3>
+                    <p>시간을 뛰어넘는 공룡 탐험</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>탐험하기</h4>
+                        <ul>
+                            <li><a href="herbivores.html">초식공룡</a></li>
+                            <li><a href="carnivores.html">육식공룡</a></li>
+                            <li><a href="flying.html">비행 파충류</a></li>
+                            <li><a href="marine.html">해양 파충류</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>고객센터</h4>
+                        <ul>
+                            <li><a href="#">문의하기</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 공룡월드. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 푸터 끝 -->
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+# 공룡 프롬프트 및 파일명 목록
+
+## 초식공룡 (Herbivores)
+
+1. Brachiosaurus (브라키오사우루스)
+시대: 쥐라기 후기 (1억 5,400만 년 전)
+크기: 키 13m, 무게 35-58톤
+주요특징: 긴 목, 거대한 체구, 높은 어깨
+파일명: brachiosaurus_{timestamp}_1.png, brachiosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Brachiosaurus in a majestic pose, featuring its distinctive long neck and high shoulders. The dinosaur stands tall among Late Jurassic vegetation, reaching for treetops with its elongated neck. Set in a lush prehistoric forest with detailed foliage and ancient conifers. Using a clean cel-shaded style with bold outlines, emphasizing its massive yet gentle nature. The lighting creates depth and dimension, with warm sunlight filtering through the canopy. Scale is demonstrated through careful composition showing the dinosaur's impressive height."
+
+2. Diplodocus (디플로도쿠스)
+시대: 쥐라기 후기
+크기: 길이 24-27m, 무게 10-16톤
+주요특징: 매우 긴 목과 꼬리, 채찍 같은 꼬리
+파일명: diplodocus_{timestamp}_1.png, diplodocus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Diplodocus showcasing its incredibly long neck and whip-like tail. The dinosaur is depicted in a natural pose, demonstrating its impressive length. Set in a Late Jurassic landscape with diverse vegetation and ancient cycads. Using a clean cel-shaded style with bold outlines, the illustration emphasizes the graceful proportions of this sauropod. The scene includes other dinosaurs or prehistoric plants for scale reference, highlighting its massive size."
+
+3. Argentinosaurus (아르겐티노사우루스)
+시대: 백악기 초기
+크기: 길이 30-40m, 무게 60-100톤
+주요특징: 역사상 가장 큰 육상동물
+파일명: argentinosaurus_{timestamp}_1.png, argentinosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of an Argentinosaurus, emphasizing its colossal size as the largest known land animal. The dinosaur is shown in a characteristic pose that highlights its massive body, long neck, and tail. Set in an Early Cretaceous environment with appropriate vegetation and landscape features. Using a clean cel-shaded style with bold outlines, the illustration includes elements for scale comparison. The lighting and shadows help convey the immense mass of this gentle giant."
+
+4. Triceratops (트리케라톱스)
+시대: 백악기 후기
+크기: 길이 8-9m, 무게 6-12톤
+주요특징: 세 개의 뿔, 큰 프릴
+파일명: triceratops_{timestamp}_1.png, triceratops_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Triceratops, featuring its iconic three horns and large bony frill. The dinosaur is shown in a dynamic pose that emphasizes its robust build and defensive features. Set in a Late Cretaceous environment with flowering plants and diverse vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures both the power and gentle herbivorous nature of this ceratopsian. The lighting enhances the texture of its skin and the impressive frill."
+
+5. Styracosaurus (스티라코사우루스)
+시대: 백악기 후기
+크기: 길이 5.5m, 무게 3톤
+주요특징: 프릴에 긴 가시들, 코뿔
+파일명: styracosaurus_{timestamp}_1.png, styracosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Styracosaurus, highlighting its distinctive crown of long spikes around its neck frill and prominent nose horn. The dinosaur is shown in an alert pose that emphasizes its defensive features. Set in a Late Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures the unique ornamental features of this ceratopsian. The lighting emphasizes the dramatic spikes and the texture of its skin."
+
+6. Parasaurolophus (파라사우롤로푸스)
+시대: 백악기 후기
+크기: 길이 10m, 무게 2.5톤
+주요특징: 긴 후방 머리 관, 오리부리 모양의 주둥이
+파일명: parasaurolophus_{timestamp}_1.png, parasaurolophus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Parasaurolophus, featuring its distinctive backward-sweeping hollow head crest and duck-like bill. The dinosaur is shown in a natural pose, possibly calling out using its resonating chamber. Set in a Late Cretaceous forest with diverse vegetation. Using a clean cel-shaded style with bold outlines, the illustration emphasizes both its unique head crest and graceful body proportions. The lighting highlights the textures and creates depth in the scene."
+
+7. Corythosaurus (코리토사우루스)
+시대: 백악기 후기 (7,700만 년 전)
+크기: 길이 9m, 무게 3-5톤
+주요특징: 투구 모양의 머리 장식
+파일명: corythosaurus_{timestamp}_1.png, corythosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Corythosaurus, highlighting its distinctive helmet-shaped head crest. The dinosaur is shown in an active pose, demonstrating its bipedal nature. Set in a Late Cretaceous environment with lush vegetation. Using a clean cel-shaded style with bold outlines, the illustration emphasizes the unique head ornamentation and duck-like bill. The lighting creates depth and enhances the texture of its scaly skin."
+
+8. Stegosaurus (스테고사우루스)
+시대: 쥐라기 후기 (1억 5,000만 년 전)
+크기: 길이 9m, 무게 5-7톤
+주요특징: 등의 큰 골판, 꼬리의 가시
+파일명: stegosaurus_{timestamp}_1.png, stegosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Stegosaurus, featuring its iconic row of large bony plates along its back and defensive tail spikes. The dinosaur is shown in a characteristic pose that displays both its plates and thagomizer tail spikes. Set in a Late Jurassic environment with ancient cycads and ferns. Using a clean cel-shaded style with bold outlines, the illustration emphasizes the unique arrangement and shape of its plates. The lighting creates dramatic shadows from the plates and highlights the dinosaur's distinctive profile."
+
+## 육식공룡 (Carnivores)
+
+1. Tyrannosaurus Rex (티라노사우루스 렉스)
+시대: 백악기 후기
+크기: 길이 12-14m, 무게 8-14톤
+주요특징: 거대한 두개골, 강력한 턱, 작은 앞발
+파일명: tyrannosaurus_rex_{timestamp}_1.png, tyrannosaurus_rex_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Tyrannosaurus Rex in a dynamic pose, featuring its massive skull with powerful jaws filled with banana-sized serrated teeth. The distinctive small but muscular forelimbs with two clawed fingers are accurately portrayed. Set in a Late Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures both the power and majesty of this apex predator. The lighting emphasizes its muscular build and creates dramatic shadows."
+
+2. Spinosaurus (스피노사우루스)
+시대: 백악기 후기
+크기: 길이 15-18m, 무게 7-20톤
+주요특징: 등의 큰 돛 모양 구조물, 긴 주둥이
+파일명: spinosaurus_{timestamp}_1.png, spinosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Spinosaurus, highlighting its massive sail-like spinal extension and elongated crocodile-like snout. The dinosaur is shown in a semi-aquatic environment, demonstrating its adaptation to both water and land. Set in a Late Cretaceous river system with appropriate flora. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its unique sail and powerful build. The lighting creates dramatic effects on the sail and reflects off the water surface."
+
+3. Velociraptor (벨로시랩터)
+시대: 백악기 후기
+크기: 길이 2m, 무게 15kg
+주요특징: 낫 모양의 발톱, 깃털 덮인 몸체
+파일명: velociraptor_{timestamp}_1.png, velociraptor_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Velociraptor, featuring its distinctive sickle-shaped retractable foot claw and feathered body. The dinosaur is shown in a dynamic hunting pose that emphasizes its agility and intelligence. Set in a Late Cretaceous environment with arid vegetation. Using a clean cel-shaded style with bold outlines, the illustration accurately depicts its feathers and predatory features. The lighting enhances the texture of its feathers and the gleam of its claws."
+
+4. Utahraptor (유타랩터)
+시대: 백악기 전기
+크기: 길이 6m, 무게 500kg
+주요특징: 가장 큰 랩터류, 강력한 발톱
+파일명: utahraptor_{timestamp}_1.png, utahraptor_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Utahraptor, showcasing its large size among dromaeosaurs and powerful killing claws. The dinosaur is shown in an imposing pose that emphasizes its predatory nature and feathered body. Set in an Early Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures both its size and agility. The lighting dramatizes its fearsome appearance while highlighting its feathered covering."
+
+5. Acrocanthosaurus (아크로칸토사우루스)
+시대: 백악기 전기
+크기: 길이 11.5m, 무게 6톤
+주요특징: 등에 높은 척추돌기, 강력한 앞다리
+파일명: acrocanthosaurus_{timestamp}_1.png, acrocanthosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of an Acrocanthosaurus, featuring its distinctive high neural spines forming a ridge along its back. The dinosaur is shown in a hunting pose that emphasizes its powerful build and long skull. Set in an Early Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures its unique back ridge and strong limbs. The lighting creates dramatic shadows from the neural spines."
+
+6. Deinonychus (데이노니쿠스)
+시대: 백악기 전기
+크기: 길이 3m, 무게 70kg
+주요특징: 발달된 발톱, 민첩한 체형
+파일명: deinonychus_{timestamp}_1.png, deinonychus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Deinonychus, highlighting its deadly sickle-shaped claws and agile build. The dinosaur is shown in a dynamic hunting pose that emphasizes its predatory nature. Set in an Early Cretaceous forest environment. Using a clean cel-shaded style with bold outlines, the illustration accurately depicts its feathered body and sharp claws. The lighting enhances the texture of its feathers and creates dramatic shadows."
+
+7. Megalosaurus (메갈로사우루스)
+시대: 쥐라기 중기
+크기: 길이 6m, 무게 1톤
+주요특징: 최초로 발견된 공룡 중 하나
+파일명: megalosaurus_{timestamp}_1.png, megalosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Megalosaurus, depicting this historic first-discovered dinosaur in an accurate modern interpretation. The dinosaur is shown in a powerful hunting pose that emphasizes its strong jaw and robust build. Set in a Middle Jurassic environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration balances historical significance with current scientific understanding. The lighting creates depth and enhances its predatory features."
+
+## 비행파충류 (Flying Reptiles)
+
+1. Quetzalcoatlus (케찰코아틀루스)
+시대: 백악기 후기
+크기: 날개 폭 10-11m, 무게 70-250kg
+주요특징: 역사상 가장 큰 비행 동물
+파일명: quetzalcoatlus_{timestamp}_1.png, quetzalcoatlus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Quetzalcoatlus, showcasing its enormous wingspan and distinctive head crest. The pterosaur is shown both in flight and standing pose to demonstrate its impressive size. Set in a Late Cretaceous landscape with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its unique proportions and graceful flight capability. The lighting creates dramatic shadows from its wings and enhances its majestic appearance."
+
+2. Pteranodon (프테라노돈)
+시대: 백악기 후기
+크기: 날개 폭 7m, 무게 20-30kg
+주요특징: 두개골 뒤로 긴 돌기
+파일명: pteranodon_{timestamp}_1.png, pteranodon_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Pteranodon, featuring its distinctive backward-projecting head crest and toothless beak. The pterosaur is shown gliding majestically over a Late Cretaceous seascape. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined body and impressive wingspan. The lighting creates a sense of atmosphere and highlights its graceful flight posture."
+
+3. Archaeopteryx (아르케옵테릭스)
+시대: 쥐라기 후기
+크기: 길이 0.5m, 무게 0.5kg
+주요특징: 공룡과 조류의 중간 형태
+파일명: archaeopteryx_{timestamp}_1.png, archaeopteryx_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of an Archaeopteryx, highlighting its unique transitional features between dinosaurs and birds. The creature is shown in a pose that displays both its feathers and reptilian features. Set in a Late Jurassic forest environment. Using a clean cel-shaded style with bold outlines, the illustration accurately depicts its feather arrangement and skeletal structure. The lighting enhances the detail of its preserved features."
+
+4. Microraptor (미크로랩터)
+시대: 백악기 전기
+크기: 길이 0.77m, 무게 1kg
+주요특징: 네 개의 날개를 가진 작은 공룡
+파일명: microraptor_{timestamp}_1.png, microraptor_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Microraptor, featuring its unique four-winged configuration and iridescent black feathers. The dinosaur is shown in a gliding pose that demonstrates its aerial capabilities. Set in an Early Cretaceous forest canopy. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its small size and remarkable adaptation for aerial locomotion. The lighting creates a shimmer effect on its feathers."
+
+5. Hatzegopteryx (하체고프테릭스)
+시대: 백악기 후기
+크기: 날개 폭 10-12m, 무게 200-250kg
+주요특징: 거대한 크기, 강력한 목
+파일명: hatzegopteryx_{timestamp}_1.png, hatzegopteryx_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Hatzegopteryx, emphasizing its massive size and robust build. The pterosaur is shown in both flight and standing poses to demonstrate its impressive scale. Set in a Late Cretaceous island environment. Using a clean cel-shaded style with bold outlines, the illustration captures its powerful neck and enormous wingspan. The lighting creates dramatic shadows and emphasizes its imposing presence."
+
+## 해양파충류 (Marine Reptiles)
+
+1. Mosasaurus (모사사우루스)
+시대: 백악기 후기
+크기: 길이 15-18m, 무게 15-20톤
+주요특징: 백악기 바다의 최상위 포식자
+파일명: mosasaurus_{timestamp}_1.png, mosasaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Mosasaurus, showcasing its powerful aquatic build and impressive size. The marine reptile is shown swimming through a Late Cretaceous ocean environment with various marine life for scale. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined body and powerful tail. The underwater lighting creates a sense of depth and movement in the ocean setting."
+
+2. Plesiosaurus (플레시오사우루스)
+시대: 쥐라기-백악기
+크기: 길이 3-5m, 무게 1-2톤
+주요특징: 매우 긴 목, 지느러미 형태의 다리
+파일명: plesiosaurus_{timestamp}_1.png, plesiosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Plesiosaurus, featuring its characteristically long neck and flipper-like limbs. The marine reptile is shown gracefully swimming in a Jurassic ocean environment. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its unique body proportions and elegant swimming motion. The underwater lighting creates a serene atmosphere and highlights its streamlined form."
+
+3. Ichthyosaurus (익티오사우루스)
+시대: 트라이아스기 후기
+크기: 길이 2-4m, 무게 200-400kg
+주요특징: 돌고래와 유사한 체형
+파일명: ichthyosaurus_{timestamp}_1.png, ichthyosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of an Ichthyosaurus, highlighting its dolphin-like body shape and large eyes. The marine reptile is shown in an active swimming pose that demonstrates its agility. Set in a Late Triassic ocean environment with appropriate marine life. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined form and fish-like tail. The underwater lighting enhances its sleek appearance."
+
+4. Tylosaurus (틸로사우루스)
+시대: 백악기 후기
+크기: 길이 12m, 무게 8톤
+주요특징: 강력한 턱과 이빨을 가진 모사사우루스류
+파일명: tylosaurus_{timestamp}_1.png, tylosaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Tylosaurus, featuring its powerful jaws and streamlined body. The marine reptile is shown in a hunting pose that emphasizes its predatory nature. Set in a Late Cretaceous marine environment with coral reefs and other sea life. Using a clean cel-shaded style with bold outlines, the illustration captures its impressive size and powerful swimming capabilities. The underwater lighting creates dramatic shadows and highlights its fearsome appearance."
+
+5. Atractosteus (아트락토스토무스)
+시대: 백악기 후기
+크기: 길이 5m, 무게 500kg
+주요특징: 악어와 유사한 체형
+파일명: atractosteus_{timestamp}_1.png, atractosteus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of an Atractosteus, showcasing its crocodile-like appearance and powerful build. The marine reptile is shown in a shallow water environment, demonstrating its adaptation to both aquatic and semi-aquatic lifestyles. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its robust body and distinctive head shape. The lighting creates a mix of underwater and surface effects."
+
+6. Shastasaurus (샤스타사우루스)
+시대: 트라이아스기 후기
+크기: 길이 3m, 무게 150kg
+주요특징: 물고기와 유사한 체형
+파일명: shastasaurus_{timestamp}_1.png, shastasaurus_{timestamp}_2.png
+프롬프트: "A professional cartoon illustration of a Shastasaurus, featuring its fish-like body shape and unique adaptations. The marine reptile is shown swimming in a Late Triassic ocean environment with appropriate prehistoric marine life. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined form and specialized swimming adaptations. The underwater lighting creates a sense of depth and ancient marine atmosphere."
+
+---
+총 65종의 공룡과 파충류에 대한 프롬프트가 완성되었습니다. 각 프롬프트는 다음 요소들을 포함하고 있습니다:
+1. 과학적 정확성
+2. 시대별 적절한 환경
+3. 특징적인 해부학적 구조
+4. 일관된 아트 스타일 (clean cel-shaded style)
+5. 적절한 조명과 분위기
+
+모든 이미지는 교육적이면서도 친근한 느낌으로 제작될 수 있도록 프롬프트가 작성되었습니다. 

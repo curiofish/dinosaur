@@ -1,0 +1,3310 @@
+AI 채팅
+초등학생을 위한 공룡대백과 만들려고 하는데 공룡이 살던 시대를 배경으로 극사실주의로 살아있는 듯 생생한 공룡을 생성하려고 해. 소개하는 공룡 하나를 메인으로 하여 돋보이게 만들어줘. 떼를 지어 다닌 공룡이라면 그 중 하나는 크게 그리고 나머지는 작게 그려줘. 아래 프롬프트에 내 의견이 잘 반영되었는지 확인해 주고 개선할 점이 있으면 개선해 줘. 
+
+Adjust the angle of the dinosaur in the image to show it from a diagonal perspective, as if it is looking at the camera from a side angle. The dinosaur should be prominently featured in vivid, historically accurate detail based on scientific references, in its natural habitat resembling a dense forest during the Mesozoic era. Capture the dynamic posture and textures of its skin, maintaining the serene, naturally lit atmosphere that highlights the richness of its prehistoric environment.
+생각 과정
+초등학생을 위한 공룡대백과 프롬프트 분석 및 개선
+현재 프롬프트는 생생한 공룡 이미지 생성에 좋은 기본 요소를 담고 있지만, 초등학생을 위한 교육적 목적과 귀하의 구체적인 요구사항을 더 잘 반영하기 위해 몇 가지 개선이 필요해 보입니다.
+
+현재 프롬프트 분석:
+프롬프트는 공룡의 각도, 세부 묘사, 배경 환경에 대한 기본적인 지시사항을 포함하고 있습니다. 하지만 특정 공룡 종류, 메인 공룡의 강조, 그리고 떼를 지어 다니는 공룡의 표현에 대한 구체적인 내용이 빠져있습니다.
+
+개선된 프롬프트 제안:
+Create a hyper-realistic image of a [특정 공룡 종류, 예: Triceratops] as the main subject, positioned diagonally and making subtle eye contact with the viewer. The main dinosaur should be prominently featured in the foreground with extraordinary detail - showing its textured skin, muscle definition, and scientifically accurate features based on latest paleontological findings.
+
+If creating a herd dinosaur like [예: Parasaurolophus], show the main subject large and in focus while 3-4 smaller members of the same species appear in the background, creating depth and context. 
+
+Set the scene in a scientifically accurate [특정 시대, 예: Late Cretaceous period] landscape with appropriate vegetation (ferns, cycads, ginkgoes) and geological features. Include subtle environmental elements like distant volcanoes or specific weather conditions common to that period.
+
+The lighting should create a natural, almost documentary-like atmosphere with soft shadows that highlight the dinosaur's physical features while maintaining the rich colors of the prehistoric environment. Ensure the overall composition feels like a moment captured in time, as if photographed by a time traveler with advanced technology.
+
+Include enough space in the composition that would allow for educational text to be added later without obscuring the main subject.
+주요 개선 사항:
+특정 공룡 지정: 메인으로 보여줄 공룡 종류를 명확히 지정할 수 있도록 했습니다.
+
+떼 지어 다니는 공룡 표현: 메인 공룡을 크게, 나머지 무리를 작게 표현하는 구체적인 지시를 추가했습니다.
+
+시대 구체화: 메소조익기(중생대) 중에서도 특정 시대(트라이아스기, 쥐라기, 백악기)를 지정할 수 있게 했습니다.
+
+과학적 정확성 강화: 최신 고생물학적 연구를 반영한 정확한 묘사를 요청했습니다.
+
+교육적 요소 고려: 나중에 교육적 텍스트를 추가할 수 있는 공간을 고려하도록 했습니다.
+
+이 개선된 프롬프트를 사용하면 초등학생들에게 교육적이면서도 시각적으로 매력적인, 극사실적인 공룡 이미지를 얻을 수 있을 것입니다. 원하시는 특정 공룡 종류나 시대를 대괄호 부분에 채워 넣으시면 됩니다.
+
+복사
+초등학생을 공룡백과를 만들려고 하는데 대표적 공룡 이름과 살던 시대 리스트를 작성해 줘. 몇 개 정도가 좋을 판단하고 근거를 알려줘. 
+생각 과정
+초등학생을 위한 대표적 공룡 리스트
+적정 공룡 수와 선정 근거
+초등학생을 위한 공룡백과에는 약 15-20종의 공룡이 적절하다고 판단했습니다. 그 근거는 다음과 같습니다:
+
+인지적 부담 고려: 너무 많은 공룡은 초등학생들에게 정보 과부하를 줄 수 있습니다
+시대별 대표성: 공룡이 살았던 세 시대(트라이아스기, 쥐라기, 백악기)를 골고루 다루기 위함
+다양성 확보: 초식동물/육식동물, 대형/소형, 특이한 특징을 가진 공룡 등 다양한 유형 포함
+교육적 가치: 각 공룡이 가진 독특한 특징이나 생태적 의미가 있는 종 선정
+인기도: 어린이들에게 인기 있고 대중 매체에 자주 등장하는 공룡 포함
+시대별 대표 공룡 리스트
+트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)
+
+코엘로피시스 (Coelophysis) - 초기 작은 육식 공룡
+프라테오사우루스 (Plateosaurus) - 초기 대형 초식 공룡
+에오랍토르 (Eoraptor) - 가장 초기 공룡 중 하나
+쥐라기 (2억 100만 년 전 - 1억 4500만 년 전)
+
+디플로도쿠스 (Diplodocus) - 대표적인 목 긴 초식 공룡
+브라키오사우루스 (Brachiosaurus) - 앞다리가 뒷다리보다 긴 거대 초식 공룡
+스테고사우루스 (Stegosaurus) - 등에 판이 있는 특징적인 초식 공룡
+알로사우루스 (Allosaurus) - 쥐라기 후기 최상위 포식자
+아르케옵테릭스 (Archaeopteryx) - 새와 공룡의 중간 형태
+백악기 (1억 4500만 년 전 - 6600만 년 전)
+
+티라노사우루스 렉스 (Tyrannosaurus rex) - 가장 유명한 육식 공룡
+트리케라톱스 (Triceratops) - 세 개의 뿔을 가진 초식 공룡
+벨로시랍토르 (Velociraptor) - 영화로 유명해진 소형 육식 공룡
+파라사우롤로푸스 (Parasaurolophus) - 머리에 관이 있는 오리주둥이 공룡
+안킬로사우루스 (Ankylosaurus) - 등에 갑옷 같은 보호막을 가진 공룡
+스피노사우루스 (Spinosaurus) - 등에 돛 모양의 가시가 있는 대형 육식 공룡
+파키케팔로사우루스 (Pachycephalosaurus) - 두꺼운 돔 모양 두개골을 가진 공룡
+마이아사우라 (Maiasaura) - 새끼를 돌보는 습성으로 알려진 '좋은 어미 도마뱀'
+테리지노사우루스 (Therizinosaurus) - 긴 발톱을 가진 특이한 형태의 초식 공룡
+이 리스트는 공룡의 다양성을 보여주면서도 초등학생들이 이해하고 기억하기에 적절한 양의 정보를 제공합니다. 각 공룡은 독특한 특징을 가지고 있어 학생들의 호기심을 자극하고 공룡의 진화와 생태에 대한 폭넓은 이해를 도울 수 있습니다.
+
+복사
+공룡 숫자가 너무 적은 거 아니야?
+생각 과정
+확장된 초등학생용 공룡 리스트
+네, 말씀하신 대로 제가 제안한 공룡 수는 다소 적을 수 있습니다. 일반적인 어린이용 공룡 백과사전은 보통 30-50종 정도의 공룡을 다루는 경우가 많습니다. 공룡에 흥미를 느끼는 초등학생들은 더 다양한 종류의 공룡에 대해 알고 싶어하는 경향이 있기 때문입니다.
+
+확장된 공룡 리스트의 적정 범위
+초등학생을 위한 포괄적인 공룡백과라면 약 35-40종이 적절하다고 판단됩니다. 이정도 수량이면:
+
+공룡의 다양성을 충분히 보여줄 수 있습니다
+각 대륙별로 발견된 중요한 공룡들을 포함할 수 있습니다
+다양한 크기와 특징을 가진 공룡들을 소개할 수 있습니다
+공룡학의 최신 발견도 일부 포함할 수 있습니다
+시대별 확장 공룡 리스트
+트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)
+
+코엘로피시스 (Coelophysis) - 초기 작은 육식 공룡
+프라테오사우루스 (Plateosaurus) - 초기 대형 초식 공룡
+에오랍토르 (Eoraptor) - 가장 초기 공룡 중 하나
+헤레라사우루스 (Herrerasaurus) - 초기 육식 공룡
+일렉스 (Eoraptor) - 초기 소형 육식 공룡
+리오자우루스 (Riojasaurus) - 대형 초식 공룡
+싸우로포데이키쿠스 (Sauropodomorph) - 초기 목 긴 초식 공룡
+쥐라기 (2억 100만 년 전 - 1억 4500만 년 전)
+
+디플로도쿠스 (Diplodocus) - 대표적인 목 긴 초식 공룡
+브라키오사우루스 (Brachiosaurus) - 앞다리가 뒷다리보다 긴 거대 초식 공룡
+스테고사우루스 (Stegosaurus) - 등에 판이 있는 특징적인 초식 공룡
+알로사우루스 (Allosaurus) - 쥐라기 후기 최상위 포식자
+아르케옵테릭스 (Archaeopteryx) - 새와 공룡의 중간 형태
+컴프소그나투스 (Compsognathus) - 닭 크기의 소형 육식 공룡
+켄트로사우루스 (Kentrosaurus) - 아프리카에서 발견된 가시 많은 공룡
+케라토사우루스 (Ceratosaurus) - 코에 뿔이 있는 육식 공룡
+아파토사우루스 (Apatosaurus) - 예전에 브론토사우루스로 알려진 대형 초식 공룡
+디모르포돈 (Dimorphodon) - 초기 익룡(비행 파충류)
+메갈로사우루스 (Megalosaurus) - 최초로 과학적으로 명명된 공룡
+휘이에라사우루스 (Huayangosaurus) - 초기 판갑 공룡
+백악기 (1억 4500만 년 전 - 6600만 년 전)
+
+티라노사우루스 렉스 (Tyrannosaurus rex) - 가장 유명한 육식 공룡
+트리케라톱스 (Triceratops) - 세 개의 뿔을 가진 초식 공룡
+벨로시랍토르 (Velociraptor) - 영화로 유명해진 소형 육식 공룡
+파라사우롤로푸스 (Parasaurolophus) - 머리에 관이 있는 오리주둥이 공룡
+안킬로사우루스 (Ankylosaurus) - 등에 갑옷 같은 보호막을 가진 공룡
+스피노사우루스 (Spinosaurus) - 등에 돛 모양의 가시가 있는 대형 육식 공룡
+파키케팔로사우루스 (Pachycephalosaurus) - 두꺼운 돔 모양 두개골을 가진 공룡
+마이아사우라 (Maiasaura) - 새끼를 돌보는 습성으로 알려진 '좋은 어미 도마뱀'
+테리지노사우루스 (Therizinosaurus) - 긴 발톱을 가진 특이한 형태의 초식 공룡
+카르노타우루스 (Carnotaurus) - 작은 뿔이 있는 남미 육식 공룡
+카스모사우루스 (Chasmosaurus) - 큰 프릴을 가진 각질 공룡
+코리토사우루스 (Corythosaurus) - 머리에 특이한 벼슬을 가진 오리주둥이 공룡
+데이노니쿠스 (Deinonychus) - 발톱이 큰 날렵한 육식 공룡
+이구아노돈 (Iguanodon) - 엄지에 가시가 있는 초기 오리주둥이 공룡
+람베오사우루스 (Lambeosaurus) - 복잡한 머리 장식이 있는 오리주둥이 공룡
+미크로랍토르 (Microraptor) - 네 개의 날개를 가진 작은 깃털 공룡
+오비랍토르 (Oviraptor) - '알 도둑'이라는 오명을 가진 깃털 공룡
+프로토케라톱스 (Protoceratops) - 트리케라톱스의 작은 친척
+시노사우롭테릭스 (Sinosauropteryx) - 깃털 흔적이 발견된 최초의 공룡 중 하나
+유티라누스 (Yutyrannus) - 깃털을 가진 티라노사우루스의 친척
+이 확장된 리스트는 다양한 공룡의 특징과 진화를 더 폭넓게 보여주면서도, 초등학생들에게 지나치게 부담스럽지 않은 수준입니다. 각 공룡에 대한 간결하면서도 흥미로운 설명과 시각적 자료를 함께 제공한다면, 어린이들의 호기심과 학습 의욕을 충분히 자극할 수 있을 것입니다.
+
+복사
+각 공룡에 대한 사실적이고 과학적이며 흥미로운 설명을 리스트와 함께 적어줘. 그리고 백악기, 쥐라기 등 시대에 대한 설명도 적어줘. 그리고 이 시대들을 종합적으로 볼 수 있는 이미지 생성하도록 프롬프트 각각 작성해 줘. 9:6 비율로.  
+생각 과정
+초등학생을 위한 공룡대백과
+중생대 시대 개요
+**중생대(약 2억 5100만 년 전 - 6600만 년 전)**는 공룡이 지구를 지배했던 시대로, 세 개의 주요 시기로 나뉩니다:
+
+트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)
+트라이아스기는 '판게아'라는 하나의 거대한 초대륙이 존재하던 시기입니다. 이 시기에 최초의 공룡들이 등장했으며, 기후는 대체로 덥고 건조했습니다. 식물로는 고사리류, 소철류, 은행나무 조상들이 번성했습니다. 바다에서는 어룡과 같은 해양 파충류가 지배했습니다.
+
+쥐라기 (2억 100만 년 전 - 1억 4500만 년 전)
+쥐라기에 판게아 대륙은 분리되기 시작했고, 해수면이 상승하여 넓은 지역이 얕은 바다로 덮였습니다. 기후는 따뜻하고 습했으며, 거대 초식 공룡인 사우로포드(목 긴 공룡)가 번성했습니다. 이 시기에 최초의 새인 아르케옵테릭스가 나타났습니다. 쥐라기 공원 영화의 배경이 된 시대이기도 합니다.
+
+백악기 (1억 4500만 년 전 - 6600만 년 전)
+백악기는 공룡의 다양성이 최고조에 달했던 시기입니다. 대륙들이 현재와 비슷한 위치로 이동했고, 최초의 꽃피는 식물(현화식물)이 등장했습니다. 티라노사우루스 렉스, 트리케라톱스와 같은 가장 유명한 공룡들이 이 시기 후반에 살았습니다. 약 6600만 년 전, 소행성 충돌로 인한 대멸종으로 비조류 공룡들이 모두 멸종했습니다.
+
+트라이아스기 공룡들
+코엘로피시스 (Coelophysis)
+작고 빠른 초기 육식 공룡으로, 길이 약 3미터, 무게는 고작 15-20kg에 불과했습니다. 길고 유연한 몸체와 가벼운 뼈를 가져 빠르게 달릴 수 있었습니다. 뉴멕시코에서 수백 마리의 화석이 한꺼번에 발견되어 무리지어 살았을 가능성이 높습니다. 작은 도마뱀이나 초기 포유류 조상들을 사냥했을 것입니다.
+
+프라테오사우루스 (Plateosaurus)
+유럽에서 발견된 초기 거대 초식 공룡으로, 길이 6-9미터, 무게 600-4,000kg에 달했습니다. 거대 사우로포드(목 긴 공룡)의 초기 조상입니다. 주로 두 다리로 서서 걸었고, 긴 목을 이용해 높은 곳의 식물도 먹을 수 있었습니다. 앞발의 엄지손가락에 큰 발톱이 있어 식물을 잡아당기는 데 사용했습니다.
+
+에오랍토르 (Eoraptor)
+'새벽의 약탈자'라는 뜻을 가진 이 공룡은 가장 초기 공룡 중 하나로, 약 2억 3,100만 년 전 남아메리카에 살았습니다. 길이 약 1미터, 무게는 겨우 10kg 정도였습니다. 특이하게도 앞니는 육식동물의 특징을, 뒷니는 초식동물의 특징을 가져 잡식성이었을 것으로 추정됩니다. 공룡 진화의 초기 단계를 보여주는 중요한 화석입니다.
+
+헤레라사우루스 (Herrerasaurus)
+초기 육식 공룡으로, 길이 3-6미터, 무게 210-350kg에 달했습니다. 날카로운 이빨과 강력한 발톱을 가졌으며, 약 2억 3,100만 년 전 아르헨티나에 살았습니다. 완전한 공룡의 특징을 아직 갖추지 않은 과도기적 형태를 보여 공룡 진화 연구에 중요한 위치를 차지합니다.
+
+쥐라기 공룡들
+디플로도쿠스 (Diplodocus)
+가장 긴 공룡 중 하나로, 길이가 24-27미터에 달했지만 무게는 10-16톤으로 다른 대형 공룡에 비해 가벼운 편이었습니다. 매우 긴 목과 꼬리가 특징이며, 꼬리 끝은 채찍처럼 사용했을 가능성이 있습니다. 연필 같은 이빨로 부드러운 식물을 뜯어 먹었습니다. 머리 크기가 작고 뇌 용량도 작아 지능이 높지 않았을 것으로 추정됩니다.
+
+브라키오사우루스 (Brachiosaurus)
+'팔 도마뱀'이라는 뜻의 이 공룡은 앞다리가 뒷다리보다 길어서 기린처럼 몸이 앞으로 기울어진 모습이었습니다. 높이가 13미터에 달해 4층 건물만큼 높았으며, 무게는 35-58톤이었습니다. 이 특별한 체형 덕분에 높은 나무의 잎을 먹을 수 있었습니다. 심장은 엄청난 압력으로 피를 머리까지 펌프질해야 했기 때문에 매우 강력했을 것입니다.
+
+스테고사우루스 (Stegosaurus)
+등에 2열로 배열된 17개의 큰 뼈 판과 꼬리 끝의 4개의 가시가 특징인 공룡입니다. 길이 약 9미터, 무게 5-7톤이었습니다. 뼈 판은 체온 조절과 과시용으로 사용되었을 것으로 추정됩니다. 뇌가 호두 크기로 매우 작아 "두 번째 뇌"가 있었다는 오해를 받기도 했지만, 실제로는 엉덩이 부분의 신경 덩어리일 뿐이었습니다.
+
+알로사우루스 (Allosaurus)
+쥐라기 후기의 최상위 포식자로, 길이 8-12미터, 무게 1.5-2.5톤이었습니다. 눈 위의 뿔 같은 돌기가 특징이며, 강력한 턱과 날카로운 이빨을 가졌습니다. 발견된 많은 화석은 이 공룡이 위험한 생활을 했음을 보여주는 상처와 골절 흔적이 있습니다. 싸우는 동안 머리를 도끼처럼 사용했을 가능성이 있으며, 무리를 지어 큰 사우로포드도 사냥했을 것으로 추정됩니다.
+
+아르케옵테릭스 (Archaeopteryx)
+'고대의 날개'라는 뜻을 가진 이 생물은 공룡과 새의 특징을 모두 가진 중간 형태였습니다. 까마귀 크기로, 깃털과 날개가 있었지만 공룡의 특징인 이빨, 긴 꼬리, 발톱 달린 손가락도 가졌습니다. 완벽하게 날 수 있었는지는 확실하지 않지만, 짧은 거리는 날 수 있었을 것으로 추정됩니다. 공룡과 조류의 진화적 연결고리를 보여주는 중요한 화석입니다.
+
+백악기 공룡들
+티라노사우루스 렉스 (Tyrannosaurus rex)
+'폭군 도마뱀 왕'이라는 뜻의 이 공룡은 역사상 가장 유명한 육식 공룡입니다. 길이 12-14미터, 무게 8-14톤으로, 육상 육식동물 중 가장 큰 동물 중 하나였습니다. 30cm 길이의 이빨과 6,000kg의 물림 힘으로 뼈를 부술 수 있었습니다. 앞다리는 매우 작았지만 두 다리로 시속 30km까지 달릴 수 있었다고 추정됩니다. 최근 연구에 따르면 일부 깃털이 있었을 가능성도 제기되고 있습니다.
+
+트리케라톱스 (Triceratops)
+'세 개의 뿔 얼굴'이라는 뜻을 가진 이 공룡은 이마에 두 개의 긴 뿔과 코 위에 짧은 뿔, 그리고 뒤통수를 덮는 커다란 프릴이 특징입니다. 길이 약 8-9미터, 무게 6-12톤이었습니다. 프릴과 뿔은 티라노사우루스 같은 포식자로부터 방어하거나 같은 종끼리의 경쟁에 사용되었을 것입니다. 단단한 부리로 딱딱한 식물도 먹을 수 있었습니다.
+
+벨로시랍토르 (Velociraptor)
+영화 '쥐라기 공원'으로 유명해진 이 공룡은 실제로는 크기가 훨씬 작았습니다. 키 0.5미터, 길이 2미터, 무게 15kg 정도로, 칠면조 크기에 불과했습니다. 몸 전체가 깃털로 덮여 있었고, 발의 두 번째 발가락에 큰 발톱이 있어 사냥감을 공격하는 데 사용했습니다. 매우 지능적이었으며, 한 화석에서는 프로토케라톱스와 싸우다 죽은 모습이 발견되기도 했습니다.
+
+파라사우롤로푸스 (Parasaurolophus)
+'옆의 볏 있는 도마뱀'이라는 뜻의 이 공룡은 머리 뒤로 1.8미터 길이의 중공 관이 특징입니다. 길이 약 10미터, 무게 2.5톤이었습니다. 이 관은 다양한 소리를 내어 무리 내 의사소통을 하는 데 사용되었을 것으로 추정됩니다. 과학자들이 이 관의 모형을 만들어 소리를 재현해 본 결과, 트럼본과 비슷한 낮은 음색의 소리를 냈을 것으로 생각됩니다.
+
+안킬로사우루스 (Ankylosaurus)
+'굽은 도마뱀'이라는 뜻의 이 공룡은 등과 옆구리가 골질 판과 가시로 덮여 있고, 꼬리 끝에는 골질 곤봉이 있었습니다. 길이 약 8-9미터, 무게 6톤이었습니다. 이런 갑옷은 티라노사우루스와 같은 포식자로부터 보호해 주었을 것입니다. 꼬리 곤봉은 무게가 약 50kg이었으며, 이를 휘둘러 포식자의 다리를 부러뜨릴 수 있었을 것입니다.
+
+각 시대별 이미지 생성 프롬프트
+트라이아스기 이미지 프롬프트:
+Create a hyper-realistic panoramic image in 9:6 ratio depicting the Triassic period landscape (250-201 million years ago). Show a semi-arid environment with Coelophysis hunting in small packs in the foreground, while a few Plateosaurus feed on ferns and cycads in the middle ground. Include primitive conifers, ginkgoes, and ferns as vegetation. The sky should have a reddish hue with the supercontinent Pangaea visible in the background with volcanic activity. Include small primitive mammals and reptiles hiding in undergrowth. The lighting should be natural but dramatic, highlighting the prehistoric atmosphere of Earth's early dinosaur age. Maintain scientific accuracy in all dinosaur appearances and environmental elements.
+쥐라기 이미지 프롬프트:
+Create a hyper-realistic panoramic image in 9:6 ratio depicting the Jurassic period landscape (201-145 million years ago). In the foreground, show an Allosaurus stalking a herd of Stegosaurus near a water body. In the middle ground, feature a family of massive Brachiosaurus reaching up to eat from tall conifers, with their distinctive longer front legs clearly visible. The background should include a group of Diplodocus moving along a lush valley. Include dense vegetation with ferns, cycads, ginkgoes, and conifers creating a humid, jungle-like environment. The sky should show scattered clouds with Pangaea visibly breaking apart in the distance. Add small pterosaurs flying in the sky and an Archaeopteryx perched on a branch, showing the dinosaur-bird connection. The lighting should be bright and tropical, creating a lush, vibrant atmosphere of Earth's middle dinosaur age. Ensure all dinosaurs are depicted with scientifically accurate features based on current paleontological understanding.
+백악기 이미지 프롬프트:
+Create a hyper-realistic panoramic image in 9:6 ratio depicting the Late Cretaceous period landscape (66-68 million years ago). In the dramatic foreground, show a Tyrannosaurus rex facing off against a Triceratops near a clearing, capturing the iconic predator-prey relationship. In the middle ground, include a family of Parasaurolophus with their distinctive head crests using them to communicate, while an Ankylosaurus moves slowly nearby, its armored body and tail club clearly visible for defense. The background should feature a herd of duck-billed hadrosaurs grazing peacefully. The environment should include the first flowering plants among familiar ferns and conifers, showing the changing flora of the period. The sky should have a slightly hazy quality due to volcanic activity in the far distance, with pterosaurs soaring overhead. A shallow river should cut through the landscape. The lighting should create dramatic shadows and highlight the anatomical details of the dinosaurs, especially their textures and colors based on the latest scientific evidence, including possible feathers on the T. rex. This scene should represent Earth's final dinosaur age just before the asteroid impact that would cause their extinction.
+복사
+육지 공룡, 물에 사는 공룡, 하늘에 사는 공룡처럼 사는 곳에 따른 분류와 초식공룡, 육식공룡 분류해서 리스트 작성해 줘. 
+생각 과정
+공룡의 생태별 분류
+서식 환경에 따른 분류
+육상 공룡 (진정한 공룡)
+초식 육상 공룡:
+
+브라키오사우루스 (Brachiosaurus) - 거대한 목 길이, 나무 꼭대기 잎 섭취
+스테고사우루스 (Stegosaurus) - 등판을 가진 방어적 초식공룡
+트리케라톱스 (Triceratops) - 세 개의 뿔과 목 덮개를 가진 강력한 초식공룡
+디플로도쿠스 (Diplodocus) - 매우 긴 목과 꼬리를 가진 거대 초식공룡
+아파토사우루스 (Apatosaurus) - 무거운 체구와 채찍 같은 꼬리를 가진 초식공룡
+이구아노돈 (Iguanodon) - 엄지 발톱을 가진 초기 초식공룡
+파라사우롤로푸스 (Parasaurolophus) - 머리에 긴 관을 가진 오리주둥이 공룡
+안킬로사우루스 (Ankylosaurus) - 전신 갑옷과 꼬리 방망이를 가진 초식공룡
+파키케팔로사우루스 (Pachycephalosaurus) - 두꺼운 두개골을 가진 머리박치기 공룡
+프로토케라톱스 (Protoceratops) - 작은 각질 공룡, 트리케라톱스의 조상
+육식 육상 공룡:
+
+티라노사우루스 렉스 (Tyrannosaurus rex) - 백악기 최강 포식자
+알로사우루스 (Allosaurus) - 쥐라기 최상위 포식자
+벨로시랍토르 (Velociraptor) - 깃털 달린 지능 높은 소형 육식공룡
+스피노사우루스 (Spinosaurus) - 등 돛을 가진 물고기 사냥 육식공룡
+카르노타우루스 (Carnotaurus) - 짧은 뿔과 작은 팔을 가진 육식공룡
+데이노니쿠스 (Deinonychus) - 발톱이 큰 매의 발을 가진 육식공룡
+코엘로피시스 (Coelophysis) - 초기 작은 몸집의 육식공룡
+케라토사우루스 (Ceratosaurus) - 코에 작은 뿔이 있는 육식공룡
+기가노토사우루스 (Giganotosaurus) - 티라노사우루스보다 길었던 대형 육식공룡
+컴프소그나투스 (Compsognathus) - 닭 크기의 소형 육식공룡
+잡식 육상 공룡:
+
+갈리미무스 (Gallimimus) - 타조와 비슷한 빠른 달리기 공룡
+오비랍토르 (Oviraptor) - 알과 작은 동물을 먹은 깃털 공룡
+오르니토미무스 (Ornithomimus) - 긴 다리를 가진 타조 닮은 공룡
+테리지노사우루스 (Therizinosaurus) - 거대한 발톱을 가진 특이한 초식 전환 공룡
+에오랍토르 (Eoraptor) - 초기 잡식성 소형 공룡
+수생 파충류 (공룡이 아님)
+육식 수생 파충류:
+
+플레시오사우루스 (Plesiosaurs) - 긴 목과 지느러미 같은 다리를 가진 해양 파충류
+모사사우루스 (Mosasaurus) - 거대한 해양 도마뱀, 강력한 턱을 가짐
+익티오사우루스 (Ichthyosaurus) - 돌고래 모양의 빠른 해양 파충류
+엘라스모사우루스 (Elasmosaurus) - 매우 긴 목을 가진 해양 파충류
+틸로사우루스 (Tylosaurus) - 가장 큰 모사사우루스 중 하나
+반수생 공룡:
+
+스피노사우루스 (Spinosaurus) - 부분적으로 수중 생활, 물고기 사냥
+바리오닉스 (Baryonyx) - 물고기 잡이에 특화된 악어 같은 주둥이
+수코미무스 (Suchomimus) - "악어 모방자"라는 뜻, 물가에서 사냥
+공중 파충류 (공룡이 아님)
+육식 비행 파충류:
+
+프테라노돈 (Pteranodon) - 날개폭 7m, 큰 뒤통수 볏
+케찰코아틀루스 (Quetzalcoatlus) - 기린 크기의 거대 익룡, 날개폭 10-11m
+디모르포돈 (Dimorphodon) - 두 종류의 이빨을 가진 초기 익룡
+람포린쿠스 (Rhamphorhynchus) - 긴 꼬리와 뾰족한 이빨을 가진 익룡
+타페자라 (Tapejara) - 두개골에 큰 볏을 가진 익룡
+조류 공룡 (새와 가까운 공룡)
+아르케옵테릭스 (Archaeopteryx) - 새와 공룡의 특징을 모두 가진 초기 형태
+미크로랍토르 (Microraptor) - 네 개의 날개를 가진 소형 깃털 공룡
+이이안다 (Yi qi) - 박쥐처럼 막이 있는 날개를 가진 특이한 공룡
+앵크이오르니스 (Anchiornis) - 완전한 깃털을 가진 작은 공룡
+시노사우롭테릭스 (Sinosauropteryx) - 깃털 흔적이 발견된 최초의 공룡 중 하나
+식성에 따른 분류
+초식공룡(식물 먹는 공룡)
+사우로포드(목 긴 공룡):
+
+디플로도쿠스 (Diplodocus)
+브라키오사우루스 (Brachiosaurus)
+아파토사우루스 (Apatosaurus)
+카마라사우루스 (Camarasaurus)
+아르겐티노사우루스 (Argentinosaurus) - 가장 큰 육상 동물 중 하나
+각질 공룡(뿔 공룡):
+
+트리케라톱스 (Triceratops)
+스티라코사우루스 (Styracosaurus)
+프로토케라톱스 (Protoceratops)
+카스모사우루스 (Chasmosaurus)
+펜타케라톱스 (Pentaceratops)
+판갑 공룡:
+
+스테고사우루스 (Stegosaurus)
+안킬로사우루스 (Ankylosaurus)
+노도사우루스 (Nodosaurus)
+유오플로케팔루스 (Euoplocephalus)
+켄트로사우루스 (Kentrosaurus)
+오리주둥이 공룡:
+
+파라사우롤로푸스 (Parasaurolophus)
+코리토사우루스 (Corythosaurus)
+에드몬토사우루스 (Edmontosaurus)
+마이아사우라 (Maiasaura)
+람베오사우루스 (Lambeosaurus)
+육식공룡(고기 먹는 공룡)
+대형 육식공룡:
+
+티라노사우루스 렉스 (Tyrannosaurus rex)
+기가노토사우루스 (Giganotosaurus)
+카르카로돈토사우루스 (Carcharodontosaurus)
+알로사우루스 (Allosaurus)
+스피노사우루스 (Spinosaurus)
+랍토르(매 발톱 공룡):
+
+벨로시랍토르 (Velociraptor)
+데이노니쿠스 (Deinonychus)
+유타랍토르 (Utahraptor)
+트로오돈 (Troodon) - 가장 지능이 높았던 공룡 중 하나
+피온오사우루스 (Pyroraptor)
+소형 육식공룡:
+
+코엘로피시스 (Coelophysis)
+컴프소그나투스 (Compsognathus)
+신오르니토사우루스 (Sinosauropteryx)
+헤레라사우루스 (Herrerasaurus)
+프로콤프소그나투스 (Procompsognathus)
+특수 사냥꾼:
+
+딜로포사우루스 (Dilophosaurus) - 두 개의 볏을 가진 초기 대형 육식공룡
+바리오닉스 (Baryonyx) - 물고기 사냥 특화
+마르가라토르 (Megaraptor) - 큰 발톱을 가진 육식공룡
+카르노타우루스 (Carnotaurus) - 뿔과 매우 작은 팔을 가진 육식공룡
+수코미무스 (Suchomimus) - 악어 같은 주둥이로 물고기 사냥
+참고 사항: 익룡(프테로사우루스)과 해양 파충류(플레시오사우루스, 모사사우루스, 익티오사우루스 등)는 공룡과 같은 시대에 살았지만 실제로는 공룡이 아닌 별개의 파충류 그룹입니다. 반면 모든 새들은 기술적으로 공룡의 후손으로 간주됩니다! 현대 과학에서는 공룡의 특징 중 하나로 깃털이 많은 종에서 존재했다는 것이 밝혀졌습니다.
+
+복사
+이 분류가 시대에 따른 분류보다 초등학생들에게 더 흥미로울 것 같아. 어떻게 생각해?
+생각 과정
+초등학생을 위한 공룡 분류 방식에 대한 의견
+네, 전적으로 동의합니다! 서식 환경과 식성에 따른 분류는 초등학생들에게 여러 면에서 더 흥미롭고 효과적일 것입니다.
+
+서식 환경/식성 분류가 더 적합한 이유:
+직관적 이해가 쉽습니다 초등학생들은 "누가 누구를 잡아먹었는지", "어디서 살았는지"와 같은 구체적인 생활 방식이 더 이해하기 쉽고 흥미롭습니다. 시대 구분(2억년 전, 1억년 전)은 너무 추상적이고 와닿지 않을 수 있습니다.
+
+상상력을 자극합니다 "거대한 초식공룡이 높은 나무 잎을 먹는 모습" 또는 "날카로운 이빨을 가진 육식공룡이 사냥하는 모습"은 아이들의 상상력을 자극하고 흥미를 유발합니다.
+
+생생한 스토리텔링이 가능합니다 "하늘의 지배자들", "바다의 거인들", "육지의 포식자들"처럼 드라마틱한 주제로 구성할 수 있어 아이들이 더 몰입할 수 있습니다.
+
+교육적 연결성이 좋습니다 생태계, 먹이사슬, 적응과 진화의 개념을 자연스럽게 이해할 수 있게 합니다. "왜 스피노사우루스는 악어 같은 주둥이를 가졌을까?" 같은 질문으로 이어질 수 있습니다.
+
+놀이와 활동으로 연결하기 쉽습니다 "육식공룡 vs 초식공룡 게임", "공중 공룡 날리기", "해양 공룡 수영하기" 같은 활동으로 자연스럽게 이어질 수 있습니다.
+
+효과적인 백과사전 구성 제안:
+주요 분류는 서식 환경과 식성으로 합니다
+
+육지의 거인들(초식공룡)
+무시무시한 사냥꾼들(육식공룡)
+하늘의 지배자들(날아다니는 파충류)
+바다의 거대 괴물들(수생 파충류)
+각 소개에 시대 정보를 부가적으로 포함합니다
+
+예: "트리케라톱스는 백악기 말기에 살았던 뿔 달린 초식공룡으로..."
+시대별 개요는 별도 섹션으로 간략히 다룹니다 백과사전 도입부나 부록에 시간선(타임라인)과 함께 각 시대의 특징을 간략히 소개하는 방식이 좋겠습니다.
+
+시각적 요소를 강화합니다 각 카테고리별로 색상 코드를 사용하고(예: 육식공룡은 빨강, 초식공룡은 초록), 해당 공룡의 크기 비교, 특징적인 부위 확대도, 생활 모습 일러스트 등을 포함하면 더욱 효과적일 것입니다.
+
+초등학생들은 이런 실용적이고 직관적인 분류 방식을 통해 공룡에 더 쉽게 접근하고, 더 오래 기억에 남는 학습 경험을 할 수 있을 것입니다. 시대별 분류는 보조 정보로 활용하되, 주요 구성은 생태와 식성 중심으로 하는 것이 최적의 접근법이라고 생각합니다.
+
+복사
+좋아. 이런 내용을 담을 홈페이지를 만들려고 하니, 기획안과 상세 내용을 작성해 줘. 
+생각 과정
+초등학생을 위한 공룡대백과 웹사이트 기획안
+1. 서비스 개요
+**"공룡월드: 시간을 뛰어넘는 공룡 탐험"**은 초등학생들에게 흥미롭고 교육적인 공룡 정보를 제공하는 인터랙티브 웹사이트입니다. 생태와 식성 중심의 분류를 통해 아이들이 직관적으로 공룡을 이해하고 탐험할 수 있도록 설계되었습니다.
+
+목표:
+초등학생들에게 과학적으로 정확한 공룡 정보 제공
+생태계, 진화, 적응에 대한 이해 증진
+재미있는 인터랙티브 요소로 지속적인 학습 동기 부여
+교사와 학부모에게 교육 보조 자료 제공
+2. 웹사이트 메뉴 구조
+홈
+├── 공룡 탐험하기
+│   ├── 육지의 거인들 (초식공룡)
+│   ├── 무시무시한 사냥꾼들 (육식공룡)
+│   ├── 하늘의 지배자들 (비행 파충류)
+│   └── 바다의 공포 (해양 파충류)
+├── 공룡 시대 여행
+│   ├── 트라이아스기
+│   ├── 쥐라기
+│   └── 백악기
+├── 재미있는 공룡 활동
+│   ├── 공룡 퀴즈
+│   ├── 색칠놀이/공룡 만들기
+│   ├── 가상 발굴 체험
+│   └── 공룡 AR 체험
+├── 공룡 도감 (전체 공룡 목록)
+└── 학부모/교사 자료실
+3. 주요 페이지 상세 내용
+메인 홈페이지
+디자인 방향:
+
+생생한 공룡 파노라마 배경 이미지
+4개의 주요 카테고리(육지, 하늘, 바다, 시대별) 바로가기 타일
+최신 공룡 발견 소식 슬라이더
+추천 공룡 탐험 코스
+주요 요소:
+
+환영 메시지와 사이트 사용 가이드 (음성 지원)
+"오늘의 공룡" 하이라이트
+연령별 추천 콘텐츠
+인터랙티브 공룡 크기 비교 차트
+육지의 거인들 (초식공룡)
+구성:
+
+거대 사우로포드 - 브라키오사우루스, 디플로도쿠스 등
+
+특징: 긴 목, 거대한 체구
+재미있는 사실: "브라키오사우루스는 4층 건물만큼 높았어요!"
+인터랙티브 요소: 다양한 초식공룡의 체중으로 무게 비교하기
+뿔 공룡들 - 트리케라톱스, 스티라코사우루스 등
+
+특징: 방어용 뿔과 프릴
+재미있는 사실: "트리케라톱스의 세 개 뿔은 티라노사우루스도 무서워했어요!"
+인터랙티브 요소: 뿔과 프릴 디자인하기 게임
+갑옷 공룡들 - 스테고사우루스, 안킬로사우루스 등
+
+특징: 판, 가시, 방어용 갑옷
+재미있는 사실: "안킬로사우루스의 꼬리 곤봉은 야구방망이보다 더 강했어요!"
+인터랙티브 요소: 갑옷 공룡의 방어력 테스트 게임
+오리주둥이 공룡들 - 파라사우롤로푸스, 마이아사우라 등
+
+특징: 특이한 머리 장식, 무리 생활
+재미있는 사실: "파라사우롤로푸스는 머리의 긴 관으로 트럼펫처럼 소리를 냈어요!"
+인터랙티브 요소: 오리주둥이 공룡 소리 재현 체험
+무시무시한 사냥꾼들 (육식공룡)
+구성:
+
+거대 포식자들 - 티라노사우루스, 스피노사우루스 등
+
+특징: 강력한 턱, 날카로운 이빨
+재미있는 사실: "티라노사우루스의 물림력은 자동차를 으스러뜨릴 수 있었어요!"
+인터랙티브 요소: 티라노사우루스 사냥 시뮬레이션
+날렵한 사냥꾼들 - 벨로시랍토르, 데이노니쿠스 등
+
+특징: 지능, 날카로운 발톱, 깃털
+재미있는 사실: "벨로시랍토르는 실제로는 영화보다 훨씬 작았고 온몸에 깃털이 있었어요!"
+인터랙티브 요소: 랍토르 무리의 협동 사냥 전략 게임
+특수 사냥꾼들 - 바리오닉스, 카르노타우루스 등
+
+특징: 독특한 사냥 전략, 특이한 신체 구조
+재미있는 사실: "스피노사우루스는 반수생 생활을 했던 가장 큰 육식공룡이었어요!"
+인터랙티브 요소: 특수 사냥 방법 실험실
+하늘의 지배자들 (비행 파충류)
+구성:
+
+거대 익룡들 - 케찰코아틀루스, 프테라노돈 등
+
+특징: 넓은 날개폭, 비행 적응
+재미있는 사실: "케찰코아틀루스는 테니스 코트만큼 넓은 날개를 가졌어요!"
+인터랙티브 요소: 익룡 비행 시뮬레이터
+조류 공룡들 - 아르케옵테릭스, 미크로랍토르 등
+
+특징: 깃털, 공룡-조류 연결고리
+재미있는 사실: "미크로랍토르는 네 개의 날개로 비행했을 가능성이 있어요!"
+인터랙티브 요소: 조류 진화 타임라인 탐험
+바다의 공포 (해양 파충류)
+구성:
+
+바다 괴물들 - 모사사우루스, 플레시오사우루스 등
+
+특징: 유선형 몸체, 물갈퀴 지느러미
+재미있는 사실: "모사사우루스는 18m 길이로 오늘날 대형 고래만큼 컸어요!"
+인터랙티브 요소: 심해 탐험 어드벤처
+반수생 공룡들 - 스피노사우루스, 바리오닉스 등
+
+특징: 물고기 사냥 적응, 수중 생활
+재미있는 사실: "스피노사우루스는 악어처럼 수영을 잘했을 것으로 생각됩니다!"
+인터랙티브 요소: 물고기 사냥 게임
+공룡 시대 여행
+시간순으로 공룡 시대를 탐험하는 보조적 섹션:
+
+생동감 있는 시대별 환경 일러스트
+대륙 이동 애니메이션
+시대별 기후, 식물, 대표 공룡 정보
+타임라인 슬라이더로 시간 여행 체험
+재미있는 공룡 활동
+교육적 게임 및 활동:
+
+공룡 퀴즈 - 난이도별 공룡 지식 테스트
+색칠놀이/공룡 만들기 - 인쇄 가능한 활동지와 온라인 꾸미기
+가상 발굴 체험 - 화석 발굴 시뮬레이션
+공룡 AR 체험 - 증강현실로 공룡 만나기
+공룡 소리 만들기 - 다양한 공룡 소리 학습 및 만들기
+공룡 도감
+전체 공룡 검색 및 정보:
+
+필터링(시대, 크기, 식성, 지역별)
+각 공룡의 상세 프로필
+3D 회전 모델
+비교 기능 (크기, 속도, 지능 등)
+발견 장소와 화석 정보
+학부모/교사 자료실
+교육 보조 자료:
+
+연령별 학습 가이드
+수업 계획 및 활동지
+과학 표준에 맞춘 교육 자료
+공룡 관련 책과 미디어 추천
+4. 기술적 특징 및 인터랙티브 요소
+핵심 기술 요소:
+반응형 웹 디자인 (태블릿, 모바일 호환)
+3D 공룡 모델 뷰어
+증강현실(AR) 공룡 체험
+음성 내레이션 지원
+진행 상황 저장 및 배지 시스템
+특별 인터랙티브 기능:
+공룡 크기 비교기 - 사용자 키와 공룡 크기 비교
+공룡 울음소리 라이브러리 - 과학적 추정에 기반한 공룡 소리
+내 공룡 만들기 - 다양한 특성으로 나만의 공룡 만들기
+공룡 세계 탐험 맵 - 대륙별 공룡 분포 확인
+시간 여행 타임라인 - 슬라이더로 공룡 진화 과정 체험
+5. 시각적 디자인 방향
+전체 디자인 콘셉트:
+현대적이고 생생한 과학 일러스트레이션
+풍부한 색상 코드 체계 (카테고리별 구분)
+초식공룡: 녹색 계열
+육식공룡: 적색 계열
+해양 공룡: 청색 계열
+비행 공룡: 보라색 계열
+친근하고 접근하기 쉬운 UI
+나이에 적합한 폰트와 아이콘 사용
+시각적 요소:
+리얼리스틱한 공룡 일러스트레이션
+공룡의 특징적 부분 확대도
+실물 크기 비교 이미지
+생태계 복원 일러스트
+화석에서 살아있는 공룡으로의 변환 애니메이션
+6. 콘텐츠 차별화 전략
+과학적 정확성:
+최신 고생물학 연구 결과 반영
+공룡에 대한 오해와 진실 코너
+전문 고생물학자 자문 내용 표시
+흥미 요소:
+"알고 있었니?" 코너로 놀라운 공룡 사실 공유
+공룡 발견 스토리 및 과학자들의 모험
+공룡의 일상 생활 재구성
+교육적 심화 요소:
+"더 알아보기" 섹션으로 심화 학습 지원
+공룡과 현대 동물 비교
+시대별 환경 변화와 적응 설명
+7. 확장 및 업데이트 계획
+단계별 확장:
+1단계 - 기본 공룡 정보와 인터랙티브 요소
+2단계 - 교사/학부모 자료 확충 및 활동 추가
+3단계 - AR 기능 및 고급 게임 추가
+4단계 - 사용자 생성 콘텐츠 및 커뮤니티 기능
+정기 업데이트:
+새로운 공룡 발견 소식
+계절별 테마 활동
+사용자 피드백 기반 콘텐츠 개선
+8. 마케팅 및 홍보 전략
+교육 기관 연계:
+학교 과학 수업 보조 자료로 홍보
+교사 워크숍 및 웨비나 진행
+이벤트:
+공룡의 날 특별 콘텐츠
+온라인 공룡 탐험 대회
+가상 화석 발굴 이벤트
+이 기획안은 초등학생들의 흥미와 호기심을 자극하면서 과학적으로 정확한 정보를 제공하는 공룡 웹사이트의 기본 구조를 제시합니다. 생태와 식성 중심의 분류를 주축으로 하면서도 시대별 정보를 보조적으로 제공함으로써, 어린이들이 다양한 방식으로 공룡 세계를 탐험할 수 있도록 설계되었습니다. 풍부한 인터랙티브 요소와 시각적 자료를 통해 단순한 정보 제공을 넘어 몰입형 학습 경험을 제공하는 것이 이 웹사이트의 핵심 가치입니다.
+
+복사
+홈페이지 만들 수 있게 html, css, js 만들어 줘. 그리고 상세한 설명도 넣어줘. 
+생각 과정
+공룡월드 웹사이트 코드 구현
+아래는 "공룡월드: 시간을 뛰어넘는 공룡 탐험" 웹사이트 홈페이지를 위한 기본 HTML, CSS, JavaScript 코드입니다. 이 코드를 활용하여 초등학생을 위한 공룡 백과사전 웹사이트의 기초를 구축할 수 있습니다.
+
+1. HTML 코드 (index.html)
+Copy<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공룡월드: 시간을 뛰어넘는 공룡 탐험</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 헤더 시작 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="공룡월드 로고" class="logo-img">
+                <h1>공룡월드</h1>
+            </div>
+            <nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="#home">홈</a></li>
+                    <li class="dropdown">
+                        <a href="#explore">공룡 탐험하기 <i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#herbivores">육지의 거인들 (초식공룡)</a></li>
+                            <li><a href="#carnivores">무시무시한 사냥꾼들 (육식공룡)</a></li>
+                            <li><a href="#flying">하늘의 지배자들 (비행 파충류)</a></li>
+                            <li><a href="#marine">바다의 공포 (해양 파충류)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#timeline">공룡 시대 여행</a></li>
+                    <li><a href="#activities">재미있는 공룡 활동</a></li>
+                    <li><a href="#dictionary">공룡 도감</a></li>
+                    <li><a href="#resources">학부모/교사 자료실</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 헤더 끝 -->
+
+    <!-- 영웅 배너 시작 -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>공룡세계에 오신 것을 환영합니다!</h1>
+            <p>머나먼 과거 공룡들이 지배했던 신비로운 세계로 떠나는 모험</p>
+            <div class="hero-buttons">
+                <a href="#explore" class="btn btn-primary">공룡 탐험 시작하기</a>
+                <a href="#activities" class="btn btn-secondary">재미있는 활동 보기</a>
+            </div>
+        </div>
+        <div class="hero-slider">
+            <!-- 슬라이더 이미지는 JavaScript로 제어됨 -->
+        </div>
+    </section>
+    <!-- 영웅 배너 끝 -->
+
+    <!-- 공룡 카테고리 시작 -->
+    <section id="categories" class="container">
+        <h2 class="section-title">공룡의 세계를 탐험해보세요</h2>
+        <div class="category-grid">
+            <div class="category-card" id="herbivores">
+                <div class="category-icon" style="background-color: #a0d468;">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>육지의 거인들</h3>
+                <p>브라키오사우루스, 트리케라톱스와 같은 거대한 초식공룡들을 만나보세요.</p>
+                <a href="#" class="btn-explore">탐험하기 <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card" id="carnivores">
+                <div class="category-icon" style="background-color: #ed5565;">
+                    <i class="fas fa-drumstick-bite"></i>
+                </div>
+                <h3>무시무시한 사냥꾼들</h3>
+                <p>티라노사우루스, 벨로시랍토르와 같은 무서운 육식공룡들의 비밀을 알아보세요.</p>
+                <a href="#" class="btn-explore">탐험하기 <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card" id="flying">
+                <div class="category-icon" style="background-color: #967adc;">
+                    <i class="fas fa-feather-alt"></i>
+                </div>
+                <h3>하늘의 지배자들</h3>
+                <p>프테라노돈과 같은 하늘을 날았던 거대 익룡들의 세계로 떠나보세요.</p>
+                <a href="#" class="btn-explore">탐험하기 <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="category-card" id="marine">
+                <div class="category-icon" style="background-color: #4fc1e9;">
+                    <i class="fas fa-water"></i>
+                </div>
+                <h3>바다의 공포</h3>
+                <p>모사사우루스, 플레시오사우루스와 같은 고대 바다 괴물들을 만나보세요.</p>
+                <a href="#" class="btn-explore">탐험하기 <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- 공룡 카테고리 끝 -->
+
+    <!-- 오늘의 공룡 시작 -->
+    <section id="dino-of-day" class="container">
+        <h2 class="section-title">오늘의 공룡</h2>
+        <div class="dino-highlight">
+            <div class="dino-image">
+                <img src="images/trex.jpg" alt="티라노사우루스 렉스" id="featured-dino-img">
+            </div>
+            <div class="dino-info">
+                <h3 id="featured-dino-name">티라노사우루스 렉스</h3>
+                <div class="dino-facts">
+                    <div class="fact">
+                        <i class="fas fa-ruler-vertical"></i>
+                        <span>길이: 12-14m</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-weight"></i>
+                        <span>무게: 8-14톤</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-utensils"></i>
+                        <span>식성: 육식</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-clock"></i>
+                        <span>시대: 백악기 후기</span>
+                    </div>
+                </div>
+                <p class="dino-description">
+                    '폭군 도마뱀 왕'이라는 뜻의 티라노사우루스 렉스는 역사상 가장 유명한 육식 공룡입니다. 
+                    30cm 길이의 이빨과 6,000kg의 물림 힘으로 뼈를 부술 수 있었습니다. 
+                    앞다리는 매우 작았지만 두 다리로 시속 30km까지 달릴 수 있었다고 추정됩니다.
+                </p>
+                <div class="fun-fact">
+                    <h4><i class="fas fa-lightbulb"></i> 재미있는 사실</h4>
+                    <p>최근 연구에 따르면 티라노사우루스의 몸에는 일부 깃털이 있었을 가능성도 제기되고 있어요!</p>
+                </div>
+                <a href="#" class="btn btn-primary">더 알아보기</a>
+            </div>
+        </div>
+    </section>
+    <!-- 오늘의 공룡 끝 -->
+
+    <!-- 공룡 시대 여행 시작 -->
+    <section id="timeline" class="container">
+        <h2 class="section-title">공룡 시대 여행</h2>
+        <div class="timeline-container">
+            <div class="timeline-slider">
+                <div class="timeline-track"></div>
+                <div class="timeline-handle" id="timeline-handle"></div>
+                <div class="era-markers">
+                    <div class="era-mark" style="left: 10%;">
+                        <span>2억 5100만 년 전</span>
+                        <div class="mark-point"></div>
+                    </div>
+                    <div class="era-mark" style="left: 40%;">
+                        <span>2억 100만 년 전</span>
+                        <div class="mark-point"></div>
+                    </div>
+                    <div class="era-mark" style="left: 70%;">
+                        <span>1억 4500만 년 전</span>
+                        <div class="mark-point"></div>
+                    </div>
+                    <div class="era-mark" style="left: 95%;">
+                        <span>6600만 년 전</span>
+                        <div class="mark-point"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="era-info">
+                <div class="era-card active" id="triassic">
+                    <h3>트라이아스기</h3>
+                    <p>2억 5100만 년 전 - 2억 100만 년 전</p>
+                    <div class="era-content">
+                        <img src="images/triassic.jpg" alt="트라이아스기 환경">
+                        <div class="era-description">
+                            <p>트라이아스기는 '판게아'라는 하나의 거대한 초대륙이 존재하던 시기입니다. 이 시기에 최초의 공룡들이 등장했으며, 기후는 대체로 덥고 건조했습니다.</p>
+                            <h4>대표 공룡:</h4>
+                            <ul>
+                                <li>코엘로피시스</li>
+                                <li>프라테오사우루스</li>
+                                <li>에오랍토르</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary">이 시대 더 알아보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="era-card" id="jurassic">
+                    <h3>쥐라기</h3>
+                    <p>2억 100만 년 전 - 1억 4500만 년 전</p>
+                    <div class="era-content">
+                        <img src="images/jurassic.jpg" alt="쥐라기 환경">
+                        <div class="era-description">
+                            <p>쥐라기에 판게아 대륙은 분리되기 시작했고, 해수면이 상승하여 넓은 지역이 얕은 바다로 덮였습니다. 기후는 따뜻하고 습했으며, 거대 초식 공룡이 번성했습니다.</p>
+                            <h4>대표 공룡:</h4>
+                            <ul>
+                                <li>디플로도쿠스</li>
+                                <li>스테고사우루스</li>
+                                <li>알로사우루스</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary">이 시대 더 알아보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="era-card" id="cretaceous">
+                    <h3>백악기</h3>
+                    <p>1억 4500만 년 전 - 6600만 년 전</p>
+                    <div class="era-content">
+                        <img src="images/cretaceous.jpg" alt="백악기 환경">
+                        <div class="era-description">
+                            <p>백악기는 공룡의 다양성이 최고조에 달했던 시기입니다. 대륙들이 현재와 비슷한 위치로 이동했고, 최초의 꽃피는 식물이 등장했습니다.</p>
+                            <h4>대표 공룡:</h4>
+                            <ul>
+                                <li>티라노사우루스 렉스</li>
+                                <li>트리케라톱스</li>
+                                <li>벨로시랍토르</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary">이 시대 더 알아보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 공룡 시대 여행 끝 -->
+
+    <!-- 재미있는 활동 시작 -->
+    <section id="activities" class="container">
+        <h2 class="section-title">재미있는 공룡 활동</h2>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <h3>공룡 퀴즈</h3>
+                <p>여러분의 공룡 지식을 테스트해보세요! 초급부터 고급까지 다양한 난이도의 퀴즈가 준비되어 있습니다.</p>
+                <a href="#" class="btn-activity">퀴즈 풀기</a>
+            </div>
+            <div class="activity-card">
+                <div class="activity-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>색칠하기</h3>
+                <p>다양한 공룡 색칠하기 페이지를 다운로드하고 나만의 컬러로 공룡을 디자인해보세요.</p>
+                <a href="#" class="btn-activity">색칠하기 시작</a>
+            </div>
+            <div class="activity-card">
+                <div class="activity-icon">
+                    <i class="fas fa-bone"></i>
+                </div>
+                <h3>가상 발굴 체험</h3>
+                <p>고생물학자가 되어 화석을 발굴하고 새로운 공룡 종을 발견하는 체험을 해보세요.</p>
+                <a href="#" class="btn-activity">발굴 시작하기</a>
+            </div>
+            <div class="activity-card">
+                <div class="activity-icon">
+                    <i class="fas fa-vr-cardboard"></i>
+                </div>
+                <h3>AR 공룡 만나기</h3>
+                <p>증강현실(AR)로 집이나 학교에서 실제 크기의 공룡을 만나보세요.</p>
+                <a href="#" class="btn-activity">AR 체험하기</a>
+            </div>
+        </div>
+    </section>
+    <!-- 재미있는 활동 끝 -->
+
+    <!-- 뉴스레터 구독 시작 -->
+    <section id="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>공룡 뉴스레터 구독하기</h2>
+                <p>최신 공룡 발견 소식과 재미있는 활동 업데이트를 받아보세요!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="이메일 주소 입력" required>
+                    <button type="submit" class="btn btn-primary">구독하기</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- 뉴스레터 구독 끝 -->
+
+    <!-- 푸터 시작 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="공룡월드 로고" class="logo-img">
+                    <h3>공룡월드</h3>
+                    <p>시간을 뛰어넘는 공룡 탐험</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>탐험하기</h4>
+                        <ul>
+                            <li><a href="#">초식공룡</a></li>
+                            <li><a href="#">육식공룡</a></li>
+                            <li><a href="#">비행 파충류</a></li>
+                            <li><a href="#">해양 파충류</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>자료실</h4>
+                        <ul>
+                            <li><a href="#">교사 자료</a></li>
+                            <li><a href="#">학부모 가이드</a></li>
+                            <li><a href="#">활동지 다운로드</a></li>
+                            <li><a href="#">연구 자료</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>고객센터</h4>
+                        <ul>
+                            <li><a href="#">자주 묻는 질문</a></li>
+                            <li><a href="#">문의하기</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 공룡월드. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 푸터 끝 -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+2. CSS 코드 (style.css)
+Copy/* 기본 스타일 및 리셋 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 버튼 스타일 */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #4a9e5a;
+    color: white;
+    box-shadow: 0 4px 8px rgba(74, 158, 90, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #3d8a4a;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #f5f7fa;
+    color: #4a9e5a;
+    border: 2px solid #4a9e5a;
+}
+
+.btn-secondary:hover {
+    background-color: #e6e9ed;
+    transform: translateY(-2px);
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    color: #4a9e5a;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.main-menu li a {
+    font-weight: 500;
+    padding: 8px 0;
+    display: block;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.main-menu li a:hover {
+    color: #4a9e5a;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    padding: 12px 20px;
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.dropdown-menu li:last-child a {
+    border-bottom: none;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #4a9e5a;
+}
+
+/* 히어로 섹션 스타일 */
+#hero {
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin-left: 10%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* 섹션 타이틀 */
+.section-title {
+    text-align: center;
+    margin: 60px 0 40px;
+    font-size: 2.2rem;
+    color: #333;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #4a9e5a;
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+/* 카테고리 섹션 */
+#categories {
+    padding: 60px 0;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.category-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 25px;
+    text-align: center;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.category-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-icon i {
+    font-size: 40px;
+    color: white;
+}
+
+.category-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.category-card p {
+    color: #666;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.btn-explore {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #4a9e5a;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.btn-explore i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.btn-explore:hover i {
+    transform: translateX(5px);
+}
+
+/* 오늘의 공룡 */
+#dino-of-day {
+    padding: 60px 0;
+    background-color: #f5f7fa;
+}
+
+.dino-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dino-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.dino-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.dino-info {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+}
+
+.dino-info h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dino-facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.fact {
+    display: flex;
+    align-items: center;
+}
+
+.fact i {
+    color: #4a9e5a;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.dino-description {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.fun-fact {
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.fun-fact h4 {
+    color: #4a9e5a;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.fun-fact h4 i {
+    margin-right: 10px;
+}
+
+/* 공룡 시대 여행 */
+#timeline {
+    padding: 60px 0;
+}
+
+.timeline-container {
+    margin-top: 40px;
+}
+
+.timeline-slider {
+    position: relative;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.timeline-track {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #a0d468, #4a89dc, #967adc);
+    border-radius: 3px;
+}
+
+.timeline-handle {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: 5px solid #4a9e5a;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 5;
+    transition: transform 0.2s ease;
+}
+
+.timeline-handle:hover {
+    transform: scale(1.2);
+}
+
+.era-markers {
+    position: relative;
+    height: 60px;
+}
+
+.era-mark {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.era-mark span {
+    font-size: 0.8rem;
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mark-point {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 2px solid #4a9e5a;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.era-info {
+    position: relative;
+}
+
+.era-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: none;
+}
+
+.era-card.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.era-card h3 {
+    padding: 20px;
+    background-color: #4a9e5a;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.era-card p {
+    padding: 0 20px 20px;
+    color: white;
+    background-color: #4a9e5a;
+}
+
+.era-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.era-content img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.era-description {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+}
+
+.era-description p {
+    background-color: transparent;
+    color: #555;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.era-description h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.era-description ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.era-description ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* 활동 섹션 */
+#activities {
+    padding: 60px 0;
+    background-color: #f5f7fa;
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.activity-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: translateY(-10px);
+}
+
+.activity-icon {
+    font-size: 2.5rem;
+    color: #4a9e5a;
+    margin-bottom: 20px;
+}
+
+.activity-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.activity-card p {
+    color: #666;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.btn-activity {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #f5f7fa;
+    color: #4a9e5a;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-activity:hover {
+    background-color: #4a9e5a;
+    color: white;
+}
+
+/* 뉴스레터 섹션 */
+#newsletter {
+    background-color: #4a9e5a;
+    color: white;
+    padding: 60px 0;
+}
+
+.newsletter-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.newsletter-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.newsletter-content p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.newsletter-form .btn-primary {
+    background-color: white;
+    color: #4a9e5a;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+.newsletter-form .btn-primary:hover {
+    background-color: #f5f5f5;
+}
+
+/* 푸터 */
+footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-logo h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px 0 5px;
+}
+
+.footer-links {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.link-column {
+    min-width: 150px;
+    margin-bottom: 30px;
+}
+
+.link-column h4 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.link-column ul li {
+    margin-bottom: 10px;
+}
+
+.link-column ul li a {
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.link-column ul li a:hover {
+    color: #4a9e5a;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #4a9e5a;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* 반응형 디자인 */
+@media screen and (max-width: 991px) {
+    .hero-content {
+        margin-left: 5%;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .dino-highlight {
+        flex-direction: column;
+    }
+    
+    .dino-image, .dino-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    .main-menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+        padding: 20px 0;
+    }
+    
+    .main-menu.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+    
+    .main-menu li {
+        margin: 0;
+    }
+    
+    .main-menu li a {
+        padding: 15px 30px;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: none;
+    }
+    
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu li a {
+        padding-left: 50px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .era-content {
+        flex-direction: column;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-links {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .category-grid, .activities-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dino-facts {
+        grid-template-columns: 1fr;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .newsletter-form input, .newsletter-form button {
+        width: 100%;
+    }
+}
+3. JavaScript 코드 (script.js)
+Copy// DOM 요소들 선택
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mainMenu = document.querySelector('.main-menu');
+const dropdowns = document.querySelectorAll('.dropdown');
+const timelineHandle = document.getElementById('timeline-handle');
+const eraCards = document.querySelectorAll('.era-card');
+const heroSlider = document.querySelector('.hero-slider');
+
+// 페이지 로드 시 실행
+document.addEventListener('DOMContentLoaded', function() {
+    // 영웅 배너 슬라이더 초기화
+    initHeroSlider();
+    
+    // 타임라인 슬라이더 초기화
+    initTimelineSlider();
+    
+    // 오늘의 공룡 데이터 로드
+    loadFeaturedDino();
+    
+    // 뉴스레터 폼 제출 핸들러
+    initNewsletterForm();
+});
+
+// 모바일 메뉴 토글
+mobileMenuToggle.addEventListener('click', function() {
+    mainMenu.classList.toggle('active');
+});
+
+// 모바일에서 드롭다운 토글
+dropdowns.forEach(dropdown => {
+    const link = dropdown.querySelector('a');
+    link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            dropdown.classList.toggle('active');
+        }
+    });
+});
+
+// 히어로 슬라이더 초기화
+function initHeroSlider() {
+    // 슬라이더 이미지 배열
+    const sliderImages = [
+        'images/hero-bg.jpg',
+        'images/hero-bg2.jpg',
+        'images/hero-bg3.jpg'
+    ];
+    
+    let currentSlide = 0;
+    
+    // 배경 이미지 변경 함수
+    function changeBackground() {
+        document.getElementById('hero').style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${sliderImages[currentSlide]}')`;
+        currentSlide = (currentSlide + 1) % sliderImages.length;
+    }
+    
+    // 초기 배경 설정
+    changeBackground();
+    
+    // 7초마다 배경 변경
+    setInterval(changeBackground, 7000);
+}
+
+// 타임라인 슬라이더 초기화
+function initTimelineSlider() {
+    let isDragging = false;
+    const slider = document.querySelector('.timeline-slider');
+    const sliderRect = slider.getBoundingClientRect();
+    const sliderWidth = sliderRect.width;
+    
+    // 타임라인 위치에 따라 시대 정보 표시
+    function updateEraInfo(position) {
+        const percentage = position / sliderWidth * 100;
+        
+        // 모든 카드 숨기기
+        eraCards.forEach(card => card.classList.remove('active'));
+        
+        // 위치에 따라 적절한 시대 카드 표시
+        if (percentage < 30) {
+            document.getElementById('triassic').classList.add('active');
+        } else if (percentage < 65) {
+            document.getElementById('jurassic').classList.add('active');
+        } else {
+            document.getElementById('cretaceous').classList.add('active');
+        }
+    }
+    
+    // 핸들 이동 함수
+    function moveHandle(e) {
+        if (!isDragging) return;
+        
+        let clientX;
+        if (e.type === 'touchmove') {
+            clientX = e.touches[0].clientX;
+        } else {
+            clientX = e.clientX;
+        }
+        
+        const sliderRect = slider.getBoundingClientRect();
+        let position = clientX - sliderRect.left;
+        
+        // 슬라이더 범위 내로 제한
+        position = Math.max(0, Math.min(position, sliderRect.width));
+        
+        // 핸들 위치 업데이트
+        const leftPercentage = (position / sliderRect.width) * 100;
+        timelineHandle.style.left = `${leftPercentage}%`;
+        
+        // 시대 정보 업데이트
+        updateEraInfo(position);
+    }
+    
+    // 마우스/터치 이벤트 리스너
+    timelineHandle.addEventListener('mousedown', () => {
+        isDragging = true;
+    });
+    
+    timelineHandle.addEventListener('touchstart', () => {
+        isDragging = true;
+    });
+    
+    document.addEventListener('mousemove', moveHandle);
+    document.addEventListener('touchmove', moveHandle);
+    
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+    });
+    
+    document.addEventListener('touchend', () => {
+        isDragging = false;
+    });
+    
+    // 시대 마커 클릭 이벤트
+    const eraMarkers = document.querySelectorAll('.era-mark');
+    eraMarkers.forEach(marker => {
+        marker.addEventListener('click', function() {
+            const leftPercentage = parseFloat(this.style.left);
+            timelineHandle.style.left = `${leftPercentage}%`;
+            
+            // 시대 정보 업데이트
+            updateEraInfo((leftPercentage / 100) * sliderWidth);
+        });
+    });
+    
+    // 초기 시대 정보 표시
+    updateEraInfo(0.1 * sliderWidth);
+}
+
+// 오늘의 공룡 데이터 로드
+function loadFeaturedDino() {
+    // 실제 구현에서는 서버에서 데이터를 가져오지만, 여기서는 샘플 데이터 사용
+    const featuredDinos = [
+        {
+            name: '티라노사우루스 렉스',
+            image: 'images/trex.jpg',
+            length: '12-14m',
+            weight: '8-14톤',
+            diet: '육식',
+            period: '백악기 후기',
+            description: '\'폭군 도마뱀 왕\'이라는 뜻의 티라노사우루스 렉스는 역사상 가장 유명한 육식 공룡입니다. 30cm 길이의 이빨과 6,000kg의 물림 힘으로 뼈를 부술 수 있었습니다. 앞다리는 매우 작았지만 두 다리로 시속 30km까지 달릴 수 있었다고 추정됩니다.',
+            funFact: '최근 연구에 따르면 티라노사우루스의 몸에는 일부 깃털이 있었을 가능성도 제기되고 있어요!'
+        },
+        {
+            name: '트리케라톱스',
+            image: 'images/triceratops.jpg',
+            length: '8-9m',
+            weight: '6-12톤',
+            diet: '초식',
+            period: '백악기 후기',
+            description: '\'세 개의 뿔 얼굴\'이라는 뜻을 가진 이 공룡은 이마에 두 개의 긴 뿔과 코 위에 짧은 뿔, 그리고 뒤통수를 덮는 커다란 프릴이 특징입니다. 이 방어용 무기들은 티라노사우루스와 같은 포식자로부터 자신을 방어하는 데 사용했습니다.',
+            funFact: '트리케라톱스의 두개골은 공룡 중에서 가장 큰 두개골 중 하나로, 길이가 2미터가 넘기도 했어요!'
+        },
+        {
+            name: '스테고사우루스',
+            image: 'images/stegosaurus.jpg',
+            length: '9m',
+            weight: '5-7톤',
+            diet: '초식',
+            period: '쥐라기 후기',
+            description: '등에 2열로 배열된 17개의 큰 뼈 판과 꼬리 끝의 4개의 가시가 특징인 공룡입니다. 뼈 판은 체온 조절과 과시용으로 사용되었을 것으로 추정됩니다. 뇌가 호두 크기로 매우 작았습니다.',
+            funFact: '스테고사우루스의 꼬리 가시는 \'타이고스타크스(thagomizer)\'라고 불리는데, 이 이름은 1982년 개리 라슨의 만화에서 유래했어요!'
+        }
+    ];
+    
+    // 랜덤으로 오늘의 공룡 선택 (실제 사이트에서는 다른 로직 사용)
+    const randomIndex = Math.floor(Math.random() * featuredDinos.length);
+    const todaysDino = featuredDinos[randomIndex];
+    
+    // DOM 업데이트
+    document.getElementById('featured-dino-img').src = todaysDino.image;
+    document.getElementById('featured-dino-img').alt = todaysDino.name;
+    document.getElementById('featured-dino-name').textContent = todaysDino.name;
+    
+    // 공룡 정보 업데이트
+    const facts = document.querySelectorAll('.dino-facts .fact span');
+    facts[0].textContent = `길이: ${todaysDino.length}`;
+    facts[1].textContent = `무게: ${todaysDino.weight}`;
+    facts[2].textContent = `식성: ${todaysDino.diet}`;
+    facts[3].textContent = `시대: ${todaysDino.period}`;
+    
+    document.querySelector('.dino-description').textContent = todaysDino.description;
+    document.querySelector('.fun-fact p').textContent = todaysDino.funFact;
+}
+
+// 뉴스레터 폼 제출 핸들러
+function initNewsletterForm() {
+    const form = document.querySelector('.newsletter-form');
+    
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const email = this.querySelector('input[type="email"]').value;
+        
+        // 실제 구현에서는 서버로 데이터 전송
+        alert(`${email} 주소로 뉴스레터 구독이 완료되었습니다. 감사합니다!`);
+        
+        // 폼 초기화
+        this.reset();
+    });
+}
+
+// 카테고리 카드 클릭 이벤트
+const categoryCards = document.querySelectorAll('.category-card');
+categoryCards.forEach(card => {
+    card.addEventListener('click', function() {
+        const id = this.id;
+        alert(`${id} 카테고리를 탐험합니다! 실제 구현에서는 해당 카테고리 페이지로 이동합니다.`);
+    });
+});
+
+// 활동 카드 클릭 이벤트
+const activityBtns = document.querySelectorAll('.btn-activity');
+activityBtns.forEach(btn => {
+    btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const activity = this.textContent.trim();
+        alert(`${activity} 활동을 시작합니다! 실제 구현에서는 해당 활동 페이지로 이동합니다.`);
+    });
+});
+
+// 윈도우 리사이즈 이벤트
+window.addEventListener('resize', function() {
+    // 모바일 메뉴 상태 리셋
+    if (window.innerWidth > 768 && mainMenu.classList.contains('active')) {
+        mainMenu.classList.remove('active');
+    }
+});
+코드 설명
+1. HTML 구조 설명
+HTML 코드는 다음과 같은 구조로 구성되어 있습니다:
+
+헤더(Header)
+
+로고와 내비게이션 메뉴
+드롭다운 메뉴를 통해 공룡 카테고리에 접근 가능
+모바일 화면에서는 햄버거 메뉴로 변환됨
+히어로 섹션(Hero Section)
+
+메인 배너 영역으로 웹사이트의 첫인상을 결정
+배경 이미지와 함께 웹사이트 소개 문구 표시
+'공룡 탐험 시작하기', '재미있는 활동 보기' 버튼 포함
+카테고리 섹션(Categories)
+
+4가지 주요 공룡 카테고리 소개(초식, 육식, 하늘, 바다)
+각 카테고리는 아이콘, 제목, 간략한 설명, 링크 포함
+카드 형태로 구성되어 시각적 흥미 유발
+오늘의 공룡(Dino of the Day)
+
+특정 공룡을 상세히 소개하는 섹션
+공룡 이미지, 기본 정보(길이, 무게, 식성, 시대), 설명, 재미있는 사실 포함
+자바스크립트를 통해 주기적으로 다른 공룡으로 교체 가능
+시대 여행(Timeline)
+
+슬라이더를 통해 공룡 시대를 시각적으로 탐험
+트라이아스기, 쥐라기, 백악기의 특징과 대표 공룡 정보 제공
+인터랙티브 요소로 사용자가 시간을 이동하며 탐험 가능
+재미있는 활동(Activities)
+
+퀴즈, 색칠하기, 발굴 체험, AR 체험 등 활동 소개
+각 활동은 카드 형태로 제공되며 아이콘과 설명 포함
+뉴스레터 가입(Newsletter)
+
+이메일 구독 기능으로 지속적인 사용자 참여 유도
+간단한 폼으로 구성
+푸터(Footer)
+
+로고, 메뉴 링크, 소셜 미디어 링크 제공
+사이트맵 역할과 저작권 정보 포함
+2. CSS 스타일 설명
+CSS 코드는 다음과 같은 주요 특징을 가지고 있습니다:
+
+테마 컬러
+
+주 색상으로 초록색(#4a9e5a)을 사용하여 자연과 공룡 테마에 어울리는 분위기 조성
+카테고리별로 다른 색상 사용(초식-녹색, 육식-빨간색, 하늘-보라색, 바다-파란색)
+반응형 디자인
+
+미디어 쿼리를 사용하여 다양한 화면 크기에 대응
+모바일, 태블릿, 데스크톱 화면에서 모두 최적화된 레이아웃 제공
+모바일에서는 햄버거 메뉴, 세로 배치 레이아웃으로 전환
+애니메이션과 트랜지션
+
+호버(hover) 효과로 사용자 상호작용 강화
+페이드인, 변형 애니메이션으로 시각적 흥미 부여
+부드러운 트랜지션으로 사용자 경험 개선
+카드 디자인
+
+그림자 효과와 둥근 모서리로 현대적인 디자인
+호버 시 위로 떠오르는 효과로 상호작용 강화
+일관된 카드 디자인으로 시각적 통일성 유지
+그리드와 플렉스박스
+
+현대적인 CSS 레이아웃 기술 사용
+그리드로 카드 배열, 플렉스박스로 요소 정렬
+다양한 화면 크기에 자동으로 적응하는 레이아웃
+3. JavaScript 기능 설명
+JavaScript 코드는 다음과 같은 주요 기능을 구현합니다:
+
+모바일 메뉴 토글
+
+화면 크기가 작을 때 햄버거 메뉴 기능 제공
+메뉴 아이템 클릭 시 드롭다운 표시/숨김 기능
+히어로 슬라이더
+
+메인 배너 이미지를 주기적으로 변경하는 기능
+배경 이미지 전환 애니메이션 효과
+타임라인 슬라이더
+
+사용자가 드래그하여 시대를 이동할 수 있는 기능
+슬라이더 위치에 따라 해당 시대 정보 표시
+마커 클릭 시 해당 시대로 즉시 이동
+오늘의 공룡 기능
+
+샘플 데이터에서 공룡 정보를 로드하여 표시
+정보와 이미지를 동적으로 변경 가능
+실제 구현 시 서버에서 데이터를 가져오도록 확장 가능
+뉴스레터 구독 기능
+
+폼 제출 처리 및 기본 유효성 검사
+구독 완료 시 알림 메시지 표시
+이벤트 핸들러
+
+카테고리 및 활동 카드 클릭 이벤트
+윈도우 리사이즈 이벤트 처리
+터치 및 마우스 이벤트 모두 지원하여 다양한 기기 대응
+사용 가이드
+파일 구조 설정
+
+index.html, style.css, script.js 파일을 생성하고 위 코드를 각각 복사하세요.
+images 폴더를 만들고 필요한 이미지를 준비하세요. 코드에서 참조하는 이미지:
+logo.png (사이트 로고)
+hero-bg.jpg, hero-bg2.jpg, hero-bg3.jpg (메인 배너 배경)
+triassic.jpg, jurassic.jpg, cretaceous.jpg (시대별 이미지)
+trex.jpg, triceratops.jpg, stegosaurus.jpg (공룡 이미지)
+이미지 준비
+
+공룡 이미지는 고품질의 사실적인 이미지를 사용하세요.
+배경 이미지는 각 시대의 환경을 잘 표현하는 이미지로 선택하세요.
+로고는 웹사이트 테마에 맞게 디자인하세요.
+코드 맞춤설정
+
+카테고리, 공룡 정보, 활동 등을 실제 콘텐츠에 맞게 조정하세요.
+색상, 폰트 등 디자인 요소를 원하는 대로 수정하세요.
+더 많은 페이지가 필요하면 기존 구조를 기반으로 확장하세요.
+기능 확장 방안
+
+실제 데이터베이스 연동: 공룡 정보를 JSON 파일이나 데이터베이스에서 가져오도록 개선
+사용자 계정 시스템: 진행 상황 저장, 즐겨찾기 등 개인화 기능 추가
+더 많은 인터랙티브 요소: 3D 모델 뷰어, 공룡 소리 재생 등 추가
+API 연동: 최신 고생물학 연구 데이터를 가져오는 기능 추가
+이 코드는 초등학생을 위한 공룡백과 웹사이트의 기본 구조를 제공합니다. 실제 구현 시에는 필요에 따라 내용과 기능을 확장하고, 더 많은 페이지를 추가하여 완성도 높은 웹사이트를 구축할 수 있습니다.
+
+복사
+초등학생을 위한 공룡백과를 쓴다는 목적을 가지고 위의 목차와 내용을 채울 글을 써 줘. 각 공룡에 대해 전문가 버금가는 정보를 담아줘. 차례는 다음과 같아. 
+홈
+├── 공룡 탐험하기
+│   ├── 육지의 거인들 (초식공룡)
+│   ├── 무시무시한 사냥꾼들 (육식공룡)
+│   ├── 하늘의 지배자들 (비행 파충류)
+│   └── 바다의 공포 (해양 파충류)
+├── 공룡 시대 여행
+│   ├── 트라이아스기
+│   ├── 쥐라기
+│   └── 백악기
+├── 재미있는 공룡 활동
+│   ├── 공룡 퀴즈
+│   ├── 색칠놀이/공룡 만들기
+│   ├── 가상 발굴 체험
+│   └── 공룡 AR 체험
+├── 공룡 도감 (전체 공룡 목록)
+└── 학부모/교사 자료실
+생각 과정
+초등학생을 위한 공룡 백과 웹사이트 콘텐츠
+홈
+환영합니다!
+
+공룡월드에 오신 것을 환영합니다! 이곳은 중생대를 지배했던 경이로운 생물들의 세계로 여러분을 초대합니다. 6,600만 년 전 소행성 충돌로 대부분의 공룡이 사라지기 전까지, 공룡들은 1억 6,000만 년 동안 지구를 지배했습니다. 그들의 다양한 크기, 형태, 생활 방식을 함께 탐험해보세요!
+
+오늘의 공룡: 티라노사우루스 렉스
+
+'폭군 도마뱀 왕'이라는 뜻의 티라노사우루스 렉스는 역사상 가장 유명한 육식 공룡입니다. 백악기 후기에 북아메리카에 살았으며, 길이 12-14미터, 무게 8-14톤에 달했습니다. 가장 강력한 물림힘(약 6,000kg)을 가진 육상 동물 중 하나였으며, 최대 30cm 길이의 이빨로 사냥감의 뼈를 부술 수 있었습니다.
+
+최근 연구에 따르면 티라노사우루스는 어린 시절에 깃털 덮개가 있었을 가능성이 높고, 성체도 일부 깃털을 유지했을 수 있습니다. 또한 과거 생각했던 것보다 훨씬 영리했고, 무리지어 사냥했을 가능성도 제기되고 있습니다.
+
+공룡의 세계를 탐험해 보세요
+
+공룡월드에서는 다양한 방식으로 공룡을 만날 수 있습니다:
+
+공룡 탐험하기: 생태와 식성에 따라 분류된 공룡들을 만나보세요
+공룡 시대 여행: 트라이아스기, 쥐라기, 백악기 시대별 특징을 알아보세요
+재미있는 공룡 활동: 퀴즈, 색칠놀이, 가상 발굴 체험으로 배움을 즐겁게!
+공룡 도감: 모든 공룡의 상세 정보를 한눈에 확인하세요
+학부모/교사 자료실: 교육에 활용할 수 있는 다양한 자료가 준비되어 있습니다
+공룡 탐험하기
+육지의 거인들 (초식공룡)
+거대 사우로포드 (목 긴 공룡)
+
+브라키오사우루스 (Brachiosaurus) '팔 도마뱀'이라는 뜻의 브라키오사우루스는 쥐라기 후기(1억 5,400만 년 전)에 살았던 초대형 공룡입니다. 앞다리가 뒷다리보다 길어 몸이 기린처럼 기울어진 독특한 체형을 가졌습니다. 키가 13미터(4층 건물 높이)에 달했고, 무게는 35-58톤이었습니다.
+
+브라키오사우루스의 콧구멍은 머리 위쪽에 있어, 과거에는 물속 생활에 적응한 것으로 오해받았습니다. 그러나 현재는 코를 통해 고효율로 열을 배출했을 것으로 추측합니다. 이 공룡의 심장은 머리까지 피를 펌프질하기 위해 매우 강력했을 것이며, 머리를 들어올릴 때마다 크게 변화하는 혈압을 조절할 수 있는 특별한 시스템이 있었을 것입니다.
+
+디플로도쿠스 (Diplodocus) 가장 긴 공룡 중 하나로, 길이가 무려 24-27미터에 달했지만 무게는 10-16톤으로 다른 대형 공룡에 비해 가벼운 편이었습니다. 쥐라기 후기 북아메리카에 살았으며, 극도로 긴 목과 꼬리가 특징입니다. 꼬리 끝부분은 채찍처럼 소리를 낼 수 있었고, 포식자로부터 자신을 방어하는 무기로 사용했을 것입니다.
+
+디플로도쿠스의 이빨은 연필처럼 가늘었고 앞쪽에만 있었는데, 이는 나뭇잎을 훑어 뜯어먹는 데 특화된 형태입니다. 이들은 머리를 흔들어 나뭇잎을 훑어내는 방식으로 채식했을 것으로 추정됩니다. 또한 소화를 돕기 위해 위 속에 작은 돌(위석)을 삼켰을 가능성이 높습니다.
+
+아르겐티노사우루스 (Argentinorsaurus) 현재까지 발견된 가장 큰 육상 동물 중 하나로 추정되는 이 거대 공룡은 백악기 초기(약 9,400만 년 전) 아르헨티나에 살았습니다. 길이 약 30-40미터, 무게 60-100톤으로 추정되며, 척추뼈 하나의 높이만 1.5미터에 달했습니다.
+
+이 거대한 체구로 인해 아르겐티노사우루스는 천천히 움직였을 것으로 추정되며, 심장에서 머리까지 혈액을 펌프질하는 데 필요한 압력은 엄청났을 것입니다. 일부 연구자들은 이들에게 여러 개의 '보조 심장'이 있었을 가능성을 제기하기도 합니다.
+
+뿔 공룡들 (각질 공룡)
+
+트리케라톱스 (Triceratops) '세 개의 뿔 얼굴'이라는 뜻을 가진 트리케라톱스는 백악기 최후기(약 6,800만 년 전)에 북아메리카에 살았습니다. 이마에 두 개의 긴 뿔(최대 1미터 길이)과 코 위에 짧은 뿔, 그리고 뒤통수를 덮는 커다란 프릴(목 덮개)이 특징입니다. 길이 약 8-9미터, 무게 6-12톤에 달했습니다.
+
+트리케라톱스의 뿔과 프릴은 티라노사우루스 같은 포식자로부터 방어하거나 같은 종끼리의 경쟁에 사용되었을 것입니다. 화석에서 발견된 손상 흔적은 이들이 서로 뿔로 싸웠다는 증거입니다. 단단한 부리로 딱딱한 식물도 먹을 수 있었고, 한 번에 800개 이상의 이빨을 가졌는데, 닳으면 새 이빨이 자라나는 시스템이었습니다.
+
+스티라코사우루스 (Styracosaurus) '가시 도마뱀'이라는 뜻의 이 공룡은 백악기 후기(약 7,500만 년 전) 북아메리카에 살았습니다. 길이 약 5.5미터, 무게 약 3톤이었으며, 화려한 프릴에서 뻗어나온 4-6개의 긴 가시와 코 위의 큰 뿔이 특징입니다.
+
+이 화려한 장식은 포식자 방어, 체온 조절, 그리고 짝짓기 디스플레이에 사용되었을 것입니다. 스티라코사우루스는 무리를 지어 살았을 가능성이 높으며, 프릴의 패턴과 색상은 개체 식별에 도움이 되었을 것입니다.
+
+갑옷 공룡들 (판갑 공룡)
+
+스테고사우루스 (Stegosaurus) 쥐라기 후기(약 1억 5,000만 년 전) 북아메리카에 살았던 이 공룡은 등에 2열로 배열된 17개의 큰 뼈 판과 꼬리 끝의 4개의 가시가 특징입니다. 길이 약 9미터, 무게 5-7톤이었습니다.
+
+뼈 판은 체온 조절(열 방출 및 흡수)과 과시용으로 사용되었을 것으로 추정됩니다. 스테고사우루스 판에는 많은 혈관이 있어 피부 색을 변화시키거나 체온 조절에 이용했을 가능성이 있습니다. 꼬리 가시('타이고스타크스'라고 불림)는 방어 무기였으며, 알로사우루스와 같은 포식자에게 치명적인 상처를 입힐 수 있었습니다.
+
+스테고사우루스의 뇌는 호두 크기(약 80g)로 매우 작았지만, 엉덩이 부근에는 신경 덩어리(신경절)가 있어 뒷부분 움직임을 제어했습니다. 이것이 "두 번째 뇌"라는 오해를 받기도 했습니다.
+
+안킬로사우루스 (Ankylosaurus) '굽은 도마뱀'이라는 뜻의 이 공룡은 백악기 최후기(약 6,800-6,600만 년 전) 북아메리카에 살았습니다. 등과 옆구리가 골질 판과 가시로 덮여 있고, 꼬리 끝에는 무게 약 50kg의 골질 곤봉이 있었습니다. 길이 약 8-9미터, 무게 6톤이었습니다.
+
+안킬로사우루스의 갑옷은 수천 개의 작은 뼈 조각이 피부에 박혀 만들어졌으며, 티라노사우루스와 같은 포식자의 공격에도 상당한 보호 기능을 제공했습니다. 꼬리 곤봉은 포식자의 다리를 부러뜨릴 수 있을 정도로 강력했으며, 같은 종끼리의 경쟁에도 사용되었을 가능성이 있습니다.
+
+오리주둥이 공룡들
+
+파라사우롤로푸스 (Parasaurolophus) '옆의 볏 있는 도마뱀'이라는 뜻의 이 공룡은 백악기 후기(약 7,600만 년 전) 북아메리카에 살았습니다. 머리 뒤로 1.8미터 길이의 중공 관이 특징이며, 길이 약 10미터, 무게 2.5톤이었습니다.
+
+파라사우롤로푸스의 긴 머리 관은 소리를 내는 데 사용되었는데, 과학자들이 이 관의 3D 모델을 만들어 소리를 재현해 본 결과, 트럼본과 비슷한 낮은 음색의 소리를 냈을 것으로 추정됩니다. 이 소리는 무리 내 의사소통, 포식자 경고, 짝 찾기에 사용되었을 것입니다. 또한 머리 관의 크기와 모양은 성별과 연령에 따라 달랐을 가능성이 높습니다.
+
+코리토사우루스 (Corythosaurus) '투구 도마뱀'이라는 뜻의 이 공룡은 백악기 후기(약 7,700만 년 전) 북아메리카에 살았습니다. 머리 위에 카사왈리 새의 머리 장식과 비슷한 형태의 벼슬을 가졌습니다. 길이 약 9미터, 무게 3-5톤이었습니다.
+
+코리토사우루스의 머리 벼슬도 파라사우롤로푸스와 마찬가지로 내부가 비어 있어 소리를 내는 데 사용되었으며, 또한 체온 조절이나 종 식별의 기능도 했을 것입니다. 이 공룡은 입안에 수백 개의 이빨을 가졌으며, 식물을 효율적으로 씹어 먹을 수 있었습니다.
+
+마이아사우라 (Maiasaura) '좋은 어미 도마뱀'이라는 뜻의 이 공룡은 백악기 후기(약 7,600만 년 전) 북아메리카에 살았습니다. 길이 약 9미터, 무게 3-4톤이었습니다.
+
+마이아사우라는 발견된 화석을 통해 새끼를 돌보는 육아 행동이 확인된 최초의 공룡입니다. 몬태나주에서 발견된 집단 둥지 유적에서는 성체, 새끼, 알이 함께 발견되었습니다. 새끼들의 다리 뼈 상태로 보아 부화 후 성체가 먹이를 가져다주는 방식으로 돌봄을 받았을 것으로 추정됩니다. 이는 공룡의 사회적 행동을 보여주는 중요한 증거입니다.
+
+무시무시한 사냥꾼들 (육식공룡)
+거대 포식자들
+
+티라노사우루스 렉스 (Tyrannosaurus rex) '폭군 도마뱀 왕'이라는 뜻의 티라노사우루스 렉스는 백악기 최후기(약 6,800-6,600만 년 전) 북아메리카에 살았던 역사상 가장 유명한 육식 공룡입니다. 길이 12-14미터, 무게 8-14톤이었습니다.
+
+티라노사우루스는 가장 강력한 물림힘을 가진 육상 포식자로, 물림힘은 약 6,000kg으로 추정되며, 최대 30cm 길이의 이빨로 트리케라톱스의 뼈도 부술 수 있었습니다. 앞다리는 매우 작았지만 두 다리로 시속 30km까지 달릴 수 있었다고 추정됩니다.
+
+최근 연구에 따르면 티라노사우루스는 기존에 생각했던 것보다 훨씬 뛰어난 감각을 가졌습니다. 뇌 구조 분석 결과 매우 발달된 후각과 청각, 균형 감각을 가졌으며, 눈은 독수리처럼 정밀한 색채 인식이 가능했고 움직임에 매우 민감했을 것으로 추정됩니다.
+
+흥미롭게도 티라노사우루스의 유생(새끼)과 청소년기 개체들은 성체와 상당히 달랐습니다. 어린 개체들은 가늘고 긴 다리를 가졌으며, 민첩하고 빠른 사냥꾼이었고, 깃털 덮개가 있었을 가능성이 높습니다. 성장하면서 체형이 변하고 더 강력하지만 느려지는 방향으로 진화했습니다.
+
+스피노사우루스 (Spinosaurus) '가시 도마뱀'이라는 뜻의 스피노사우루스는 백악기 중기(약 1억 1,200-9,400만 년 전) 북아프리카에 살았습니다. 티라노사우루스보다 더 길었을 가능성이 있는(15-18미터) 이 공룡은 등에 1.5-2미터 높이의 돛 모양 가시가 특징이었습니다.
+
+2014년 이후 연구에 따르면, 스피노사우루스는 수생 생활에 적응한 최초의 수영하는 공룡이었을 가능성이 높습니다. 짧은 후지와 밀도 높은 뼈, 악어와 유사한 코와 이빨 구조, 그리고 가능성 있는 물갈퀴 발이 이를 뒷받침합니다. 최근 발견된 꼬리 화석은 이전에 생각했던 것보다 훨씬 넓고 패들 형태여서, 수영 추진력을 제공했을 것으로 보입니다.
+
+스피노사우루스의 식단은 주로 대형 물고기였을 것으로 추정되며, 악어처럼 물가에서 사냥했을 것입니다. 등의 돛은 체온 조절, 짝짓기 과시, 수영 중 안정화 등의 용도로 사용되었을 가능성이 있습니다.
+
+기가노토사우루스 (Giganotosaurus) '거대한 남방 도마뱀'이라는 뜻의 기가노토사우루스는 백악기 중기(약 9,700만 년 전) 남아메리카에 살았습니다. 길이 12-13미터, 무게 8-14톤으로, 티라노사우루스와 비슷한 크기였지만 더 가볍고 빠른 체형을 가졌습니다.
+
+기가노토사우루스는 현존하는 가장 큰 육상 동물인 코끼리보다 더 무거웠으며, 그 시대 남아메리카에 살았던 거대 초식공룡 아르겐티노사우루스를 사냥했을 가능성이 있습니다. 아마도 무리를 지어 사냥했을 것으로 추정됩니다.
+
+이 공룡의 두개골은 약 1.8미터로 티라노사우루스보다 길었지만, 이빨은 더 작고 날카로웠으며 물림힘도 약했습니다. 이는 다른 사냥 전략을 사용했음을 시사합니다 - 강력한 턱으로 부수기보다는 날카로운 이빨로 깊은 상처를 내는 방식이었을 것입니다.
+
+날렵한 사냥꾼들
+
+벨로시랍토르 (Velociraptor) '빠른 약탈자'라는 뜻의 벨로시랍토르는 백악기 후기(약 7,500만 년 전) 몽골을 포함한 중앙아시아 지역에 살았습니다. 영화 '쥐라기 공원'으로 유명해졌지만, 실제로는 크기가 훨씬 작았습니다 - 키 0.5미터, 길이 2미터, 무게 15kg 정도로, 칠면조 크기에 불과했습니다.
+
+벨로시랍토르의 몸 전체는 깃털로 덮여 있었으며, 오늘날의 새와 매우 유사했습니다. 발의 두 번째 발가락에는 7.5cm 길이의 낫 모양 발톱이 있어, 사냥감을 공격하는 데 사용했습니다.
+
+가장 유명한 벨로시랍토르 화석은 "싸우는 공룡들"로 알려진 것으로, 프로토케라톱스와 싸우다 모래폭풍에 묻힌 모습이 그대로 보존되었습니다. 이 화석은 벨로시랍토르가 실제로 적극적인 포식자였음을 보여주는 증거입니다.
+
+유타랍토르 (Utahraptor) '유타의 약탈자'라는 뜻의 유타랍토르는 백악기 초기(약 1억 2,600만 년 전) 북아메리카에 살았습니다. 벨로시랍토르의 친척이지만 훨씬 컸습니다 - 길이 7미터, 무게 500kg 이상으로, 랍토르 중 가장 큰 종이었습니다.
+
+유타랍토르는 발에 23cm 길이의 거대한 발톱을 가졌으며, 이를 이용해 자신보다 훨씬 큰 사냥감도 공격할 수 있었습니다. 과학자들은 유타랍토르가 당시 북아메리카에 살았던 이구아노돈과 같은 대형 초식공룡을 무리 사냥했을 것으로 추측합니다.
+
+최근 연구에 따르면 유타랍토르도 벨로시랍토르처럼 깃털로 덮여 있었을 가능성이 높습니다. 유타주에서 발견된 한 화석 덩어리에는 여러 개체의 유타랍토르가 함께 있었는데, 이는 무리 생활을 했음을 시사합니다.
+
+트로오돈 (Troodon) '날카로운 이빨'이라는 뜻의 트로오돈은 백악기 후기(약 7,600만 년 전) 북아메리카에 살았습니다. 길이 2-3미터, 무게 50kg 정도였으며, 공룡 중에서 뇌 크기 대비 체중 비율이 가장 높아 가장 지능이 높았던 공룡으로 여겨집니다.
+
+트로오돈의 눈은 매우 크고 앞쪽을 향해 있어 뛰어난 입체 시각을 가졌으며, 야간 활동에 적합했을 것으로 추정됩니다. 톱니 모양의 작은 이빨은 고기와 식물을 모두 먹는 잡식성이었음을 시사합니다.
+
+특히 흥미로운 점은 트로오돈이 알을 품는 방식이 오늘날의 새와 매우 유사했다는 것입니다. 발견된 화석 둥지는 트로오돈이 알을 일정한 온도로 유지하기 위해 몸으로 덮고 있었음을 보여줍니다. 이는 조류의 행동과 매우 유사하며, 공룡과 조류 사이의 진화적 연결을 강화하는 증거입니다.
+
+소형 육식공룡
+
+컴프소그나투스 (Compsognathus) '예쁜 턱'이라는 뜻의 컴프소그나투스는 쥐라기 후기(약 1억 5,000만 년 전) 유럽에 살았습니다. 길이 약 1미터, 무게 3kg 정도로, 닭 크기에 불과했습니다.
+
+이 작은 공룡은 빠르고 민첩했으며, 주로 도마뱀이나 작은 포유류를 사냥했습니다. 한 화석 표본에서는 소화되지 않은 도마뱀이 배 부분에서 발견되기도 했습니다. 발달된 시각을 가졌으며, 긴 꼬리는 빠르게 방향을 바꿀 때 균형 유지에 도움이 되었을 것입니다.
+
+컴프소그나투스는 초기에 발견된 공룡 중 하나로, 과학자들이 공룡과 조류의 연관성을 이해하는 데 중요한 역할을 했습니다. 최근 연구에 따르면 몸에 깃털 같은 구조가 있었을 가능성이 높습니다.
+
+코엘로피시스 (Coelophysis) '중공의 형태'라는 뜻의 코엘로피시스는 트라이아스기 후기(약 2억 1,500만 년 전) 북아메리카에 살았던 초기 공룡입니다. 길이 약 3미터, 무게 15-20kg로, 가볍고 민첩한 체형을 가졌습니다.
+
+코엘로피시스는 텅 빈 뼈를 가진 가벼운 골격 구조를 가져 매우 빠르게 달릴 수 있었습니다. 긴 목과 꼬리, 그리고 유연한 몸체로 빠르게 방향을 전환할 수 있었습니다. 날카로운 이빨과 강한 턱으로 작은 동물을 사냥했으며, 기회가 되면 다른 코엘로피시스도 잡아먹는 공식(共食) 행동을 했을 가능성도 있습니다.
+
+뉴멕시코 고스트 랜치에서는 수백 마리의 코엘로피시스 화석이 한꺼번에 발견되었는데, 이는 이들이 무리를 지어 살았거나, 홍수와 같은 자연재해로 한꺼번에 사망했을 가능성을 시사합니다.
+
+하늘의 지배자들 (비행 파충류)
+거대 익룡들
+
+케찰코아틀루스 (Quetzalcoatlus) '깃털 달린 뱀 신'이라는 뜻의 케찰코아틀루스는 백악기 최후기(약 7,000-6,600만 년 전) 북아메리카에 살았던 역사상 가장 큰 비행 동물 중 하나입니다. 기린 높이만큼 키가 컸으며(지상에서 높이 5-6미터), 날개 폭은 10-11미터에 달했습니다.
+
+이 거대한 익룡은 주로 육상에서 네 발로 걸어다녔으며, 현대 기린처럼 굉장히 긴 목을 가졌습니다. 비행 시에는 열기류를 이용한 글라이딩에 뛰어났으며, 에너지를 보존하기 위해 활공 비행을 주로 했을 것으로 추정됩니다.
+
+케찰코아틀루스의 식단은 아직 논쟁 중이지만, 긴 부리로 작은 육상 동물이나 물고기를 사냥했을 가능성이 높습니다. 일부 연구자들은 이들이 현대의 황새처럼 지상에서 먹이를 찾았을 것으로 추측합니다. 그들의 부리는 날카롭고 이빨이 없었으며, 턱 근육은 강력했습니다.
+
+프테라노돈 (Pteranodon) '이빨 없는 날개'라는 뜻의 프테라노돈은 백악기 후기(약 8,600-8,000만 년 전) 북아메리카에 살았습니다. 날개 폭이 7미터에 달했으며, 수컷의 경우 머리 뒤로 길게 뻗은 볏이 특징이었습니다.
+
+프테라노돈은 현대 해양 조류와 유사한 생활 방식을 가졌을 것으로 추정됩니다. 대부분의 시간을 바다 위를 날면서 물고기를 사냥했으며, 이빨 대신 부리를 가졌습니다. 긴 하늘 비행에 적응되어 있어, 현대의 알바트로스처럼 장거리 비행에 특화되었을 가능성이 높습니다.
+
+램포린쿠스 (Rhamphorhynchus) '부리 주둥이'라는 뜻의 램포린쿠스는 쥐라기 후기(약 1억 5,000만 년 전) 유럽에 살았습니다. 날개 폭 1.8미터, 다이아몬드 모양의 꼬리 끝 판이 특징이었습니다.
+
+램포린쿠스는 물 위를 낮게 날면서 부리를 물에 담가 물고기를 잡는 방식으로 사냥했을 것으로 추정됩니다. 꼬리 끝의 판은 비행 안정성을 제공했으며, 날카로운 이빨은 미끄러운 물고기를 잡기에 적합했습니다.
+
+특히 흥미로운 점은 일부 화석에서 날개막의 미세한 구조까지 보존되어 있다는 것입니다. 이를 통해 램포린쿠스의 날개막은 근육과 혈관이 풍부해 적극적으로 비행 중 형태를 조절할 수 있었음이 밝혀졌습니다.
+
+조류 공룡들
+
+아르케옵테릭스 (Archaeopteryx) '고대의 날개'라는 뜻의 아르케옵테릭스는 쥐라기 후기(약 1억 5,000만 년 전) 유럽에 살았습니다. 까마귀 크기(길이 0.5미터)로, 공룡과 새의 특징을 모두 가진 중간 형태였습니다.
+
+아르케옵테릭스는 깃털과 날개가 있었지만 공룡의 특징인 이빨, 긴 뼈로 된 꼬리, 발톱 달린 손가락도 가졌습니다. 이 화석은 공룡과 조류의 진화적 연결을 보여주는 중요한 증거로, "잃어버린 고리"로 불리기도 합니다.
+
+완벽하게 날 수 있었는지는 확실하지 않지만, 짧은 거리는 날 수 있었을 것으로 추정됩니다. 나무를 타고 활강하는 생활 방식을 가졌을 가능성이 높으며, 작은 도마뱀이나 곤충을 사냥했을 것입니다.
+
+미크로랍토르 (Microraptor) '작은 약탈자'라는 뜻의 미크로랍토르는 백악기 초기(약 1억 2,000만 년 전) 중국 북동부에 살았습니다. 길이 약 77cm, 무게 1kg 정도로, 네 개의 날개를 가진 놀라운 공룡이었습니다.
+
+미크로랍토르는 앞다리와 뒷다리 모두에 잘 발달된 깃털 날개를 가졌으며, 이는 나비와 같은 '4-날개' 비행 구성을 이루었습니다. 이러한 구조는 나무에서 나무로 활공하는 데 적합했을 것으로 추정됩니다. 또한 꼬리에도 깃털이 있어 비행 시 안정성을 제공했습니다.
+
+특히 흥미로운 점은 미크로랍토르의 깃털이 까맣게 빛났다는 증거가 있다는 것입니다. 화석에 보존된 멜라노좀(색소 세포)을 분석한 결과, 이 공룡은 오늘날의 까마귀처럼 푸른빛을 띤 검은색이었을 것으로 추정됩니다.
+
+이이안다 (Yi qi) '이상한 날개'라는 뜻의 이이안다는 쥐라기 중기(약 1억 6,000만 년 전) 중국에 살았습니다. 2015년 발견된 이 특이한 공룡은 공룡 세계의 '플라잉 스퀴럴'로 불립니다.
+
+이이안다의 가장 놀라운 특징은 다른 깃털 공룡과 달리, 박쥐와 유사한 막 형태의 날개를 가졌다는 점입니다. 길게 늘어난 손가락 뼈가 피부막을 지지하는 구조였으며, 이는 공룡에서는 유일한 사례입니다. 이 발견은 공룡이 비행을 위해 다양한 진화 경로를 실험했음을 보여줍니다.
+
+바다의 공포 (해양 파충류)
+해양 괴물들
+
+모사사우루스 (Mosasaurus) '뫼즈강 도마뱀'이라는 뜻의 모사사우루스는 백악기 후기(약 8,200-6,600만 년 전)에 전 세계 바다에 살았던 거대 해양 파충류입니다. 길이 15-18미터, 무게 15톤 이상으로, 오늘날의 대형 고래만큼 컸습니다.
+
+모사사우루스는 공룡이 아닌, 현대 도마뱀과 뱀의 조상과 가까운 해양 파충류였습니다. 강력한 지느러미와 꼬리를 이용해 빠르게 수영했으며, 거대한 턱에는 70개 이상의 날카로운 이빨이 있었습니다. 이들은 물고기, 오징어, 암모나이트, 바다거북, 심지어 다른 모사사우루스도 사냥했습니다.
+
+최근 연구에 따르면 모사사우루스는 상어와 같은 이중 꼬리지느러미(위쪽이 더 큰)를 가졌을 가능성이 있으며, 피부는 매끄러운 비늘로 덮여 있어 수중에서 빠르게 움직일 수 있었습니다.
+
+플레시오사우루스 (Plesiosaurs) '가까운 도마뱀'이라는 뜻의 플레시오사우루스류는 쥐라기-백악기(약 2억-6,600만 년 전)에 전 세계 바다에 살았던 해양 파충류 그룹입니다. 독특한 체형으로, 거북이 같은 넓은 몸체, 매우 긴 목, 그리고 네 개의 강력한 지느러미를 가졌습니다.
+
+플레시오사우루스류 중 가장 극단적인 예는 엘라스모사우루스로, 목의 길이가 7미터가 넘었고(전체 길이의 절반 이상), 최대 70개의 목뼈를 가졌습니다. 이 긴 목은 물고기 무리에 몰래 접근하여 빠르게 공격하는 데 사용되었을 것입니다.
+
+이들은 잠재적 천적을 360도로 살피기에 적합한 눈 위치를 가졌으며, 네 개의 지느러미를 새와 같은 방식으로 움직여 '수중 비행'을 했습니다. 최근 화석 발견은 플레시오사우루스가 새끼를 낳는(난태생) 방식으로 번식했으며, 아마도 현대 돌고래처럼 새끼를 돌봤을 가능성을 시사합니다.
+
+익티오사우루스 (Ichthyosaurs) '물고기 도마뱀'이라는 뜻의 익티오사우루스류는 트라이아스기-백악기(약 2억 5,000만-9,000만 년 전)에 전 세계 바다에 살았던 해양 파충류 그룹입니다. 이들은 독립적으로 돌고래와 매우 유사한 형태로 진화했습니다.
+
+익티오사우루스는 유선형 몸체, 등지느러미, 반달 모양의 꼬리지느러미를 가졌으며, 일부 종은 시속 40km 이상의 속도로 수영할 수 있었습니다. 현대 돌고래나 참치와 마찬가지로 온혈성이었을 가능성이 높습니다. 매우 큰 눈을 가져 깊은 바다에서도 사냥할 수 있었으며, 일부 종의 눈 지름은 25cm에 달했습니다.
+
+특히 흥미로운 점은 익티오사우루스가 완전히 수중 생활에 적응해 육지로 올라올 필요가 없었다는 것입니다. 이들은 새끼를 낳았으며(난태생), 출산 중인 어미의 화석도 발견되었습니다.
+
+반수생 공룡들
+
+스피노사우루스 (Spinosaurus) 앞서 육식공룡 섹션에서 설명했듯이, 최근 연구에 따르면 스피노사우루스는 수생 생활에 적응한 최초의 수영하는 공룡이었을 가능성이 높습니다. 짧은 후지와 밀도 높은 뼈, 악어와 유사한 코와 이빨 구조, 그리고 패들 형태의 꼬리가 이를 뒷받침합니다.
+
+바리오닉스 (Baryonyx) '무거운 발톱'이라는 뜻의 바리오닉스는 백악기 초기(약 1억 3,000만 년 전) 유럽에 살았습니다. 길이 약 9미터, 무게 1.5-2톤이었으며, 악어와 같은 길고 좁은 주둥이와 앞발에 30cm 길이의 큰 발톱이 특징이었습니다.
+
+바리오닉스의 화석은 영국에서 발견되었는데, 위 내용물에서 물고기 비늘과 이빨이 발견되어 주로 물고기를 사냥했음이 확인되었습니다. 악어와 유사한 주둥이는 물고기를 잡는 데 특화되어 있었으며, 물가에서 대부분의 시간을 보냈을 것으로 추정됩니다.
+
+수코미무스 (Suchomimus) '악어 모방자'라는 뜻의 수코미무스는 백악기 중기(약 1억 1,200만 년 전) 아프리카에 살았습니다. 길이 약 11미터, 무게 3-5톤이었으며, 바리오닉스와 마찬가지로 악어 같은 긴 주둥이가 특징이었습니다.
+
+수코미무스는 물가에서 물고기와 작은 동물을 사냥했을 것으로 추정됩니다. 주둥이 끝에는 많은 날카로운 이빨이 있어 미끄러운 물고기를 효과적으로 잡을 수 있었습니다. 등에 작은 돛이 있었는데, 이는 체온 조절이나 시각적 디스플레이에 사용되었을 것입니다.
+
+공룡 시대 여행
+트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)
+세계와 환경 트라이아스기는 '판게아'라는 하나의 거대한 초대륙이 존재하던 시기입니다. 지구 역사상 최대 규모의 대멸종(페름기-트라이아스기 대멸종)이 끝난 직후로, 생물 다양성이 회복되는 과정에 있었습니다. 기후는 대체로 덥고 건조했으며, 계절성 강수가 있었습니다. 대부분의 지역이 사막과 같은 환경이었으나, 열대와 아열대 지역에는 울창한 숲이 있었습니다.
+
+식물상 트라이아스기의 주요 식물은 다음과 같습니다:
+
+소철류(사이캐드): 야자나무와 비슷하게 생긴 나무
+은행나무 조상들
+고사리류
+솔송나무
+초기 침엽수 꽃이 피는 식물(현화식물)은 아직 등장하지 않았습니다.
+공룡의 등장 트라이아스기 중기에 최초의 공룡들이 등장했습니다. 이 시기의 공룡들은 비교적 작고 빠른 육식 및 잡식성 동물들이었습니다. 대형 초식공룡인 프라테오사우루스와 같은 초기 사우로포도모프도 등장했습니다. 그러나 이 시기에는 공룡이 아직 지배적인 육상 동물은 아니었으며, 다양한 파충류와 공룡형 파충류들이 생태계의 중요한 부분을 차지했습니다.
+
+대표 공룡들
+
+코엘로피시스 (Coelophysis): 작고 빠른 초기 육식 공룡으로, 긴 목과 꼬리를 가졌습니다.
+프라테오사우루스 (Plateosaurus): 초기 대형 초식 공룡으로, 사우로포드의 조상입니다.
+에오랍토르 (Eoraptor): 가장 초기 공룡 중 하나로, 작고 이족보행하는 잡식성 공룡이었습니다.
+헤레라사우루스 (Herrerasaurus): 초기 육식 공룡으로, 완전한 공룡의 특징을 아직 갖추지 않은 과도기적 형태를 보입니다.
+트라이아스기의 끝 약 2억 100만 년 전, 대규모 화산 활동으로 인한 기후 변화와 환경 변화로 트라이아스기-쥐라기 경계 대멸종이 발생했습니다. 이때 많은 파충류 그룹이 멸종했지만, 공룡들은 살아남아 쥐라기에 번성할 수 있었습니다.
+
+쥐라기 (2억 100만 년 전 - 1억 4500만 년 전)
+세계와 환경 쥐라기에 들어서면서 판게아 대륙은 분리되기 시작했습니다. 로라시아(북반구)와 곤드와나(남반구)로 나뉘기 시작했고, 테티스해가 이들 사이로 밀고 들어왔습니다. 해수면이 상승하여 넓은 지역이 얕은 바다로 덮였습니다. 기후는 트라이아스기보다 따뜻하고 습했으며, 계절성이 감소했습니다. 극지방에도 빙하가 없었고, 전 세계가 온난했습니다.
+
+식물상 쥐라기의 식물상은 다음과 같습니다:
+
+소철류(사이캐드)의 번성
+다양한 고사리류
+침엽수림의 확장
+초기 구과식물(침엽수)의 다양화
+은행나무류의 번성 여전히 꽃피는 식물은 없었습니다.
+공룡의 황금기 시작 쥐라기는 공룡의 다양성이 폭발적으로 증가한 시기입니다. 대형 사우로포드(목 긴 공룡)가 번성하기 시작했고, 다양한 육식공룡들이 등장했습니다. 또한 초기 갑옷 공룡과 각질 공룡이 등장했습니다. 쥐라기 후기에는 가장 유명한 공룡 중 일부가 번성했으며, 최초의 새(아르케옵테릭스)도 이 시기에 나타났습니다.
+
+대표 공룡들
+
+디플로도쿠스 (Diplodocus): 매우 긴 목과 꼬리를 가진 거대 초식 공룡입니다.
+브라키오사우루스 (Brachiosaurus): 앞다리가 뒷다리보다 긴 대형 사우로포드입니다.
+스테고사우루스 (Stegosaurus): 등에 판이 있는 특징적인 갑옷 공룡입니다.
+알로사우루스 (Allosaurus): 쥐라기 후기 최상위 포식자였습니다.
+아르케옵테릭스 (Archaeopteryx): 공룡과 새의 특징을 모두 가진 초기 조류입니다.
+해양 파충류와 비행 파충류 쥐라기 바다에서는 익티오사우루스와 플레시오사우루스가 번성했으며, 하늘에서는 프테로닥틸과 같은 익룡들이 날아다녔습니다. 이들은 공룡이 아니지만, 공룡과 같은 시대에 살았던 파충류 그룹입니다.
+
+백악기 (1억 4500만 년 전 - 6600만 년 전)
+세계와 환경 백악기에는 대륙들이 계속 분리되어 현재와 더 비슷한 위치로 이동했습니다. 대서양이 넓어지기 시작했고, 인도가 북쪽으로 이동하며 히말라야 산맥 형성이 시작되었습니다. 기후는 쥐라기처럼 온난했지만, 백악기 후기에는 점차 냉각되기 시작했습니다. 화산 활동이 매우 활발했으며, 해수면은 역사상 가장 높은 수준 중 하나였습니다.
+
+식물상 백악기의 가장 중요한 사건은 꽃피는 식물(현화식물)의 등장입니다. 이는 육상 생태계를 완전히 변화시켰습니다. 백악기의 식물상:
+
+최초의 꽃피는 식물(약 1억 2500만 년 전)
+최초의 잔디(백악기 말기)
+낙엽수의 등장
+현대적 침엽수림
+소철류와 고사리류는 여전히 존재했지만 덜 지배적이었습니다.
+공룡의 절정기와 멸종 백악기는 공룡의 다양성이 최고조에 달했던 시기입니다. 티라노사우루스 렉스, 트리케라톱스와 같은 가장 유명한 공룡들이 이 시기 후반에 살았습니다. 또한 깃털 공룡의 증거가 풍부하게 발견되어, 공룡과 조류의 연결성이 더욱 명확해졌습니다.
+
+그러나 약 6600만 년 전, 대규모 소행성(지름 10-15km)이 현재의 멕시코 유카탄 반도(치쿨루브 분화구)에 충돌했습니다. 이 충돌로 인한 전 지구적 재앙(단기적인 극한 열, 장기적인 먼지로 인한 '암흑', 산성비, 산불, 쓰나미 등)으로 조류 공룡을 제외한 모든 공룡이 멸종했습니다.
+
+대표 공룡들
+
+티라노사우루스 렉스 (Tyrannosaurus rex): 백악기 최후기의 대형 육식 공룡입니다.
+트리케라톱스 (Triceratops): 세 개의 뿔과 목 덮개를 가진 각질 공룡입니다.
+벨로시랍토르 (Velociraptor): 깃털이 있는 소형 육식 공룡입니다.
+파라사우롤로푸스 (Parasaurolophus): 머리에 관이 있는 오리주둥이 공룡입니다.
+안킬로사우루스 (Ankylosaurus): 갑옷과 꼬리 곤봉을 가진 방어적 공룡입니다.
+스피노사우루스 (Spinosaurus): 등에 돛을 가진 반수생 육식 공룡입니다.
+미크로랍토르 (Microraptor): 네 개의 날개를 가진 깃털 공룡입니다.
+백악기-제3기 대멸종 6,600만 년 전 발생한 이 대규모 멸종 사건으로 공룡뿐만 아니라 암모나이트, 모사사우루스, 익룡 등 많은 생물 그룹이 멸종했습니다. 그러나 일부 포유류, 조류(공룡의 후손), 파충류, 양서류, 어류 등이 살아남아 새로운 세계를 형성했습니다. 이 멸종 사건이 없었다면, 인간을 포함한 현대 포유류의 진화는 불가능했을 것입니다.
+
+재미있는 공룡 활동
+공룡 퀴즈
+재미있는 공룡 퀴즈로 여러분의 지식을 테스트해보세요! 난이도별로 다양한 퀴즈를 준비했습니다.
+
+초급 퀴즈 예시:
+
+티라노사우루스 렉스는 어떤 뜻인가요? a) 빠른 도마뱀 왕 b) 폭군 도마뱀 왕 c) 큰 도마뱀 왕
+
+트리케라톱스의 특징은 무엇인가요? a) 등에 판이 있다 b) 세 개의 뿔이 있다 c) 긴 목이 있다
+
+가장 오래 전에 살았던 공룡 시대는? a) 트라이아스기 b) 쥐라기 c) 백악기
+
+중급 퀴즈 예시:
+
+브라키오사우루스의 앞다리와 뒷다리 중 어느 것이 더 길었나요? a) 앞다리 b) 뒷다리 c) 길이가 같았다
+
+벨로시랍토르의 몸은 무엇으로 덮여 있었을까요? a) 비늘 b) 깃털 c) 털
+
+익룡은 진정한 공룡인가요? a) 예, 익룡은 공룡입니다 b) 아니오, 익룡은 공룡이 아닌 파충류입니다
+
+고급 퀴즈 예시:
+
+공룡이 멸종한 주요 원인은 무엇인가요? a) 기후 변화 b) 소행성 충돌 c) 질병 d) a와 b 모두
+
+오늘날 지구에 살고 있는 공룡의 후손은? a) 악어 b) 도마뱀 c) 새 d) 거북
+
+미크로랍토르의 특이한 점은 무엇인가요? a) 네 개의 날개를 가졌다 b) 수중 생활을 했다 c) 독을 가지고 있었다 d) 낙타처럼 혹이 있었다
+
+색칠놀이/공룡 만들기
+색칠놀이 다양한 공룡 색칠하기 페이지를 다운로드하여 여러분만의 공룡 세계를 만들어보세요! 실제 공룡들은 어떤 색이었을까요? 과학자들은 최근 화석에 보존된 멜라노좀(색소 세포)을 분석하여 일부 공룡의 색을 추측할 수 있게 되었습니다. 미크로랍토르는 까만색 깃털을, 시노사우롭테릭스는 줄무늬 꼬리를 가졌다는 증거가 있습니다!
+
+종이접기 공룡 단계별 안내에 따라 티라노사우루스, 트리케라톱스, 프테라노돈 등 다양한 공룡 종이접기를 만들어보세요. 완성 후에는 자신만의 공룡 세계를 꾸며볼 수 있습니다.
+
+3D 공룡 모형 만들기 두꺼운 종이나 골판지로 3D 공룡 모형을 만들어보세요. 티라노사우루스, 스테고사우루스, 트리케라톱스 등 다양한 패턴을 다운로드하여 자르고, 접고, 붙이면 나만의 공룡 모형이 완성됩니다!
+
+점토 공룡 만들기 점토나 찰흙을 이용해 자신만의 공룡을 만들어보세요. 실제 공룡을 모방하거나, 여러 공룡의 특징을 조합한 새로운 공룡을 창조할 수도 있습니다. 뿔, 판, 가시, 깃털 등 다양한 특징을 추가해보세요!
+
+가상 발굴 체험
+고생물학자가 되어 화석을 발굴하고 새로운 공룡 종을 발견하는 체험을 해보세요.
+
+화석 발굴 시뮬레이션 가상 현장에서 고생물학자들이 사용하는 도구와 기술을 배우고 직접 화석을 발굴해보세요. 붓, 곡괭이, 삽을 사용하여 조심스럽게 화석을 노출시키는 과정을 체험할 수 있습니다. 발굴 중에 발견한 화석 조각을 모아 전체 공룡 골격을 완성해보세요!
+
+화석 퍼즐 다양한 난이도의 공룡 골격 퍼즐을 풀어보세요. 실제 고생물학자들처럼 뼈 조각들을 분석하고 올바른 위치에 맞추면서 공룡의 구조를 이해해보세요.
+
+나만의 공룡 명명하기 새로운 공룡 종을 발견했다고 상상해보세요! 실제 과학자들처럼 라틴어나 그리스어 어원을 사용하여 여러분만의 공룡 이름을 만들고, 그 공룡의 생김새와 생활 방식을 설명하는 과학 보고서를 작성해보세요.
+
+공룡 연대측정 지층과 화석의 상대 연대를 파악하는 방법을 배워보세요. 가상의 지층에서 발견된 여러 공룡 화석의 시대를 추정하고, 공룡의 진화 계통도에서 그들의 위치를 찾아보세요.
+
+공룡 AR 체험
+증강현실(AR) 기술로 공룡을 현실 세계로 불러와 보세요!
+
+실제 크기 공룡 만나기 AR 앱을 통해 티라노사우루스, 브라키오사우루스, 트리케라톱스 등 다양한 공룡을 실제 크기로 만나보세요. 여러분의 방이나 학교 운동장, 공원에 거대한 공룡이 나타납니다! 공룡 옆에 서서 사진을 찍으며 그들의 실제 크기를 실감해보세요.
+
+생동하는 공룡 생태계 AR로 고대 공룡 세계를 재현해보세요. 트라이아스기, 쥐라기, 백악기의 환경과 식물, 그리고 그 시대에 살았던 공룡들이 여러분 앞에서 살아 움직입니다. 화면을 통해 공룡들의 일상 생활, 사냥, 먹이 활동을 관찰해보세요.
+
+공룡 해부학 탐험 AR 기술로 공룡의 내부 구조를 확인해보세요. 골격, 근육, 내장 기관 등을 3D로 볼 수 있으며, 각 부분을 터치하면 자세한 설명이 나타납니다. 티라노사우루스의 강력한 턱 근육, 브라키오사우루스의 거대한 심장, 벨로시랍토르의 발톱 메커니즘 등을 자세히 살펴볼 수 있습니다.
+
+공룡 퀴즈 스캔 주변 물체를 스캔하여 그것과 관련된 공룡 정보와 퀴즈를 풀어보세요. 새를 스캔하면 깃털 공룡에 대한 정보가, 물을 스캔하면 해양 파충류에 대한 정보가 나타납니다!
+
+공룡 도감 (전체 공룡 목록)
+공룡 도감에서는 모든 주요 공룡들의 상세 정보를 한눈에 볼 수 있습니다. 아래는 주요 공룡들의 기본 정보입니다.
+
+트라이아스기 공룡
+코엘로피시스 (Coelophysis)
+
+시대: 트라이아스기 후기 (2억 1,500만 년 전)
+서식지: 북아메리카
+크기: 길이 3m, 높이 1m, 무게 15-20kg
+식성: 육식
+특징: 가벼운 골격, 긴 꼬리, 빠른 움직임
+프라테오사우루스 (Plateosaurus)
+
+시대: 트라이아스기 후기 (2억 1,400만 년 전)
+서식지: 유럽
+크기: 길이 6-9m, 무게 600-4,000kg
+식성: 초식
+특징: 초기 사우로포도모프(목 긴 공룡의 조상), 엄지발톱
+에오랍토르 (Eoraptor)
+
+시대: 트라이아스기 후기 (2억 3,100만 년 전)
+서식지: 남아메리카
+크기: 길이 1m, 무게 10kg
+식성: 잡식
+특징: 가장 초기 공룡 중 하나, 크기가 작음
+쥐라기 공룡
+알로사우루스 (Allosaurus)
+
+시대: 쥐라기 후기 (1억 5,000만 년 전)
+서식지: 북아메리카
+크기: 길이 8-12m, 무게 1.5-2.5톤
+식성: 육식
+특징: 눈 위의 뿔 같은 돌기, 강력한 턱, 날카로운 이빨
+스테고사우루스 (Stegosaurus)
+
+시대: 쥐라기 후기 (1억 5,000만 년 전)
+서식지: 북아메리카
+크기: 길이 9m, 무게 5-7톤
+식성: 초식
+특징: 등의 2열 판, 꼬리의 4개 가시, 매우 작은 뇌
+디플로도쿠스 (Diplodocus)
+
+시대: 쥐라기 후기 (1억 5,000만 년 전)
+서식지: 북아메리카
+크기: 길이 24-27m, 무게 10-16톤
+식성: 초식
+특징: 매우 긴 목과 꼬리, 연필 같은 이빨
+브라키오사우루스 (Brachiosaurus)
+
+시대: 쥐라기 후기 (1억 5,400만 년 전)
+서식지: 북아메리카, 아프리카
+크기: 길이 20-25m, 높이 13m, 무게 35-58톤
+식성: 초식
+특징: 앞다리가 뒷다리보다 김, 기린과 유사한 자세
+컴프소그나투스 (Compsognathus)
+
+시대: 쥐라기 후기 (1억 5,000만 년 전)
+서식지: 유럽
+크기: 길이 1m, 무게 3kg
+식성: 육식
+특징: 닭 크기, 빠른 움직임, 작은 도마뱀 사냥
+백악기 공룡
+티라노사우루스 렉스 (Tyrannosaurus rex)
+
+시대: 백악기 최후기 (6,800-6,600만 년 전)
+서식지: 북아메리카
+크기: 길이 12-14m, 높이 4-6m, 무게 8-14톤
+식성: 육식
+특징: 강력한 턱, 작은 앞다리, 가능성 있는 깃털 덮개
+트리케라톱스 (Triceratops)
+
+시대: 백악기 최후기 (6,800-6,600만 년 전)
+서식지: 북아메리카
+크기: 길이 8-9m, 무게 6-12톤
+식성: 초식
+특징: 세 개의 뿔, 큰 목 덮개(프릴), 앵무새 같은 부리
+벨로시랍토르 (Velociraptor)
+
+시대: 백악기 후기 (7,500만 년 전)
+서식지: 몽골, 중국
+크기: 길이 2m, 무게 15kg
+식성: 육식
+특징: 깃털 덮개, 발에 큰 발톱, 지능이 높음
+파라사우롤로푸스 (Parasaurolophus)
+
+시대: 백악기 후기 (7,600만 년 전)
+서식지: 북아메리카
+크기: 길이 10m, 무게 2.5톤
+식성: 초식
+특징: 머리 뒤로 1.8m 길이의 중공 관, 소리 내는 데 사용
+안킬로사우루스 (Ankylosaurus)
+
+시대: 백악기 최후기 (6,800-6,600만 년 전)
+서식지: 북아메리카
+크기: 길이 8-9m, 무게 6톤
+식성: 초식
+특징: 갑옷 같은 등, 꼬리 끝의 골질 곤봉
+스피노사우루스 (Spinosaurus)
+
+시대: 백악기 중기 (1억 1,200-9,400만 년 전)
+서식지: 북아프리카
+크기: 길이 15-18m, 무게 7-20톤
+식성: 주로 물고기, 때로는 육식
+특징: 등의 1.5-2m 돛, 악어 같은 주둥이, 수생 적응
+마이아사우라 (Maiasaura)
+
+시대: 백악기 후기 (7,600만 년 전)
+서식지: 북아메리카
+크기: 길이 9m, 무게 3-4톤
+식성: 초식
+특징: '좋은 어미 도마뱀'이라는 뜻, 새끼 돌봄 행동 증거
+학부모/교사 자료실
+초등학생들이 공룡에 대해 배우면서 다양한 과학 개념과 역사적 사고를 발전시킬 수 있도록 도와주는 자료들을 제공합니다.
+
+연령별 학습 가이드
+저학년 (1-2학년) 가이드
+
+공룡의 기본 개념: 육식 vs 초식, 크기 비교, 간단한 분류
+활동 중심: 색칠하기, 간단한 공룡 만들기, 공룡 소리 흉내내기
+추천 주제: "가장 큰 공룡", "가장 작은 공룡", "공룡은 무엇을 먹었나요?"
+중학년 (3-4학년) 가이드
+
+공룡의 시대 이해: 트라이아스기, 쥐라기, 백악기의 차이
+공룡의 몸 구조와 적응: 다양한 특징과 생존 전략
+추천 주제: "공룡은 어떻게 움직였나요?", "공룡의 방어 전략", "공룡의 사냥 방법"
+고학년 (5-6학년) 가이드
+
+진화와 적응: 공룡이 다양한 환경에 어떻게 적응했는지
+과학적 방법: 화석 증거를 통한 추론 방법, 가설 설정
+추천 주제: "공룡과 조류의 관계", "공룡의 멸종", "공룡 연구의 최신 발견"
+수업 계획 및 활동지
+수업 계획 예시: "공룡 탐험가가 되어보자" (3-4학년, 5차시)
+
+1차시: 공룡의 세계 소개 (시대, 주요 종류)
+2차시: 공룡 화석 탐구 (화석은 어떻게 형성되는가?)
+3차시: 나만의 공룡 설계하기 (적응과 진화 이해)
+4차시: 공룡 서식지 만들기 (생태계와 환경 이해)
+5차시: 공룡 전시회 (학습 내용 공유 및 발표)
+수업 활동지 예시:
+
+공룡 분류 활동지: 다양한 공룡 그림을 육식/초식, 시대별, 서식지별로 분류하기
+공룡 크기 비교 활동지: 실제 크기로 그려진 공룡 발자국 측정하기
+공룡 먹이사슬 활동지: 백악기 생태계의 먹이사슬 완성하기
+공룡 적응 활동지: 특정 환경에 맞는 공룡 특징 설계하기
+과학 표준에 맞춘 교육 자료
+과학적 탐구 기술:
+
+관찰과 추론: 공룡 화석을 통해 생김새와 행동 추론하기
+데이터 수집과 분석: 다양한 공룡의 크기, 속도, 식성 데이터 비교하기
+모델 만들기: 공룡의 움직임, 생태계, 멸종 과정 모델링하기
+지구과학 연계:
+
+지질 시대와 층서학: 공룡 시대의 지층 이해하기
+기후 변화: 중생대의 기후와 현재 기후 비교하기
+대륙 이동: 판게아에서 현대 대륙으로의 변화 이해하기
+생물학 연계:
+
+진화와 적응: 공룡의 다양한 특징이 환경 적응에 어떻게 도움이 되었는지
+분류학: 공룡의 계통학적 분류와 현대 동물과의 관계
+생태계와 상호작용: 중생대 생태계에서 공룡의 역할 이해하기
+공룡 관련 책과 미디어 추천
+추천 도서 (초등학생용):
+
+"공룡에 관한 모든 것" - 어린이를 위한 포괄적인 공룡 백과사전
+"나는 왜 공룡인가" - 공룡의 시점에서 쓰인 재미있는 이야기
+"화석 탐험가의 모험" - 화석 발굴의 과정을 소개하는 이야기책
+추천 다큐멘터리:
+
+"공룡의 행성" - 최신 과학 연구를 바탕으로 한 공룡 생태 다큐멘터리
+"타임 트래블: 공룡 시대" - 각 시대별 공룡 세계를 탐험하는 시리즈
+"화석 헌터스" - 실제 고생물학자들의 발굴 과정을 따라가는 다큐멘터리
+교육용 앱 및 웹사이트:
+
+"디노월드 AR" - 증강현실로 공룡을 만나는 교육용 앱
+"화석 퍼즐" - 공룡 골격을 맞추며 해부학을 배우는 게임
+"타임라인 익스플로러" - 공룡 시대를 인터랙티브하게 탐험하는 웹사이트
+이 자료들은 교실과 가정에서 공룡에 대한 학습을 더욱 풍부하고 의미 있게 만들어 줄 것입니다. 아이들의 호기심을 자극하고 과학적 사고력을 발전시키는 데 도움이 될 것입니다.
+
+복사
+공룡의 크기를 비교하는 인포그래프를 만들고 싶어. 시대 구분 말고 우리가 작업 중인 공룡 월드에 나오는 공룡들로만 만들고 싶으니 방법을 알려줘. 
+생각 과정
+공룡월드: 공룡 크기 비교 인포그래픽 제작 가이드
+인포그래픽 제작 방법
+공룡월드에 등장하는 공룡들의 크기를 효과적으로 비교하는 인포그래픽을 만드는 방법을 소개합니다. 이 가이드를 통해 시각적으로 인상적이고 교육적인 크기 비교 자료를 제작할 수 있습니다.
+
+1. 인포그래픽 디자인 컨셉
+기본 레이아웃 옵션
+가로형 실루엣 타임라인
+
+가로로 긴 단일 이미지에 모든 공룡 실루엣을 같은 스케일로 배치
+인간 실루엣(성인 남성 1.8m)을 기준점으로 포함
+공룡들을 크기순으로 정렬하거나 생태 그룹별로 구분하여 배치
+측정 눈금 배경
+
+배경에 미터나 피트 단위의 높이/길이 눈금 포함
+모든 공룡이 같은 기준선(바닥선) 위에 서있는 형태로 배치
+그룹형 배치
+
+카테고리별로 구분하여 배치(육식, 초식, 비행, 해양)
+각 카테고리 내에서 크기순으로 정렬
+2. 포함할 공룡 데이터
+공룡월드의 모든 공룡을 포함하되, 크기 정보를 명확히 표시합니다:
+
+크기 정보 포함 항목
+전체 길이(머리부터 꼬리 끝까지)
+어깨 높이 또는 최대 높이
+추정 체중
+특징적인 부분 크기(예: 티라노사우루스의 두개골 길이, 브라키오사우루스의 목 길이)
+공룡 크기 데이터표 예시
+공룡명             | 전체 길이(m) | 높이(m) | 체중(톤) | 특이사항
+------------------|------------|---------|---------|------------------
+아르겐티노사우루스 | 30-40       | 18      | 60-100  | 가장 큰 육상 동물 중 하나
+브라키오사우루스  | 20-25       | 13      | 35-58   | 앞다리가 뒷다리보다 김
+디플로도쿠스      | 24-27       | 6       | 10-16   | 가장 긴 공룡 중 하나
+티라노사우루스    | 12-14       | 4-6     | 8-14    | 최대 이빨 길이 30cm
+스피노사우루스    | 15-18       | 5-7     | 7-20    | 등의 돛 높이 2m
+안킬로사우루스    | 8-9         | 1.7     | 6       | 꼬리 곤봉 무게 50kg
+트리케라톱스      | 8-9         | 3       | 6-12    | 뿔 길이 최대 1m
+벨로시랍토르      | 2           | 0.5     | 0.015   | 발톱 길이 7.5cm
+인간              | 1.8         | 1.8     | 0.07    | 비교 기준
+3. 시각화 기법
+색상 코딩
+생태 그룹별 색상 사용:
+초식공룡: 녹색 계열
+육식공룡: 적색 계열
+비행 파충류: 보라색/파랑색 계열
+해양 파충류: 청록색 계열
+시각적 요소
+실루엣: 공룡들의 정확한 비율의 측면 실루엣 사용
+상세도: 주요 공룡은 실루엣과 함께 더 상세한 그림 추가
+팝업 정보: 각 공룡에 대한 간략한 정보 박스 추가
+눈금: 배경에 1m 또는 5m 간격의 눈금선 배치
+비교 요소
+현대적 비교물: 인간, 버스, 기린, 코끼리, 건물 등 친숙한 물체 실루엣 포함
+집중 비교: 특정 신체 부위(두개골, 발톱 등)만 별도로 비교하는 작은 차트 추가
+4. 인포그래픽 제작 도구
+디자인 소프트웨어 옵션
+어도비 일러스트레이터/포토샵: 전문가급 디자인
+캔바(Canva): 사용하기 쉬운 온라인 도구로 템플릿 활용 가능
+파워포인트/구글 슬라이드: 접근성 높은 기본 도구
+Infogram/Piktochart: 인포그래픽 특화 온라인 도구
+필요 자료
+정확한 공룡 실루엣 이미지(과학적으로 검증된)
+스케일 측정을 위한 그리드/눈금
+일관된 폰트와 색상 팔레트
+공룡월드 로고 및 브랜딩 요소
+5. 인포그래픽 제작 단계
+자료 수집: 모든 공룡의 크기 데이터 수집 및 정리
+스케일 결정: 가장 큰 공룡(아르겐티노사우루스)과 가장 작은 공룡(컴프소그나투스)을 포함할 수 있는 적절한 스케일 설정
+기본 레이아웃 제작: 눈금과 기준선 설정
+공룡 실루엣 배치: 스케일에 맞게 모든 공룡 실루엣 배치
+색상 및 그룹화: 카테고리별 색상 적용 및 논리적 그룹화
+정보 추가: 이름, 크기 데이터, 간략한 특징 추가
+디자인 개선: 시각적 계층구조 개선, 가독성 확인
+검토: 과학적 정확성 및 디자인 일관성 검토
+6. 특별 아이디어
+인터랙티브 버전
+웹사이트에 줌인/줌아웃 가능한 인터랙티브 인포그래픽 구현
+공룡을 클릭하면 상세 정보와 3D 모델이 나타나는 기능
+사용자가 자신의 키를 입력하여 공룡과 비교할 수 있는 기능
+테마별 비교
+"육식공룡의 진화" - 시간에 따른 육식공룡의 크기 변화
+"머리에서 꼬리까지" - 각 공룡의 두개골, 목, 몸통, 꼬리 비율 비교
+"무게 대 크기" - 크기와 체중의 관계를 보여주는 별도 차트
+물리적 전시용 버전
+학교 복도나 과학관에 설치할 수 있는 대형 출력물 디자인
+바닥에 공룡 발자국을 실제 크기로 표시한 보조 전시물
+7. 샘플 디자인 스케치
+[인간] (1.8m)
+----------------------------------------------------
+[컴프소그나투스]     [아르케옵테릭스]     [벨로시랍토르]
+  (1m, 3kg)           (0.5m)              (2m, 15kg)
+----------------------------------------------------
+                      [트로오돈]          [코엘로피시스]
+                     (3m, 50kg)           (3m, 20kg)
+----------------------------------------------------
+                                          [유타랍토르]
+                                          (7m, 500kg)
+----------------------------------------------------
+[스티라코사우루스]  [트리케라톱스]      [안킬로사우루스]
+   (5.5m, 3톤)        (9m, 12톤)          (9m, 6톤)
+----------------------------------------------------
+[파라사우롤로푸스]  [스테고사우루스]     [마이아사우라]
+    (10m, 2.5톤)      (9m, 7톤)           (9m, 4톤)
+----------------------------------------------------
+[티라노사우루스]    [기가노토사우루스]   
+  (14m, 14톤)         (13m, 14톤)        
+----------------------------------------------------
+                    [스피노사우루스]
+                      (18m, 20톤)
+----------------------------------------------------
+[디플로도쿠스]
+ (27m, 16톤)
+----------------------------------------------------
+                   [브라키오사우루스]
+                     (25m, 58톤)
+----------------------------------------------------
+                  [아르겐티노사우루스]
+                     (40m, 100톤)
+----------------------------------------------------
+
+               스케일: 각 줄 = 5미터
+이 인포그래픽을 통해 공룡월드 웹사이트 방문자들은 공룡들의 실제 크기를 직관적으로 이해하고, 초등학생들에게 특히 인상적인 교육 자료가 될 것입니다. 과학적 정확성과 시각적 매력을 모두 갖춘 인포그래픽으로 공룡에 대한 호기심과 이해를 더욱 높일 수 있을 것입니다.
+
+복사
+이 그래프를 생성할 때 쓸 프롬프트를 생성해 줘. 
+생각 과정
+공룡 크기 비교 인포그래픽 생성 프롬프트
+아래 프롬프트는 AI 이미지 생성 도구(DALL-E, Midjourney, Stable Diffusion 등)에서 공룡 크기 비교 인포그래픽을 생성하기 위해 사용할 수 있습니다.
+
+기본 프롬프트
+Create a detailed scientific infographic comparing dinosaur sizes in 9:6 ratio. Show accurate silhouette comparisons of various dinosaurs to scale on a horizontal timeline with measurement grid. Include: Tyrannosaurus rex (12-14m), Triceratops (9m), Velociraptor (2m), Brachiosaurus (25m), Diplodocus (27m), Stegosaurus (9m), Ankylosaurus (9m), Spinosaurus (18m), Parasaurolophus (10m), and Argentinosaurs (40m). Add a human silhouette (1.8m) for scale reference. Use color-coding: herbivores in green shades, carnivores in red shades, flying reptiles in purple, and marine reptiles in teal. Include height measurements with 5-meter interval grid lines. Title: "Dinosaur Size Comparison - Dinosaur World". Clean, educational style with scientific accuracy, suitable for elementary school children.
+확장 프롬프트 (더 많은 세부 사항)
+Create a professional educational infographic in 9:6 ratio titled "Dinosaur Size Comparison - Dinosaur World" with photorealistic dinosaur silhouettes accurately scaled against a measurement grid with 5-meter interval lines. Arrange dinosaurs horizontally from smallest to largest: 
+
+1. Human (1.8m, for scale)
+2. Compsognathus (1m, chicken-sized)
+3. Velociraptor (2m, with feathers)
+4. Dilophosaurus (7m)
+5. Parasaurolophus (10m, with distinctive head crest)
+6. Triceratops (9m, with three horns)
+7. Stegosaurus (9m, with back plates)
+8. Ankylosaurus (9m, with armor)
+9. Tyrannosaurus rex (12-14m, imposing posture)
+10. Spinosaurus (18m, with sail)
+11. Diplodocus (27m, extremely long neck and tail)
+12. Brachiosaurus (25m, with longer front legs)
+13. Argentinosaurs (40m, massive sauropod)
+
+Color-code by diet: herbivores in green shades, carnivores in red/orange shades. Include small information labels with length and weight for each dinosaur. Use clean, minimalist design with white background, scientific typography, and a subtle grid pattern. Include the "Dinosaur World" logo in the corner. Style should be scientifically accurate but visually appealing for elementary school education.
+스타일별 변형 프롬프트
+사실적 스타일
+Create a hyperrealistic dinosaur size comparison chart in 9:6 ratio using photorealistic dinosaur renderings instead of silhouettes. Show these dinosaurs in natural poses on a savanna-like environment with a subtle measurement grid: Human (1.8m), Velociraptor (2m), Triceratops (9m), Tyrannosaurus (14m), Stegosaurus (9m), Spinosaurus (18m), Brachiosaurus (25m), and Argentinosaurs (40m). Each dinosaur should be meticulously detailed with scientifically accurate skin textures, colors, and features based on latest paleontological research. Include height measurements and name labels. Title: "Dinosaur Size Comparison - Dinosaur World". Style: National Geographic-like scientific illustration with dramatic lighting.
+어린이 친화적 스타일
+Create a colorful, child-friendly dinosaur size comparison infographic in 9:6 ratio. Use cute but still anatomically correct dinosaur illustrations with bright colors and friendly expressions. Show these dinosaurs lined up from smallest to largest: Human child (1.2m), Compsognathus (1m), Velociraptor (2m), Parasaurolophus (10m), Triceratops (9m), Tyrannosaurus (14m), Brachiosaurus (25m). Include a rainbow-colored measurement scale with simple numbers showing meters. Add fun facts in small speech bubbles for each dinosaur (e.g., "T-rex had teeth as big as bananas!"). Background should be light blue with white clouds. Title: "How Big Were Dinosaurs?" in playful, bold typography. Perfect for elementary school classroom display.
+미니멀리스트 스타일
+Create a minimalist dinosaur size comparison infographic in 9:6 ratio using only clean, monochrome silhouettes with high contrast. Arrange on a pure white background with thin gray measurement grid lines at 5-meter intervals. Include: Human (1.8m), Velociraptor (2m), Triceratops (9m), Tyrannosaurus (14m), Stegosaurus (9m), Spinosaurus (18m), Brachiosaurus (25m), and Argentinosaurs (40m). Use simple sans-serif typography for labels showing name and length only. No additional decorative elements. Color scheme: black silhouettes on white background with subtle gray grid. Title in small, elegant typography: "Dinosaur Proportions - Dinosaur World". Style resembling modern museum exhibit design.
+특수 포맷 프롬프트
+인터랙티브 디자인용 프롬프트
+Design a mockup for an interactive dinosaur size comparison tool in 9:6 ratio. Show the main interface with a horizontal scrollable timeline displaying dinosaurs in accurate size comparison: Human, Velociraptor, Triceratops, Tyrannosaurus, Spinosaurus, Brachiosaurus, and Argentinosaurs. Include UI elements like zoom controls, information buttons next to each dinosaur, and a dropdown menu for selecting different dinosaurs. Show one dinosaur (T-rex) with its information panel expanded, displaying details about length, height, weight, diet, and era. Use a clean, educational app design with blue and white color scheme and child-friendly typography. Title: "Explore Dinosaur Sizes - Dinosaur World Interactive Guide".
+이러한 프롬프트를 사용하여 원하는 스타일과 복잡성의 공룡 크기 비교 인포그래픽을 생성할 수 있습니다. 결과가 만족스럽지 않으면 특정 요소를 조정하여 프롬프트를 수정해 보세요.
+
+복사
+아니면 html 문서 안에 넣을 수 있도록 코드를 작성해 줘. 
+생각 과정
+HTML, CSS, JavaScript로 구현한 공룡 크기 비교 인포그래픽
+아래 코드를 HTML 파일에 복사하여 사용하면 웹 브라우저에서 직접 볼 수 있는 공룡 크기 비교 인포그래픽이 만들어집니다. SVG를 활용하여 공룡 실루엣을 표현하고, 반응형 디자인으로 구현했습니다.
+
+Copy<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공룡월드: 공룡 크기 비교</title>
+    <style>
+        :root {
+            --herbivore-color: #4CAF50;
+            --carnivore-color: #F44336;
+            --flying-color: #9C27B0;
+            --marine-color: #00BCD4;
+            --grid-color: #E0E0E0;
+            --label-bg: rgba(255, 255, 255, 0.9);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans KR', 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background-color: #2E7D32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .infographic {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            overflow-x: auto;
+            margin-top: 20px;
+            background-color: #FAFAFA;
+        }
+        
+        .scale-container {
+            position: relative;
+            width: 4000px; /* 넓은 컨테이너로 모든 공룡을 담음 */
+            height: 500px;
+            padding: 20px 0;
+        }
+        
+        .measurement-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .grid-line {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: var(--grid-color);
+        }
+        
+        .grid-line-vertical {
+            position: absolute;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background-color: var(--grid-color);
+        }
+        
+        .grid-label {
+            position: absolute;
+            left: 5px;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .dinosaur {
+            position: absolute;
+            bottom: 70px; /* 바닥선 위에 위치 */
+            transform-origin: bottom left;
+        }
+        
+        .dino-silhouette {
+            height: 100%;
+            display: block;
+        }
+        
+        .carnivore .dino-silhouette {
+            fill: var(--carnivore-color);
+        }
+        
+        .herbivore .dino-silhouette {
+            fill: var(--herbivore-color);
+        }
+        
+        .flying .dino-silhouette {
+            fill: var(--flying-color);
+        }
+        
+        .marine .dino-silhouette {
+            fill: var(--marine-color);
+        }
+        
+        .dino-label {
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--label-bg);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            text-align: center;
+            white-space: nowrap;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .dino-name {
+            font-weight: bold;
+            display: block;
+        }
+        
+        .dino-info {
+            font-size: 11px;
+            color: #666;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 4px;
+        }
+        
+        .footer {
+            padding: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+        
+        /* 참고용 가로 스케일 */
+        .scale-bar {
+            position: absolute;
+            bottom: 20px;
+            left: 50px;
+            height: 5px;
+            width: 100px;
+            background-color: #333;
+        }
+        
+        .scale-bar::before, .scale-bar::after {
+            content: '';
+            position: absolute;
+            height: 10px;
+            width: 1px;
+            background-color: #333;
+            bottom: 0;
+        }
+        
+        .scale-bar::before {
+            left: 0;
+        }
+        
+        .scale-bar::after {
+            right: 0;
+        }
+        
+        .scale-label {
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 11px;
+            white-space: nowrap;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+            .description {
+                font-size: 14px;
+            }
+            .infographic {
+                height: 450px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>공룡월드: 공룡 크기 비교</h1>
+            <p class="description">중생대 시대에 살았던 다양한 공룡들의 실제 크기를 비교해보세요. 가장 작은 공룡부터 가장 거대한 공룡까지, 정확한 비율로 표현되었습니다.</p>
+        </header>
+        
+        <div class="infographic">
+            <div class="scale-container" id="scale-container">
+                <!-- 측정 그리드는 JavaScript로 생성됩니다 -->
+                <div class="measurement-grid" id="measurement-grid"></div>
+                
+                <!-- 공룡들은 JavaScript로 추가됩니다 -->
+                
+                <!-- 스케일 바 -->
+                <div class="scale-bar">
+                    <span class="scale-label">10m</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--herbivore-color);"></div>
+                <span>초식 공룡</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--carnivore-color);"></div>
+                <span>육식 공룡</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--flying-color);"></div>
+                <span>비행 파충류</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--marine-color);"></div>
+                <span>해양 파충류</span>
+            </div>
+        </div>
+        
+        <div class="footer">
+            © 2025 공룡월드 - 초등학생을 위한 공룡 백과사전
+        </div>
+    </div>
+
+    <script>
+        // 공룡 데이터
+        const dinosaurData = [
+            {
+                name: '인간',
+                height: 1.8,
+                length: 1.8,
+                weight: 0.07,
+                type: 'reference',
+                position: 50, // 왼쪽에서의 위치(px)
+                silhouette: `<svg viewBox="0 0 24 100" height="100%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M12,5 C14,5 16,7 16,10 C16,13 14,15 12,16 C10,15 8,13 8,10 C8,7 10,5 12,5 Z M16,17 C16,17 20,20 20,24 C20,24 17,25 16,28 L16,45 C16,45 18,50 18,55 L18,80 C18,80 15,85 12,85 C9,85 6,80 6,80 L6,55 C6,50 8,45 8,45 L8,28 C7,25 4,24 4,24 C4,20 8,17 8,17 C8,17 10,18 12,18 C14,18 16,17 16,17 Z" fill="#555555" />
+                </svg>`
+            },
+            {
+                name: '컴프소그나투스',
+                height: 0.4,
+                length: 1,
+                weight: 0.003,
+                type: 'carnivore',
+                position: 150,
+                silhouette: `<svg viewBox="0 0 100 30" height="25%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M5,25 C5,25 10,20 15,18 C20,16 25,15 30,15 C35,15 40,18 45,18 C50,18 55,15 60,15 C65,15 70,18 75,19 C80,20 85,20 88,18 C91,16 92,15 93,14 C94,13 95,10 95,10 C95,10 94,12 93,13 C92,14 90,15 88,16 C86,17 84,15 83,14 C82,13 80,10 80,10 L85,5 L82,7 L80,8 L78,7 L80,5 L77,7 L75,5 L73,7 L70,5 L73,8 C73,8 70,10 68,10 C66,10 65,8 65,8 C65,8 67,12 66,14 C65,16 63,17 60,18 C57,19 55,15 55,15 L53,20 L50,25 L45,20 C45,20 40,22 37,22 C34,22 30,20 25,20 C20,20 15,22 10,24 C5,26 5,25 5,25 Z" />
+                </svg>`
+            },
+            {
+                name: '벨로시랍토르',
+                height: 0.5,
+                length: 2,
+                weight: 0.015,
+                type: 'carnivore',
+                position: 300,
+                silhouette: `<svg viewBox="0 0 200 40" height="30%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M10,30 C10,30 20,25 30,23 C40,21 50,20 60,20 C70,20 80,25 90,25 C100,25 110,20 120,20 C130,20 140,25 150,27 C160,29 170,30 180,25 C190,20 195,15 195,15 L190,10 L185,15 L180,12 L175,10 L170,15 L165,10 L160,15 L155,10 L160,15 C160,15 155,20 150,21 C145,22 140,20 140,20 C140,20 145,25 140,27 C135,29 130,27 125,27 C120,27 115,25 115,25 L110,30 L100,35 L90,25 C90,25 80,30 70,30 C60,30 50,25 40,25 C30,25 20,30 10,35 C0,40 10,30 10,30 Z" />
+                </svg>`
+            },
+            {
+                name: '트로오돈',
+                height: 1,
+                length: 3,
+                weight: 0.05,
+                type: 'carnivore',
+                position: 450,
+                silhouette: `<svg viewBox="0 0 300 60" height="40%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M10,45 C10,45 30,40 50,38 C70,36 90,35 110,35 C130,35 150,40 170,40 C190,40 210,35 230,35 C250,35 270,40 290,30 C290,30 285,25 280,23 C275,21 270,20 270,20 L265,15 L260,20 L255,15 L250,20 L245,15 L240,20 L235,15 L240,20 C240,20 230,27 220,28 C210,29 200,25 200,25 C200,25 210,30 205,35 C200,40 190,40 180,40 C170,40 160,35 160,35 L150,45 L140,50 L130,40 C130,40 120,45 110,45 C100,45 80,40 70,40 C60,40 40,45 30,50 C20,55 10,45 10,45 Z" />
+                </svg>`
+            },
+            {
+                name: '파라사우롤로푸스',
+                height: 3.5,
+                length: 10,
+                weight: 2.5,
+                type: 'herbivore',
+                position: 800,
+                silhouette: `<svg viewBox="0 0 1000 200" height="140%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M50,150 C50,150 150,140 250,135 C350,130 400,130 500,130 C600,130 650,135 750,135 C850,135 900,130 950,125 C950,125 920,120 900,100 C880,80 870,60 860,40 C850,20 840,10 820,10 C800,10 770,20 760,30 C750,40 740,60 730,70 C720,80 710,90 700,90 C690,90 680,80 680,80 C680,80 700,100 680,110 C660,120 640,120 620,120 C600,120 580,110 580,110 L560,140 L540,150 L520,120 C520,120 480,130 440,130 C400,130 350,110 300,110 C250,110 200,130 150,150 C100,170 50,150 50,150 Z" />
+                </svg>`
+            },
+            {
+                name: '트리케라톱스',
+                height: 3,
+                length: 9,
+                weight: 12,
+                type: 'herbivore',
+                position: 1200,
+                silhouette: `<svg viewBox="0 0 900 150" height="120%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M50,120 C50,120 150,110 250,108 C350,106 450,105 550,105 C650,105 750,108 850,95 C850,95 830,80 800,60 C770,40 750,30 730,30 C710,30 690,40 690,40 L670,20 L650,40 L630,20 L620,40 L600,20 L620,40 C620,40 590,50 560,52 C530,54 510,45 510,45 C510,45 540,60 520,70 C500,80 480,75 460,75 C440,75 420,65 420,65 L400,100 L380,110 L360,70 C360,70 330,80 300,80 C270,80 230,70 190,70 C150,70 110,80 70,90 C30,100 50,120 50,120 Z" />
+                </svg>`
+            },
+            {
+                name: '티라노사우루스',
+                height: 5,
+                length: 14,
+                weight: 14,
+                type: 'carnivore',
+                position: 1600,
+                silhouette: `<svg viewBox="0 0 1400 250" height="200%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M100,200 C100,200 300,190 500,185 C700,180 900,180 1100,170 C1100,170 1050,150 1020,110 C990,70 970,50 950,40 C930,30 910,20 890,20 C870,20 850,30 850,30 L830,10 L810,30 L790,10 L780,30 L760,10 L780,30 C780,30 730,50 680,55 C630,60 600,45 600,45 C600,45 650,70 620,90 C590,110 560,105 530,105 C500,105 470,90 470,90 L450,140 L430,160 L410,100 C410,100 360,120 310,120 C260,120 200,100 150,100 C100,100 50,120 30,140 C10,160 100,200 100,200 Z" />
+                </svg>`
+            },
+            {
+                name: '스피노사우루스',
+                height: 6,
+                length: 18,
+                weight: 20,
+                type: 'carnivore',
+                position: 2000,
+                silhouette: `<svg viewBox="0 0 1800 300" height="240%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M100,240 C100,240 350,230 600,225 C850,220 1100,220 1350,210 C1350,210 1300,190 1250,150 C1200,110 1150,70 1100,50 C1050,30 1000,10 950,10 C950,10 970,30 980,50 C990,70 995,90 1000,110 C1005,130 1010,150 1005,170 C1000,190 990,210 980,210 C980,210 970,180 960,150 C950,120 940,90 920,70 C900,50 880,40 860,40 C840,40 820,50 820,50 L800,30 L780,50 L760,30 L750,50 L730,30 L750,50 C750,50 700,70 650,75 C600,80 550,65 550,65 C550,65 600,90 570,110 C540,130 510,125 480,125 C450,125 420,110 420,110 L400,160 L380,180 L360,120 C360,120 310,140 260,140 C210,140 150,120 100,120 C50,120 0,140 0,170 C0,200 100,240 100,240 Z" />
+                </svg>`
+            },
+            {
+                name: '브라키오사우루스',
+                height: 13,
+                length: 25,
+                weight: 58,
+                type: 'herbivore',
+                position: 2500,
+                silhouette: `<svg viewBox="0 0 2500 650" height="520%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M200,500 C200,500 500,490 800,485 C1100,480 1400,480 1700,470 C1700,470 1650,450 1600,410 C1550,370 1500,330 1480,300 C1460,270 1430,240 1400,220 C1370,200 1340,180 1300,90 C1260,0 1240,30 1220,50 C1200,70 1180,90 1160,140 C1140,190 1120,240 1100,290 C1080,340 1060,390 1040,440 C1020,490 1000,520 980,520 C980,520 950,440 930,410 C910,380 890,350 870,350 C850,350 830,360 830,360 L810,340 L790,360 L770,340 L760,360 L740,340 L760,360 C760,360 710,380 660,385 C610,390 560,375 560,375 C560,375 610,400 580,420 C550,440 520,435 490,435 C460,435 430,420 430,420 L410,460 L390,480 L370,440 C370,440 320,460 270,460 C220,460 160,440 110,440 C60,440 10,460 10,490 C10,520 200,500 200,500 Z" />
+                </svg>`
+            },
+            {
+                name: '아르겐티노사우루스',
+                height: 18,
+                length: 40,
+                weight: 100,
+                type: 'herbivore',
+                position: 3200,
+                silhouette: `<svg viewBox="0 0 4000 900" height="720%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M200,720 C200,720 700,710 1200,705 C1700,700 2200,700 2700,690 C2700,690 2600,670 2500,630 C2400,590 2350,550 2300,500 C2250,450 2200,400 2150,350 C2100,300 2050,250 2000,150 C1950,50 1920,100 1900,150 C1880,200 1860,250 1840,350 C1820,450 1800,550 1780,650 C1760,750 1740,780 1720,780 C1720,780 1660,650 1620,600 C1580,550 1540,510 1500,510 C1460,510 1420,520 1420,520 L1400,500 L1380,520 L1360,500 L1350,520 L1330,500 L1350,520 C1350,520 1260,540 1180,545 C1100,550 1020,535 1020,535 C1020,535 1100,560 1050,580 C1000,600 950,595 900,595 C850,595 800,580 800,580 L770,620 L740,640 L710,600 C710,600 620,620 530,620 C440,620 350,600 260,600 C170,600 80,620 80,650 C80,680 200,720 200,720 Z" />
+                </svg>`
+            },
+            {
+                name: '케찰코아틀루스',
+                height: 6,
+                length: 11,
+                weight: 0.25,
+                type: 'flying',
+                position: 3800,
+                silhouette: `<svg viewBox="0 0 1100 300" height="240%" preserveAspectRatio="xMinYMin meet">
+                    <path d="M100,240 C100,240 200,230 300,225 C400,220 500,220 600,215 C600,215 550,170 500,150 C450,130 400,120 350,110 C300,100 250,90 200,60 C150,30 130,50 120,80 C110,110 100,140 100,240 Z M350,110 C350,110 400,70 450,50 C500,30 550,20 600,40 C650,60 700,80 750,100 C800,120 850,140 900,80 C950,20 980,50 1000,100 C1020,150 1030,200 1040,220 C1050,240 1060,260 1070,280 C1070,280 1000,220 950,210 C900,200 850,190 800,190 C750,190 700,210 650,215 C600,220 550,225 500,230 C450,235 400,240 350,240 C300,240 250,230 200,225 C150,220 100,240 100,240" />
+                </svg>`
+            }
+        ];
+        
+        // 측정 그리드 생성
+        function createMeasurementGrid() {
+            const gridContainer = document.getElementById('measurement-grid');
+            const maxHeight = 20; // 최대 높이(m)
+            
+            // 수평선
+            for (let i = 0; i <= maxHeight; i += 5) {
+                const gridLine = document.createElement('div');
+                gridLine.className = 'grid-line';
+                gridLine.style.bottom = `${(i / maxHeight) * 100}%`;
+                
+                const gridLabel = document.createElement('div');
+                gridLabel.className = 'grid-label';
+                gridLabel.style.bottom = `${(i / maxHeight) * 100}%`;
+                gridLabel.textContent = `${i}m`;
+                
+                gridContainer.appendChild(gridLine);
+                gridContainer.appendChild(gridLabel);
+            }
+            
+            // 수직선
+            for (let i = 0; i <= 4000; i += 200) {
+                const gridLine = document.createElement('div');
+                gridLine.className = 'grid-line-vertical';
+                gridLine.style.left = `${i}px`;
+                gridContainer.appendChild(gridLine);
+            }
+        }
+        
+        // 공룡 추가
+        function addDinosaurs() {
+            const container = document.getElementById('scale-container');
+            
+            dinosaurData.forEach(dino => {
+                const dinosaurElement = document.createElement('div');
+                dinosaurElement.className = `dinosaur ${dino.type}`;
+                dinosaurElement.style.left = `${dino.position}px`;
+                dinosaurElement.style.height = `${dino.height * 20}px`; // 20px = 1m
+                
+                // 실루엣 추가
+                dinosaurElement.innerHTML = dino.silhouette;
+                
+                // 라벨 추가
+                const labelElement = document.createElement('div');
+                labelElement.className = 'dino-label';
+                labelElement.innerHTML = `
+                    <span class="dino-name">${dino.name}</span>
+                    <span class="dino-info">길이: ${dino.length}m, 무게: ${dino.weight}톤</span>
+                `;
+                
+                dinosaurElement.appendChild(labelElement);
+                container.appendChild(dinosaurElement);
+            });
+        }
+        
+        // 페이지 로드 시 실행
+        window.addEventListener('DOMContentLoaded', () => {
+            createMeasurementGrid();
+            addDinosaurs();
+        });
+    </script>
+</body>
+</html>
+코드 사용 설명
+파일 저장: 이 코드를 dinosaur-comparison.html와 같은 이름으로 저장합니다.
+
+브라우저에서 열기: 저장한 HTML 파일을 웹 브라우저에서 직접 열면 인포그래픽을 볼 수 있습니다.
+
+특징:
+
+SVG 실루엣을 사용하여 공룡 형태를 표현
+색상으로 구분된 공룡 분류(초식/육식/비행/해양)
+5m 간격의 측정 그리드
+각 공룡의 이름, 길이, 무게 정보 표시
+가로 스크롤로 모든 공룡 탐색 가능
+반응형 디자인으로 다양한 화면 크기 지원
+사용자 정의:
+
+dinosaurData 배열에 공룡을 추가하거나 수정할 수 있습니다
+SVG 실루엣을 더 정확한 이미지로 대체할 수 있습니다
+색상, 크기, 위치 등을 CSS에서 조정할 수 있습니다
+주의 사항:
+
+SVG 실루엣은 단순화되어 있으므로 필요에 따라 더 정교한 SVG로 대체하는 것이 좋습니다
+많은 수의 공룡을 추가할 경우 성능에 영향을 줄 수 있습니다
+이 코드는 기본적인 HTML, CSS, JavaScript만을 사용하여 브라우저에서 바로 작동하는 인포그래픽을 제공합니다. 웹사이트에 통합하거나 더 많은 기능을 추가하여 확장할 수 있습니다.
+
+복사
+This answer isn't good enough?
+Try Mixture-of-Agents
+Message

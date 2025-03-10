@@ -1,0 +1,843 @@
+/* 기본 스타일 및 리셋 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 버튼 스타일 */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #4a9e5a;
+    color: white;
+    box-shadow: 0 4px 8px rgba(74, 158, 90, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #3d8a4a;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #f5f7fa;
+    color: #4a9e5a;
+    border: 2px solid #4a9e5a;
+}
+
+.btn-secondary:hover {
+    background-color: #e6e9ed;
+    transform: translateY(-2px);
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    color: #4a9e5a;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.main-menu li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.main-menu li a {
+    font-weight: 500;
+    padding: 8px 0;
+    display: block;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.main-menu li a:hover {
+    color: #4a9e5a;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    padding: 12px 20px;
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.dropdown-menu li:last-child a {
+    border-bottom: none;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #4a9e5a;
+}
+
+/* 히어로 섹션 스타일 */
+#hero {
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin-left: 10%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* 섹션 타이틀 */
+.section-title {
+    text-align: center;
+    margin: 60px 0 40px;
+    font-size: 2.2rem;
+    color: #333;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #4a9e5a;
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+/* 카테고리 섹션 */
+#categories {
+    padding: 60px 0;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.category-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 25px;
+    text-align: center;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.category-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-icon i {
+    font-size: 40px;
+    color: white;
+}
+
+.category-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.category-card p {
+    color: #666;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.btn-explore {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #4a9e5a;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.btn-explore i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.btn-explore:hover i {
+    transform: translateX(5px);
+}
+
+/* 오늘의 공룡 */
+#dino-of-day {
+    padding: 60px 0;
+    background-color: #f5f7fa;
+}
+
+.dino-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dino-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.dino-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.dino-info {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+}
+
+.dino-info h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dino-facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.fact {
+    display: flex;
+    align-items: center;
+}
+
+.fact i {
+    color: #4a9e5a;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.dino-description {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.fun-fact {
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.fun-fact h4 {
+    color: #4a9e5a;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.fun-fact h4 i {
+    margin-right: 10px;
+}
+
+/* 공룡 시대 여행 */
+#timeline {
+    padding: 60px 0;
+}
+
+.timeline-container {
+    margin-top: 40px;
+}
+
+.timeline-slider {
+    position: relative;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.timeline-track {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #a0d468, #4a89dc, #967adc);
+    border-radius: 3px;
+}
+
+.timeline-handle {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: 5px solid #4a9e5a;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 5;
+    transition: transform 0.2s ease;
+}
+
+.timeline-handle:hover {
+    transform: scale(1.2);
+}
+
+.era-markers {
+    position: relative;
+    height: 60px;
+}
+
+.era-mark {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.era-mark span {
+    font-size: 0.8rem;
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mark-point {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 2px solid #4a9e5a;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.era-info {
+    position: relative;
+}
+
+.era-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: none;
+}
+
+.era-card.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.era-card h3 {
+    padding: 20px;
+    background-color: #4a9e5a;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.era-card p {
+    padding: 0 20px 20px;
+    color: white;
+    background-color: #4a9e5a;
+}
+
+.era-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.era-content img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.era-description {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+}
+
+.era-description p {
+    background-color: transparent;
+    color: #555;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.era-description h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.era-description ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.era-description ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* 활동 섹션 */
+#activities {
+    padding: 60px 0;
+    background-color: #f5f7fa;
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.activity-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: translateY(-10px);
+}
+
+.activity-icon {
+    font-size: 2.5rem;
+    color: #4a9e5a;
+    margin-bottom: 20px;
+}
+
+.activity-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.activity-card p {
+    color: #666;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.btn-activity {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #f5f7fa;
+    color: #4a9e5a;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-activity:hover {
+    background-color: #4a9e5a;
+    color: white;
+}
+
+/* 뉴스레터 섹션 */
+#newsletter {
+    background-color: #4a9e5a;
+    color: white;
+    padding: 60px 0;
+}
+
+.newsletter-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.newsletter-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.newsletter-content p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.newsletter-form .btn-primary {
+    background-color: white;
+    color: #4a9e5a;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+.newsletter-form .btn-primary:hover {
+    background-color: #f5f5f5;
+}
+
+/* 푸터 */
+footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-logo h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px 0 5px;
+}
+
+.footer-links {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.link-column {
+    min-width: 150px;
+    margin-bottom: 30px;
+}
+
+.link-column h4 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.link-column ul li {
+    margin-bottom: 10px;
+}
+
+.link-column ul li a {
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.link-column ul li a:hover {
+    color: #4a9e5a;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #4a9e5a;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* 반응형 디자인 */
+@media screen and (max-width: 991px) {
+    .hero-content {
+        margin-left: 5%;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .dino-highlight {
+        flex-direction: column;
+    }
+    
+    .dino-image, .dino-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    .main-menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+        padding: 20px 0;
+    }
+    
+    .main-menu.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+    
+    .main-menu li {
+        margin: 0;
+    }
+    
+    .main-menu li a {
+        padding: 15px 30px;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        display: none;
+    }
+    
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu li a {
+        padding-left: 50px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .era-content {
+        flex-direction: column;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-links {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .category-grid, .activities-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dino-facts {
+        grid-template-columns: 1fr;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .newsletter-form input, .newsletter-form button {
+        width: 100%;
+    }
+}

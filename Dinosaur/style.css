@@ -1,0 +1,664 @@
+/* 기본 리셋 및 공통 스타일 */
+:root {
+    --primary-color: #2C3E50;
+    --herbivore-color: #27AE60;
+    --carnivore-color: #E74C3C;
+    --flying-color: #9B59B6;
+    --marine-color: #3498DB;
+    --text-color: #333;
+    --light-gray: #f5f6fa;
+    --shadow: 0 2px 15px rgba(0,0,0,0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+/* 컨테이너 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 헤더 스타일 */
+header {
+    background: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: var(--transition);
+}
+
+header.scrolled {
+    background: rgba(44, 62, 80, 0.95);
+    box-shadow: var(--shadow);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    background-image: url('images/dino-logo-primary.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: transparent;
+}
+
+/* 푸터 로고 스타일 */
+.footer-logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer-logo .logo-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    background-color: transparent;
+}
+
+.footer-logo h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* 네비게이션 */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.main-menu a:hover {
+    color: #ecf0f1;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 200px;
+    box-shadow: var(--shadow);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background: var(--light-gray);
+}
+
+.main-menu .dropdown .fa-caret-down {
+    display: none;
+}
+
+/* 히어로 섹션 */
+.hero-sub {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-sub::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero-sub .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-sub h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* 공룡 카드 스타일 */
+.dino-content {
+    padding: 4rem 0;
+}
+
+.dino-group {
+    margin-bottom: 4rem;
+}
+
+.dino-group h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.dino-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.dino-detail-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.dino-detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.dino-detail-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.dino-detail-card:hover img {
+    transform: scale(1.05);
+}
+
+.dino-detail-card h3 {
+    padding: 1.5rem 1.5rem 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.dino-stats {
+    list-style: none;
+    padding: 0 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.dino-stats li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dino-description {
+    padding: 0 1.5rem 1.5rem;
+}
+
+.dino-description h4 {
+    margin: 1rem 0 0.5rem;
+    color: var(--primary-color);
+}
+
+.dino-description ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.dino-description ul li::before {
+    content: '•';
+    color: var(--primary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* 푸터 스타일 */
+footer {
+    background: var(--primary-color);
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.link-column h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.link-column ul {
+    list-style: none;
+}
+
+.link-column a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: var(--transition);
+    display: block;
+    padding: 0.3rem 0;
+}
+
+.link-column a:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* 스크롤 버튼 */
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+#scroll-to-top:hover {
+    background: #34495e;
+    transform: translateY(-3px);
+}
+
+#scroll-to-top.visible {
+    display: flex;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .hero-sub {
+        height: 300px;
+    }
+
+    .hero-sub h1 {
+        font-size: 2rem;
+    }
+
+    .dino-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+    }
+}
+
+/* 이미지 플레이스홀더 스타일 */
+.image-placeholder {
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* 모바일 메뉴 토글 버튼 */
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* 영웅 배너 */
+#hero {
+    background-color: #e9ecef;
+    padding: 4rem 0;
+    text-align: center;
+    background-image: url('images/banner-desktop.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 카테고리 섹션 */
+#categories {
+    padding: 4rem 0;
+    background-image: url('images/pattern-fossil-tile.png');
+    background-repeat: repeat;
+    position: relative;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.category-card {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+/* 공룡 시대 여행 */
+#timeline {
+    padding: 4rem 0;
+    background-image: url('images/timeline-bg-desktop.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.timeline-period {
+    border: 1px solid #ddd;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* 공룡 도감 */
+#dictionary {
+    padding: 4rem 0;
+}
+
+.dinosaur-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.dinosaur-card {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: white;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.dinosaur-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-image: url('images/card/cfimages.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+}
+
+/* 오늘의 공룡 */
+#dino-of-day {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.dino-highlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* 유틸리티 클래스 */
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+}
+
+/* 이미지 */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 링크 */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 리스트 */
+ul {
+    list-style-position: inside;
+}
+
+/* 아이콘 */
+.category-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* 기본 여백 */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    #scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+/* 태그 필터 스타일 */
+.dino-filters {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.filter-group {
+    margin-bottom: 1rem;
+}
+
+.filter-group h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.tag-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tag-btn:hover {
+    background: #e9ecef;
+}
+
+.tag-btn.active {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+/* 공룡 카드 태그 스타일 */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.tag {
+    padding: 0.25rem 0.75rem;
+    background: #e9ecef;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+/* 공룡 카드 그리드 스타일 */
+.dinosaur-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.dino-image {
+    width: 100%;
+    padding-bottom: 100%; /* 1:1 비율을 위한 패딩 */
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.dino-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 이미지 비율 유지하면서 컨테이너 채우기 */
+    transition: transform 0.3s ease;
+}
+
+.dino-image img:hover {
+    transform: scale(1.05);
+} 

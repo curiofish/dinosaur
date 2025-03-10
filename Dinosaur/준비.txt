@@ -1,0 +1,389 @@
+초등학생을 위한 공룡대백과 만들려고 하는데 공룡이 살던 시대를 배경으로 극사실주의로 살아있는 듯 생생한 공룡을 생성하려고 해. 소개하는 공룡 하나를 메인으로 하여 돋보이게 만들어줘. 떼를 지어 다닌 공룡이라면 그 중 하나는 크게 그리고 나머지는 작게 그려줘. 
+
+Adjust the angle of the dinosaur in the image to show it from a diagonal perspective, as if it is looking at the camera from a side angle. The dinosaur should be prominently featured in vivid, historically accurate detail based on scientific references, in its natural habitat resembling a dense forest during the Mesozoic era. Capture the dynamic posture and textures of its skin, maintaining the serene, naturally lit atmosphere that highlights the richness of its prehistoric environment.
+
+Create a hyper-realistic image of a [특정 공룡 종류, 예: Triceratops] as the main subject, positioned diagonally and making subtle eye contact with the viewer. The main dinosaur should be prominently featured in the foreground with extraordinary detail - showing its textured skin, muscle definition, and scientifically accurate features based on latest paleontological findings.
+
+If creating a herd dinosaur like [예: Parasaurolophus], show the main subject large and in focus while 3-4 smaller members of the same species appear in the background, creating depth and context. 
+
+Set the scene in a scientifically accurate [특정 시대, 예: Late Cretaceous period] landscape with appropriate vegetation (ferns, cycads, ginkgoes) and geological features. Include subtle environmental elements like distant volcanoes or specific weather conditions common to that period.
+
+The lighting should create a natural, almost documentary-like atmosphere with soft shadows that highlight the dinosaur's physical features while maintaining the rich colors of the prehistoric environment. Ensure the overall composition feels like a moment captured in time, as if photographed by a time traveler with advanced technology.
+
+Include enough space in the composition that would allow for educational text to be added later without obscuring the main subject.
+
+# **확장된 초등학생용 공룡 리스트**
+
+네, 말씀하신 대로 제가 제안한 공룡 수는 다소 적을 수 있습니다. 일반적인 어린이용 공룡 백과사전은 보통 30-50종 정도의 공룡을 다루는 경우가 많습니다. 공룡에 흥미를 느끼는 초등학생들은 더 다양한 종류의 공룡에 대해 알고 싶어하는 경향이 있기 때문입니다.
+
+## **확장된 공룡 리스트의 적정 범위**
+
+초등학생을 위한 포괄적인 공룡백과라면 약 35-40종이 적절하다고 판단됩니다. 이정도 수량이면:
+
+1. 공룡의 다양성을 충분히 보여줄 수 있습니다
+2. 각 대륙별로 발견된 중요한 공룡들을 포함할 수 있습니다
+3. 다양한 크기와 특징을 가진 공룡들을 소개할 수 있습니다
+4. 공룡학의 최신 발견도 일부 포함할 수 있습니다
+
+## **시대별 확장 공룡 리스트**
+
+**트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)**
+1. 코엘로피시스 (Coelophysis) - 초기 작은 육식 공룡
+2. 프라테오사우루스 (Plateosaurus) - 초기 대형 초식 공룡
+3. 에오랍토르 (Eoraptor) - 가장 초기 공룡 중 하나
+4. 헤레라사우루스 (Herrerasaurus) - 초기 육식 공룡
+5. 일렉스 (Eoraptor) - 초기 소형 육식 공룡
+6. 리오자우루스 (Riojasaurus) - 대형 초식 공룡
+7. 싸우로포데이키쿠스 (Sauropodomorph) - 초기 목 긴 초식 공룡
+
+**쥐라기 (2억 100만 년 전 - 1억 4500만 년 전)**
+1. 디플로도쿠스 (Diplodocus) - 대표적인 목 긴 초식 공룡
+2. 브라키오사우루스 (Brachiosaurus) - 앞다리가 뒷다리보다 긴 거대 초식 공룡
+3. 스테고사우루스 (Stegosaurus) - 등에 판이 있는 특징적인 초식 공룡
+4. 알로사우루스 (Allosaurus) - 쥐라기 후기 최상위 포식자
+5. 아르케옵테릭스 (Archaeopteryx) - 새와 공룡의 중간 형태
+6. 컴프소그나투스 (Compsognathus) - 닭 크기의 소형 육식 공룡
+7. 켄트로사우루스 (Kentrosaurus) - 아프리카에서 발견된 가시 많은 공룡
+8. 케라토사우루스 (Ceratosaurus) - 코에 뿔이 있는 육식 공룡
+9. 아파토사우루스 (Apatosaurus) - 예전에 브론토사우루스로 알려진 대형 초식 공룡
+10. 디모르포돈 (Dimorphodon) - 초기 익룡(비행 파충류)
+11. 메갈로사우루스 (Megalosaurus) - 최초로 과학적으로 명명된 공룡
+12. 휘이에라사우루스 (Huayangosaurus) - 초기 판갑 공룡
+
+**백악기 (1억 4500만 년 전 - 6600만 년 전)**
+1. 티라노사우루스 렉스 (Tyrannosaurus rex) - 가장 유명한 육식 공룡
+2. 트리케라톱스 (Triceratops) - 세 개의 뿔을 가진 초식 공룡
+3. 벨로시랍토르 (Velociraptor) - 영화로 유명해진 소형 육식 공룡
+4. 파라사우롤로푸스 (Parasaurolophus) - 머리에 관이 있는 오리주둥이 공룡
+5. 안킬로사우루스 (Ankylosaurus) - 등에 갑옷 같은 보호막을 가진 공룡
+6. 스피노사우루스 (Spinosaurus) - 등에 돛 모양의 가시가 있는 대형 육식 공룡
+7. 파키케팔로사우루스 (Pachycephalosaurus) - 두꺼운 돔 모양 두개골을 가진 공룡
+8. 마이아사우라 (Maiasaura) - 새끼를 돌보는 습성으로 알려진 '좋은 어미 도마뱀'
+9. 테리지노사우루스 (Therizinosaurus) - 긴 발톱을 가진 특이한 형태의 초식 공룡
+10. 카르노타우루스 (Carnotaurus) - 작은 뿔이 있는 남미 육식 공룡
+11. 카스모사우루스 (Chasmosaurus) - 큰 프릴을 가진 각질 공룡
+12. 코리토사우루스 (Corythosaurus) - 머리에 특이한 벼슬을 가진 오리주둥이 공룡
+13. 데이노니쿠스 (Deinonychus) - 발톱이 큰 날렵한 육식 공룡
+14. 이구아노돈 (Iguanodon) - 엄지에 가시가 있는 초기 오리주둥이 공룡
+15. 람베오사우루스 (Lambeosaurus) - 복잡한 머리 장식이 있는 오리주둥이 공룡
+16. 미크로랍토르 (Microraptor) - 네 개의 날개를 가진 작은 깃털 공룡
+17. 오비랍토르 (Oviraptor) - '알 도둑'이라는 오명을 가진 깃털 공룡
+18. 프로토케라톱스 (Protoceratops) - 트리케라톱스의 작은 친척
+19. 시노사우롭테릭스 (Sinosauropteryx) - 깃털 흔적이 발견된 최초의 공룡 중 하나
+20. 유티라누스 (Yutyrannus) - 깃털을 가진 티라노사우루스의 친척
+
+이 확장된 리스트는 다양한 공룡의 특징과 진화를 더 폭넓게 보여주면서도, 초등학생들에게 지나치게 부담스럽지 않은 수준입니다. 각 공룡에 대한 간결하면서도 흥미로운 설명과 시각적 자료를 함께 제공한다면, 어린이들의 호기심과 학습 의욕을 충분히 자극할 수 있을 것입니다.
+
+# **초등학생을 위한 공룡대백과**
+
+## **중생대 시대 개요**
+
+**중생대(약 2억 5100만 년 전 - 6600만 년 전)**는 공룡이 지구를 지배했던 시대로, 세 개의 주요 시기로 나뉩니다:
+
+### **트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)**
+
+트라이아스기는 '판게아'라는 하나의 거대한 초대륙이 존재하던 시기입니다. 이 시기에 최초의 공룡들이 등장했으며, 기후는 대체로 덥고 건조했습니다. 식물로는 고사리류, 소철류, 은행나무 조상들이 번성했습니다. 바다에서는 어룡과 같은 해양 파충류가 지배했습니다.
+
+### **쥐라기 (2억 100만 년 전 - 1억 4500만 년 전)**
+
+쥐라기에 판게아 대륙은 분리되기 시작했고, 해수면이 상승하여 넓은 지역이 얕은 바다로 덮였습니다. 기후는 따뜻하고 습했으며, 거대 초식 공룡인 사우로포드(목 긴 공룡)가 번성했습니다. 이 시기에 최초의 새인 아르케옵테릭스가 나타났습니다. 쥐라기 공원 영화의 배경이 된 시대이기도 합니다.
+
+### **백악기 (1억 4500만 년 전 - 6600만 년 전)**
+
+백악기는 공룡의 다양성이 최고조에 달했던 시기입니다. 대륙들이 현재와 비슷한 위치로 이동했고, 최초의 꽃피는 식물(현화식물)이 등장했습니다. 티라노사우루스 렉스, 트리케라톱스와 같은 가장 유명한 공룡들이 이 시기 후반에 살았습니다. 약 6600만 년 전, 소행성 충돌로 인한 대멸종으로 비조류 공룡들이 모두 멸종했습니다.
+
+## **트라이아스기 공룡들**
+
+### **코엘로피시스 (Coelophysis)**
+작고 빠른 초기 육식 공룡으로, 길이 약 3미터, 무게는 고작 15-20kg에 불과했습니다. 길고 유연한 몸체와 가벼운 뼈를 가져 빠르게 달릴 수 있었습니다. 뉴멕시코에서 수백 마리의 화석이 한꺼번에 발견되어 무리지어 살았을 가능성이 높습니다. 작은 도마뱀이나 초기 포유류 조상들을 사냥했을 것입니다.
+
+### **프라테오사우루스 (Plateosaurus)**
+유럽에서 발견된 초기 거대 초식 공룡으로, 길이 6-9미터, 무게 600-4,000kg에 달했습니다. 거대 사우로포드(목 긴 공룡)의 초기 조상입니다. 주로 두 다리로 서서 걸었고, 긴 목을 이용해 높은 곳의 식물도 먹을 수 있었습니다. 앞발의 엄지손가락에 큰 발톱이 있어 식물을 잡아당기는 데 사용했습니다.
+
+### **에오랍토르 (Eoraptor)**
+'새벽의 약탈자'라는 뜻을 가진 이 공룡은 가장 초기 공룡 중 하나로, 약 2억 3,100만 년 전 남아메리카에 살았습니다. 길이 약 1미터, 무게는 겨우 10kg 정도였습니다. 특이하게도 앞니는 육식동물의 특징을, 뒷니는 초식동물의 특징을 가져 잡식성이었을 것으로 추정됩니다. 공룡 진화의 초기 단계를 보여주는 중요한 화석입니다.
+
+### **헤레라사우루스 (Herrerasaurus)**
+초기 육식 공룡으로, 길이 3-6미터, 무게 210-350kg에 달했습니다. 날카로운 이빨과 강력한 발톱을 가졌으며, 약 2억 3,100만 년 전 아르헨티나에 살았습니다. 완전한 공룡의 특징을 아직 갖추지 않은 과도기적 형태를 보여 공룡 진화 연구에 중요한 위치를 차지합니다.
+
+## **쥐라기 공룡들**
+
+### **디플로도쿠스 (Diplodocus)**
+가장 긴 공룡 중 하나로, 길이가 24-27미터에 달했지만 무게는 10-16톤으로 다른 대형 공룡에 비해 가벼운 편이었습니다. 매우 긴 목과 꼬리가 특징이며, 꼬리 끝은 채찍처럼 사용했을 가능성이 있습니다. 연필 같은 이빨로 부드러운 식물을 뜯어 먹었습니다. 머리 크기가 작고 뇌 용량도 작아 지능이 높지 않았을 것으로 추정됩니다.
+
+### **브라키오사우루스 (Brachiosaurus)**
+'팔 도마뱀'이라는 뜻의 이 공룡은 앞다리가 뒷다리보다 길어서 기린처럼 몸이 앞으로 기울어진 모습이었습니다. 높이가 13미터에 달해 4층 건물만큼 높았으며, 무게는 35-58톤이었습니다. 이 특별한 체형 덕분에 높은 나무의 잎을 먹을 수 있었습니다. 심장은 엄청난 압력으로 피를 머리까지 펌프질해야 했기 때문에 매우 강력했을 것입니다.
+
+### **스테고사우루스 (Stegosaurus)**
+등에 2열로 배열된 17개의 큰 뼈 판과 꼬리 끝의 4개의 가시가 특징인 공룡입니다. 길이 약 9미터, 무게 5-7톤이었습니다. 뼈 판은 체온 조절과 과시용으로 사용되었을 것으로 추정됩니다. 뇌가 호두 크기로 매우 작아 "두 번째 뇌"가 있었다는 오해를 받기도 했지만, 실제로는 엉덩이 부분의 신경 덩어리일 뿐이었습니다.
+
+### **알로사우루스 (Allosaurus)**
+쥐라기 후기의 최상위 포식자로, 길이 8-12미터, 무게 1.5-2.5톤이었습니다. 눈 위의 뿔 같은 돌기가 특징이며, 강력한 턱과 날카로운 이빨을 가졌습니다. 발견된 많은 화석은 이 공룡이 위험한 생활을 했음을 보여주는 상처와 골절 흔적이 있습니다. 싸우는 동안 머리를 도끼처럼 사용했을 가능성이 있으며, 무리를 지어 큰 사우로포드도 사냥했을 것으로 추정됩니다.
+
+### **아르케옵테릭스 (Archaeopteryx)**
+'고대의 날개'라는 뜻을 가진 이 생물은 공룡과 새의 특징을 모두 가진 중간 형태였습니다. 까마귀 크기로, 깃털과 날개가 있었지만 공룡의 특징인 이빨, 긴 꼬리, 발톱 달린 손가락도 가졌습니다. 완벽하게 날 수 있었는지는 확실하지 않지만, 짧은 거리는 날 수 있었을 것으로 추정됩니다. 공룡과 조류의 진화적 연결고리를 보여주는 중요한 화석입니다.
+
+## **백악기 공룡들**
+
+### **티라노사우루스 렉스 (Tyrannosaurus rex)**
+'폭군 도마뱀 왕'이라는 뜻의 이 공룡은 역사상 가장 유명한 육식 공룡입니다. 길이 12-14미터, 무게 8-14톤으로, 육상 육식동물 중 가장 큰 동물 중 하나였습니다. 30cm 길이의 이빨과 6,000kg의 물림 힘으로 뼈를 부술 수 있었습니다. 앞다리는 매우 작았지만 두 다리로 시속 30km까지 달릴 수 있었다고 추정됩니다. 최근 연구에 따르면 일부 깃털이 있었을 가능성도 제기되고 있습니다.
+
+### **트리케라톱스 (Triceratops)**
+'세 개의 뿔 얼굴'이라는 뜻을 가진 이 공룡은 이마에 두 개의 긴 뿔과 코 위에 짧은 뿔, 그리고 뒤통수를 덮는 커다란 프릴이 특징입니다. 길이 약 8-9미터, 무게 6-12톤이었습니다. 프릴과 뿔은 티라노사우루스 같은 포식자로부터 방어하거나 같은 종끼리의 경쟁에 사용되었을 것입니다. 단단한 부리로 딱딱한 식물도 먹을 수 있었습니다.
+
+### **벨로시랍토르 (Velociraptor)**
+영화 '쥐라기 공원'으로 유명해진 이 공룡은 실제로는 크기가 훨씬 작았습니다. 키 0.5미터, 길이 2미터, 무게 15kg 정도로, 칠면조 크기에 불과했습니다. 몸 전체가 깃털로 덮여 있었고, 발의 두 번째 발가락에 큰 발톱이 있어 사냥감을 공격하는 데 사용했습니다. 매우 지능적이었으며, 한 화석에서는 프로토케라톱스와 싸우다 죽은 모습이 발견되기도 했습니다.
+
+### **파라사우롤로푸스 (Parasaurolophus)**
+'옆의 볏 있는 도마뱀'이라는 뜻의 이 공룡은 머리 뒤로 1.8미터 길이의 중공 관이 특징입니다. 길이 약 10미터, 무게 2.5톤이었습니다. 이 관은 다양한 소리를 내어 무리 내 의사소통을 하는 데 사용되었을 것으로 추정됩니다. 과학자들이 이 관의 모형을 만들어 소리를 재현해 본 결과, 트럼본과 비슷한 낮은 음색의 소리를 냈을 것으로 생각됩니다.
+
+### **안킬로사우루스 (Ankylosaurus)**
+'굽은 도마뱀'이라는 뜻의 이 공룡은 등과 옆구리가 골질 판과 가시로 덮여 있고, 꼬리 끝에는 골질 곤봉이 있었습니다. 길이 약 8-9미터, 무게 6톤이었습니다. 이런 갑옷은 티라노사우루스와 같은 포식자로부터 보호해 주었을 것입니다. 꼬리 곤봉은 무게가 약 50kg이었으며, 이를 휘둘러 포식자의 다리를 부러뜨릴 수 있었을 것입니다.
+
+# **각 시대별 이미지 생성 프롬프트**
+
+## **트라이아스기 이미지 프롬프트:**
+```
+Create a hyper-realistic panoramic image in 9:6 ratio depicting the Triassic period landscape (250-201 million years ago). Show a semi-arid environment with Coelophysis hunting in small packs in the foreground, while a few Plateosaurus feed on ferns and cycads in the middle ground. Include primitive conifers, ginkgoes, and ferns as vegetation. The sky should have a reddish hue with the supercontinent Pangaea visible in the background with volcanic activity. Include small primitive mammals and reptiles hiding in undergrowth. The lighting should be natural but dramatic, highlighting the prehistoric atmosphere of Earth's early dinosaur age. Maintain scientific accuracy in all dinosaur appearances and environmental elements.
+```
+
+## **쥐라기 이미지 프롬프트:**
+```
+Create a hyper-realistic panoramic image in 9:6 ratio depicting the Jurassic period landscape (201-145 million years ago). In the foreground, show an Allosaurus stalking a herd of Stegosaurus near a water body. In the middle ground, feature a family of massive Brachiosaurus reaching up to eat from tall conifers, with their distinctive longer front legs clearly visible. The background should include a group of Diplodocus moving along a lush valley. Include dense vegetation with ferns, cycads, ginkgoes, and conifers creating a humid, jungle-like environment. The sky should show scattered clouds with Pangaea visibly breaking apart in the distance. Add small pterosaurs flying in the sky and an Archaeopteryx perched on a branch, showing the dinosaur-bird connection. The lighting should be bright and tropical, creating a lush, vibrant atmosphere of Earth's middle dinosaur age. Ensure all dinosaurs are depicted with scientifically accurate features based on current paleontological understanding.
+```
+
+## **백악기 이미지 프롬프트:**
+```
+Create a hyper-realistic panoramic image in 9:6 ratio depicting the Late Cretaceous period landscape (66-68 million years ago). In the dramatic foreground, show a Tyrannosaurus rex facing off against a Triceratops near a clearing, capturing the iconic predator-prey relationship. In the middle ground, include a family of Parasaurolophus with their distinctive head crests using them to communicate, while an Ankylosaurus moves slowly nearby, its armored body and tail club clearly visible for defense. The background should feature a herd of duck-billed hadrosaurs grazing peacefully. The environment should include the first flowering plants among familiar ferns and conifers, showing the changing flora of the period. The sky should have a slightly hazy quality due to volcanic activity in the far distance, with pterosaurs soaring overhead. A shallow river should cut through the landscape. The lighting should create dramatic shadows and highlight the anatomical details of the dinosaurs, especially their textures and colors based on the latest scientific evidence, including possible feathers on the T. rex. This scene should represent Earth's final dinosaur age just before the asteroid impact that would cause their extinction.
+```
+
+# **초등학생을 위한 공룡대백과 웹사이트 기획안**
+
+## **1. 서비스 개요**
+
+**"공룡월드: 시간을 뛰어넘는 공룡 탐험"**은 초등학생들에게 흥미롭고 교육적인 공룡 정보를 제공하는 인터랙티브 웹사이트입니다. 생태와 식성 중심의 분류를 통해 아이들이 직관적으로 공룡을 이해하고 탐험할 수 있도록 설계되었습니다.
+
+### **목표:**
+- 초등학생들에게 과학적으로 정확한 공룡 정보 제공
+- 생태계, 진화, 적응에 대한 이해 증진
+- 재미있는 인터랙티브 요소로 지속적인 학습 동기 부여
+- 교사와 학부모에게 교육 보조 자료 제공
+
+## **2. 웹사이트 메뉴 구조**
+
+```
+홈
+├── 공룡 탐험하기
+│   ├── 육지의 거인들 (초식공룡)
+│   ├── 무시무시한 사냥꾼들 (육식공룡)
+│   ├── 하늘의 지배자들 (비행 파충류)
+│   └── 바다의 공포 (해양 파충류)
+├── 공룡 시대 여행
+│   ├── 트라이아스기
+│   ├── 쥐라기
+│   └── 백악기
+├── 재미있는 공룡 활동
+│   ├── 공룡 퀴즈
+│   ├── 색칠놀이/공룡 만들기
+│   ├── 가상 발굴 체험
+│   └── 공룡 AR 체험
+├── 공룡 도감 (전체 공룡 목록)
+└── 학부모/교사 자료실
+```
+
+## **3. 주요 페이지 상세 내용**
+
+### **메인 홈페이지**
+
+**디자인 방향:**
+- 생생한 공룡 파노라마 배경 이미지
+- 4개의 주요 카테고리(육지, 하늘, 바다, 시대별) 바로가기 타일
+- 최신 공룡 발견 소식 슬라이더
+- 추천 공룡 탐험 코스
+
+**주요 요소:**
+- 환영 메시지와 사이트 사용 가이드 (음성 지원)
+- "오늘의 공룡" 하이라이트
+- 연령별 추천 콘텐츠
+- 인터랙티브 공룡 크기 비교 차트
+
+### **육지의 거인들 (초식공룡)**
+
+**구성:**
+1. **거대 사우로포드** - 브라키오사우루스, 디플로도쿠스 등
+   - 특징: 긴 목, 거대한 체구
+   - 재미있는 사실: "브라키오사우루스는 4층 건물만큼 높았어요!"
+   - 인터랙티브 요소: 다양한 초식공룡의 체중으로 무게 비교하기
+
+2. **뿔 공룡들** - 트리케라톱스, 스티라코사우루스 등
+   - 특징: 방어용 뿔과 프릴
+   - 재미있는 사실: "트리케라톱스의 세 개 뿔은 티라노사우루스도 무서워했어요!"
+   - 인터랙티브 요소: 뿔과 프릴 디자인하기 게임
+
+3. **갑옷 공룡들** - 스테고사우루스, 안킬로사우루스 등
+   - 특징: 판, 가시, 방어용 갑옷
+   - 재미있는 사실: "안킬로사우루스의 꼬리 곤봉은 야구방망이보다 더 강했어요!"
+   - 인터랙티브 요소: 갑옷 공룡의 방어력 테스트 게임
+
+4. **오리주둥이 공룡들** - 파라사우롤로푸스, 마이아사우라 등
+   - 특징: 특이한 머리 장식, 무리 생활
+   - 재미있는 사실: "파라사우롤로푸스는 머리의 긴 관으로 트럼펫처럼 소리를 냈어요!"
+   - 인터랙티브 요소: 오리주둥이 공룡 소리 재현 체험
+
+### **무시무시한 사냥꾼들 (육식공룡)**
+
+**구성:**
+1. **거대 포식자들** - 티라노사우루스, 스피노사우루스 등
+   - 특징: 강력한 턱, 날카로운 이빨
+   - 재미있는 사실: "티라노사우루스의 물림력은 자동차를 으스러뜨릴 수 있었어요!"
+   - 인터랙티브 요소: 티라노사우루스 사냥 시뮬레이션
+
+2. **날렵한 사냥꾼들** - 벨로시랍토르, 데이노니쿠스 등
+   - 특징: 지능, 날카로운 발톱, 깃털
+   - 재미있는 사실: "벨로시랍토르는 실제로는 영화보다 훨씬 작았고 온몸에 깃털이 있었어요!"
+   - 인터랙티브 요소: 랍토르 무리의 협동 사냥 전략 게임
+
+3. **특수 사냥꾼들** - 바리오닉스, 카르노타우루스 등
+   - 특징: 독특한 사냥 전략, 특이한 신체 구조
+   - 재미있는 사실: "스피노사우루스는 반수생 생활을 했던 가장 큰 육식공룡이었어요!"
+   - 인터랙티브 요소: 특수 사냥 방법 실험실
+
+### **하늘의 지배자들 (비행 파충류)**
+
+**구성:**
+1. **거대 익룡들** - 케찰코아틀루스, 프테라노돈 등
+   - 특징: 넓은 날개폭, 비행 적응
+   - 재미있는 사실: "케찰코아틀루스는 테니스 코트만큼 넓은 날개를 가졌어요!"
+   - 인터랙티브 요소: 익룡 비행 시뮬레이터
+
+2. **조류 공룡들** - 아르케옵테릭스, 미크로랍토르 등
+   - 특징: 깃털, 공룡-조류 연결고리
+   - 재미있는 사실: "미크로랍토르는 네 개의 날개로 비행했을 가능성이 있어요!"
+   - 인터랙티브 요소: 조류 진화 타임라인 탐험
+
+### **바다의 공포 (해양 파충류)**
+
+**구성:**
+1. **바다 괴물들** - 모사사우루스, 플레시오사우루스 등
+   - 특징: 유선형 몸체, 물갈퀴 지느러미
+   - 재미있는 사실: "모사사우루스는 18m 길이로 오늘날 대형 고래만큼 컸어요!"
+   - 인터랙티브 요소: 심해 탐험 어드벤처
+
+2. **반수생 공룡들** - 스피노사우루스, 바리오닉스 등
+   - 특징: 물고기 사냥 적응, 수중 생활
+   - 재미있는 사실: "스피노사우루스는 악어처럼 수영을 잘했을 것으로 생각됩니다!"
+   - 인터랙티브 요소: 물고기 사냥 게임
+
+### **공룡 시대 여행**
+
+시간순으로 공룡 시대를 탐험하는 보조적 섹션:
+- 생동감 있는 시대별 환경 일러스트
+- 대륙 이동 애니메이션
+- 시대별 기후, 식물, 대표 공룡 정보
+- 타임라인 슬라이더로 시간 여행 체험
+
+### **재미있는 공룡 활동**
+
+**교육적 게임 및 활동:**
+1. **공룡 퀴즈** - 난이도별 공룡 지식 테스트
+2. **색칠놀이/공룡 만들기** - 인쇄 가능한 활동지와 온라인 꾸미기
+3. **가상 발굴 체험** - 화석 발굴 시뮬레이션
+4. **공룡 AR 체험** - 증강현실로 공룡 만나기
+5. **공룡 소리 만들기** - 다양한 공룡 소리 학습 및 만들기
+
+### **공룡 도감**
+
+**전체 공룡 검색 및 정보:**
+- 필터링(시대, 크기, 식성, 지역별)
+- 각 공룡의 상세 프로필
+- 3D 회전 모델
+- 비교 기능 (크기, 속도, 지능 등)
+- 발견 장소와 화석 정보
+
+### **학부모/교사 자료실**
+
+**교육 보조 자료:**
+- 연령별 학습 가이드
+- 수업 계획 및 활동지
+- 과학 표준에 맞춘 교육 자료
+- 공룡 관련 책과 미디어 추천
+
+## **4. 기술적 특징 및 인터랙티브 요소**
+
+### **핵심 기술 요소:**
+- 반응형 웹 디자인 (태블릿, 모바일 호환)
+- 3D 공룡 모델 뷰어
+- 증강현실(AR) 공룡 체험
+- 음성 내레이션 지원
+- 진행 상황 저장 및 배지 시스템
+
+### **특별 인터랙티브 기능:**
+1. **공룡 크기 비교기** - 사용자 키와 공룡 크기 비교
+2. **공룡 울음소리 라이브러리** - 과학적 추정에 기반한 공룡 소리
+3. **내 공룡 만들기** - 다양한 특성으로 나만의 공룡 만들기
+4. **공룡 세계 탐험 맵** - 대륙별 공룡 분포 확인
+5. **시간 여행 타임라인** - 슬라이더로 공룡 진화 과정 체험
+
+## **5. 시각적 디자인 방향**
+
+### **전체 디자인 콘셉트:**
+- 현대적이고 생생한 과학 일러스트레이션
+- 풍부한 색상 코드 체계 (카테고리별 구분)
+  * 초식공룡: 녹색 계열
+  * 육식공룡: 적색 계열
+  * 해양 공룡: 청색 계열
+  * 비행 공룡: 보라색 계열
+- 친근하고 접근하기 쉬운 UI
+- 나이에 적합한 폰트와 아이콘 사용
+
+### **시각적 요소:**
+- 리얼리스틱한 공룡 일러스트레이션
+- 공룡의 특징적 부분 확대도
+- 실물 크기 비교 이미지
+- 생태계 복원 일러스트
+- 화석에서 살아있는 공룡으로의 변환 애니메이션
+
+## **6. 콘텐츠 차별화 전략**
+
+### **과학적 정확성:**
+- 최신 고생물학 연구 결과 반영
+- 공룡에 대한 오해와 진실 코너
+- 전문 고생물학자 자문 내용 표시
+
+### **흥미 요소:**
+- "알고 있었니?" 코너로 놀라운 공룡 사실 공유
+- 공룡 발견 스토리 및 과학자들의 모험
+- 공룡의 일상 생활 재구성
+
+### **교육적 심화 요소:**
+- "더 알아보기" 섹션으로 심화 학습 지원
+- 공룡과 현대 동물 비교
+- 시대별 환경 변화와 적응 설명
+
+## **7. 확장 및 업데이트 계획**
+
+### **단계별 확장:**
+1. **1단계** - 기본 공룡 정보와 인터랙티브 요소
+2. **2단계** - 교사/학부모 자료 확충 및 활동 추가
+3. **3단계** - AR 기능 및 고급 게임 추가
+4. **4단계** - 사용자 생성 콘텐츠 및 커뮤니티 기능
+
+### **정기 업데이트:**
+- 새로운 공룡 발견 소식
+- 계절별 테마 활동
+- 사용자 피드백 기반 콘텐츠 개선
+
+## **8. 마케팅 및 홍보 전략**
+
+### **교육 기관 연계:**
+- 학교 과학 수업 보조 자료로 홍보
+- 교사 워크숍 및 웨비나 진행
+
+### **이벤트:**
+- 공룡의 날 특별 콘텐츠
+- 온라인 공룡 탐험 대회
+- 가상 화석 발굴 이벤트
+
+---
+
+이 기획안은 초등학생들의 흥미와 호기심을 자극하면서 과학적으로 정확한 정보를 제공하는 공룡 웹사이트의 기본 구조를 제시합니다. 생태와 식성 중심의 분류를 주축으로 하면서도 시대별 정보를 보조적으로 제공함으로써, 어린이들이 다양한 방식으로 공룡 세계를 탐험할 수 있도록 설계되었습니다. 풍부한 인터랙티브 요소와 시각적 자료를 통해 단순한 정보 제공을 넘어 몰입형 학습 경험을 제공하는 것이 이 웹사이트의 핵심 가치입니다.

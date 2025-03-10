@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공룡 도감 - 공룡월드</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .dino-image {
+            width: 100%;
+            height: 200px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        .dino-image::before {
+            content: "🦕 이미지 준비중";
+            color: #666;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 헤더 시작 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-img" aria-label="공룡월드 홈으로 가기"></a>
+                <h1>공룡월드</h1>
+            </div>
+            <nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="active">공룡 탐험하기 <i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="herbivores.html">육지의 거인들 (초식공룡)</a></li>
+                            <li><a href="carnivores.html">무시무시한 사냥꾼들 (육식공룡)</a></li>
+                            <li><a href="flying.html">하늘의 지배자들 (비행 파충류)</a></li>
+                            <li><a href="marine.html">바다의 공포 (해양 파충류)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="timeline.html">공룡 시대 여행</a></li>
+                    <li><a href="dictionary.html" class="active">공룡 도감</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 메인 콘텐츠 -->
+    <main>
+        <section class="hero-sub" style="background: #2C3E50;">
+            <div class="container">
+                <h1>공룡 도감</h1>
+                <p>모든 공룡들의 상세 정보</p>
+            </div>
+        </section>
+
+        <section class="container dino-content">
+            <!-- 사용법 시작 -->
+            <div class="usage-guide">
+                <h2>공룡 찾기 가이드</h2>
+                <p>원하는 공룡을 쉽게 찾을 수 있도록 태그 필터 시스템을 제공합니다:</p>
+                <ol>
+                    <li>분류: 초식공룡, 육식공룡, 비행파충류, 해양파충류 중 선택</li>
+                    <li>시대: 트라이아스기, 쥐라기, 백악기 중 선택</li>
+                    <li>특징: 거대공룡, 뿔공룡, 갑옷공룡, 오리주둥이공룡 등 선택</li>
+                    <li>생활방식: 육상생활, 비행생활, 수생생활, 반수생생활 중 선택</li>
+                </ol>
+                <p>여러 태그를 동시에 선택하면 AND 조건으로 검색됩니다. (예: '초식공룡'과 '백악기'를 선택하면 백악기의 초식공룡만 표시)</p>
+            </div>
+            <!-- 사용법 끝 -->
+
+            <!-- 태그 필터 시작 -->
+            <div class="dino-filters">
+                <div class="filter-group">
+                    <h3>분류</h3>
+                    <div class="tag-buttons">
+                        <button class="tag-btn" data-tag="초식공룡">초식공룡</button>
+                        <button class="tag-btn" data-tag="육식공룡">육식공룡</button>
+                        <button class="tag-btn" data-tag="비행파충류">비행파충류</button>
+                        <button class="tag-btn" data-tag="해양파충류">해양파충류</button>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>시대</h3>
+                    <div class="tag-buttons">
+                        <button class="tag-btn" data-tag="트라이아스기">트라이아스기</button>
+                        <button class="tag-btn" data-tag="쥐라기">쥐라기</button>
+                        <button class="tag-btn" data-tag="백악기">백악기</button>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>특징</h3>
+                    <div class="tag-buttons">
+                        <button class="tag-btn" data-tag="거대공룡">거대공룡</button>
+                        <button class="tag-btn" data-tag="뿔공룡">뿔공룡</button>
+                        <button class="tag-btn" data-tag="갑옷공룡">갑옷공룡</button>
+                        <button class="tag-btn" data-tag="오리주둥이공룡">오리주둥이공룡</button>
+                        <button class="tag-btn" data-tag="랩터">랩터</button>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>생활방식</h3>
+                    <div class="tag-buttons">
+                        <button class="tag-btn" data-tag="육상생활">육상생활</button>
+                        <button class="tag-btn" data-tag="비행생활">비행생활</button>
+                        <button class="tag-btn" data-tag="수생생활">수생생활</button>
+                        <button class="tag-btn" data-tag="반수생생활">반수생생활</button>
+                    </div>
+                </div>
+                <button id="reset-filters" class="btn">필터 초기화</button>
+            </div>
+            <!-- 태그 필터 끝 -->
+
+            <!-- 공룡 목록 시작 -->
+            <div class="dinosaur-grid">
+                <!-- 초식공룡 -->
+                <div class="dino-detail-card" data-tags="초식공룡 거대공룡 쥐라기 육상생활">
+                    <img src="images/brachiosaurus.png" alt="브라키오사우루스" class="dino-image">
+                    <h3>브라키오사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 쥐라기 후기 (1억 5,400만 년 전)</li>
+                        <li><strong>크기:</strong> 키 13m</li>
+                        <li><strong>무게:</strong> 35-58톤</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 거대공룡 쥐라기 육상생활">
+                    <img src="images/diplodocus.png" alt="디플로도쿠스" class="dino-image">
+                    <h3>디플로도쿠스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 쥐라기 후기</li>
+                        <li><strong>크기:</strong> 길이 24-27m</li>
+                        <li><strong>무게:</strong> 10-16톤</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 거대공룡 백악기 육상생활">
+                    <img src="images/argentinosaurus.png" alt="아르겐티노사우루스" class="dino-image">
+                    <h3>아르겐티노사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 초기</li>
+                        <li><strong>크기:</strong> 길이 30-40m</li>
+                        <li><strong>무게:</strong> 60-100톤</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 뿔공룡 백악기 육상생활">
+                    <img src="images/triceratops.png" alt="트리케라톱스" class="dino-image">
+                    <h3>트리케라톱스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">뿔공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 8-9m</li>
+                        <li><strong>무게:</strong> 6-12톤</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 뿔공룡 백악기 육상생활">
+                    <img src="images/styracosaurus.png" alt="스티라코사우루스" class="dino-image">
+                    <h3>스티라코사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">뿔공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 5.5m</li>
+                        <li><strong>무게:</strong> 3톤</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 무리생활">
+                    <img src="images/parasaurolophus.png" alt="파라사우롤로푸스" class="dino-image">
+                    <h3>파라사우롤로푸스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">오리주둥이공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 10m</li>
+                        <li><strong>무게:</strong> 2.5톤</li>
+                    </ul>
+                </div>
+
+                <!-- 추가: 코리토사우루스 -->
+                <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 무리생활">
+                    <img src="images/corythosaurus.png" alt="코리토사우루스" class="dino-image">
+                    <h3>코리토사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">오리주둥이공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기 (7,700만 년 전)</li>
+                        <li><strong>크기:</strong> 길이 9m</li>
+                        <li><strong>무게:</strong> 3-5톤</li>
+                    </ul>
+                </div>
+
+                <!-- 추가: 스테고사우루스 -->
+                <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 쥐라기 육상생활">
+                    <img src="images/stegosaurus.png" alt="스테고사우루스" class="dino-image">
+                    <h3>스테고사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">갑옷공룡</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 쥐라기 후기 (1억 5,000만 년 전)</li>
+                        <li><strong>크기:</strong> 길이 9m</li>
+                        <li><strong>무게:</strong> 5-7톤</li>
+                    </ul>
+                </div>
+
+                <!-- 육식공룡 -->
+                <div class="dino-detail-card" data-tags="육식공룡 거대공룡 백악기 육상생활">
+                    <img src="images/t-rex.png" alt="티라노사우루스 렉스" class="dino-image">
+                    <h3>티라노사우루스 렉스</h3>
+                    <div class="tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 12-14m</li>
+                        <li><strong>무게:</strong> 8-14톤</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="육식공룡 거대공룡 백악기 육상생활">
+                    <img src="images/spinosaurus.png" alt="스피노사우루스" class="dino-image">
+                    <h3>스피노사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 15-18m</li>
+                        <li><strong>무게:</strong> 7-20톤</li>
+                        <li><strong>특징:</strong> 등에 큰 돛 모양의 구조물을 가짐</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="육식공룡 랩터 백악기 육상생활">
+                    <img src="images/velociraptor.png" alt="벨로시랩터" class="dino-image">
+                    <h3>벨로시랩터</h3>
+                    <div class="tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">랩터</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 2m</li>
+                        <li><strong>무게:</strong> 15kg</li>
+                        <li><strong>특징:</strong> 매우 빠르고 지능이 높은 소형 육식공룡</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="육식공룡 랩터 백악기 육상생활">
+                    <img src="images/utahraptor.png" alt="유타랩터" class="dino-image">
+                    <h3>유타랩터</h3>
+                    <div class="tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">랩터</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 전기</li>
+                        <li><strong>크기:</strong> 길이 6m</li>
+                        <li><strong>무게:</strong> 500kg</li>
+                        <li><strong>특징:</strong> 가장 큰 랩터류 공룡</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="육식공룡 거대공룡 백악기 육상생활">
+                    <img src="images/acrocanthosaurus.png" alt="아크로칸토사우루스" class="dino-image">
+                    <h3>아크로칸토사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 전기</li>
+                        <li><strong>크기:</strong> 길이 11.5m</li>
+                        <li><strong>무게:</strong> 6톤</li>
+                        <li><strong>특징:</strong> 등에 높은 척추돌기를 가진 대형 육식공룡</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="육식공룡 랩터 백악기 육상생활">
+                    <img src="images/deinonychus.png" alt="데이노니쿠스" class="dino-image">
+                    <h3>데이노니쿠스</h3>
+                    <div class="tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">랩터</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 전기</li>
+                        <li><strong>크기:</strong> 길이 3m</li>
+                        <li><strong>무게:</strong> 70kg</li>
+                        <li><strong>특징:</strong> 발톱이 매우 발달된 중형 랩터</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="육식공룡 거대공룡 쥐라기 육상생활">
+                    <img src="images/megalosaurus.png" alt="메갈로사우루스" class="dino-image">
+                    <h3>메갈로사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 쥐라기 중기</li>
+                        <li><strong>크기:</strong> 길이 6m</li>
+                        <li><strong>무게:</strong> 1톤</li>
+                        <li><strong>특징:</strong> 최초로 발견된 공룡 중 하나</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
+                    <img src="images/anchiornis.png" alt="안키오르니스" class="dino-image">
+                    <h3>안키오르니스</h3>
+                    <div class="tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 전기</li>
+                        <li><strong>크기:</strong> 길이 35cm</li>
+                        <li><strong>무게:</strong> 0.3kg</li>
+                        <li><strong>특징:</strong> 현대 조류와 유사한 특징</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="해양파충류 백악기 수생생활">
+                    <img src="images/atractosteus.png" alt="아트락토스토무스" class="dino-image">
+                    <h3>아트락토스토무스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 5m</li>
+                        <li><strong>무게:</strong> 500kg</li>
+                        <li><strong>특징:</strong> 악어와 유사한 체형</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="해양파충류 트라이아스기 수생생활">
+                    <img src="images/shastasaurus.png" alt="샤스타사우루스" class="dino-image">
+                    <h3>샤스타사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">트라이아스기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 트라이아스기 후기</li>
+                        <li><strong>크기:</strong> 길이 3m</li>
+                        <li><strong>무게:</strong> 150kg</li>
+                        <li><strong>특징:</strong> 물고기와 유사한 체형</li>
+                    </ul>
+                </div>
+
+                <!-- 초식공룡 추가 -->
+                <div class="dino-detail-card" data-tags="초식공룡 거대공룡 쥐라기 육상생활 긴목공룡">
+                    <img src="images/mamenchisaurus.png" alt="마멘키사우루스" class="dino-image">
+                    <h3>마멘키사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">긴목공룡</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 쥐라기 후기</li>
+                        <li><strong>크기:</strong> 길이 26m</li>
+                        <li><strong>무게:</strong> 25톤</li>
+                        <li><strong>특징:</strong> 가장 긴 목을 가진 공룡 중 하나</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 거대공룡 백악기 육상생활 긴목공룡">
+                    <img src="images/patagotitan.png" alt="파타고타이탄" class="dino-image">
+                    <h3>파타고타이탄</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">긴목공룡</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 중기</li>
+                        <li><strong>크기:</strong> 길이 37m</li>
+                        <li><strong>무게:</strong> 69톤</li>
+                        <li><strong>특징:</strong> 현재까지 발견된 가장 큰 육상동물</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 뿔공룡 백악기 육상생활 무리생활">
+                    <img src="images/torosaurus.png" alt="토로사우루스" class="dino-image">
+                    <h3>토로사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">뿔공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">무리생활</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 8m</li>
+                        <li><strong>무게:</strong> 4톤</li>
+                        <li><strong>특징:</strong> 트리케라톱스와 유사하지만 더 큰 뿔 프릴을 가짐</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 뿔공룡 백악기 육상생활 무리생활">
+                    <img src="images/ceratosaurus.png" alt="케라토사우루스" class="dino-image">
+                    <h3>케라토사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">뿔공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">무리생활</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 초기</li>
+                        <li><strong>크기:</strong> 길이 6m</li>
+                        <li><strong>무게:</strong> 2톤</li>
+                        <li><strong>특징:</strong> 코 위에 특징적인 뿔을 가짐</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 무리생활">
+                    <img src="images/edmontosaurus.png" alt="에드몬토사우루스" class="dino-image">
+                    <h3>에드몬토사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">오리주둥이공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">무리생활</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 13m</li>
+                        <li><strong>무게:</strong> 4톤</li>
+                        <li><strong>특징:</strong> 대규모 무리를 이루어 생활</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 소리내는공룡">
+                    <img src="images/saurolophus.png" alt="사우롤로푸스" class="dino-image">
+                    <h3>사우롤로푸스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">오리주둥이공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">소리내는공룡</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 12m</li>
+                        <li><strong>무게:</strong> 3톤</li>
+                        <li><strong>특징:</strong> 머리 위의 관으로 소리를 냄</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 백악기 육상생활 방어특화">
+                    <img src="images/nodosaurus.png" alt="노도사우루스" class="dino-image">
+                    <h3>노도사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">갑옷공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">방어특화</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 중기</li>
+                        <li><strong>크기:</strong> 길이 6m</li>
+                        <li><strong>무게:</strong> 1.5톤</li>
+                        <li><strong>특징:</strong> 전신을 덮는 갑옷 같은 비늘</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 백악기 육상생활 가시공룡">
+                    <img src="images/sauropelta.png" alt="사우로펠타" class="dino-image">
+                    <h3>사우로펠타</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">갑옷공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">가시공룡</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 초기</li>
+                        <li><strong>크기:</strong> 길이 5m</li>
+                        <li><strong>무게:</strong> 2톤</li>
+                        <li><strong>특징:</strong> 등과 옆구리에 날카로운 가시</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 백악기 육상생활 신종공룡">
+                    <img src="images/borealopelta.png" alt="보레알로펠타" class="dino-image">
+                    <h3>보레알로펠타</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">갑옷공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">신종공룡</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 초기</li>
+                        <li><strong>크기:</strong> 길이 6.5m</li>
+                        <li><strong>무게:</strong> 1.5톤</li>
+                        <li><strong>특징:</strong> 2017년 새로 발견된 잘 보존된 화석</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 특이공룡 백악기 육상생활 긴팔공룡">
+                    <img src="images/deinocheirus.png" alt="데이노케이루스" class="dino-image">
+                    <h3>데이노케이루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">특이공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">긴팔공룡</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 11m</li>
+                        <li><strong>무게:</strong> 6.4톤</li>
+                        <li><strong>특징:</strong> 매우 긴 팔을 가진 특이한 형태</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="초식공룡 특이공룡 백악기 육상생활 빠른공룡">
+                    <img src="images/tenontosaurus.png" alt="테논토사우루스" class="dino-image">
+                    <h3>테논토사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">초식공룡</span>
+                        <span class="tag">특이공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">빠른공룡</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 초기</li>
+                        <li><strong>크기:</strong> 길이 6.5m</li>
+                        <li><strong>무게:</strong> 1톤</li>
+                        <li><strong>특징:</strong> 빠른 주행 능력을 가진 중형 초식공룡</li>
+                    </ul>
+                </div>
+
+                <!-- 비행 파충류 -->
+                <div class="dino-detail-card" data-tags="비행파충류 거대공룡 백악기 비행생활">
+                    <img src="images/quetzalcoatlus.png" alt="케찰코아틀루스" class="dino-image">
+                    <h3>케찰코아틀루스</h3>
+                    <div class="tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>날개 폭:</strong> 10-11m</li>
+                        <li><strong>무게:</strong> 70-250kg</li>
+                        <li><strong>특징:</strong> 역사상 가장 큰 비행 동물</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
+                    <img src="images/pteranodon.png" alt="프테라노돈" class="dino-image">
+                    <h3>프테라노돈</h3>
+                    <div class="tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>날개 폭:</strong> 7m</li>
+                        <li><strong>무게:</strong> 20-30kg</li>
+                        <li><strong>특징:</strong> 두개골 뒤로 긴 돌기가 있음</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="비행파충류 쥐라기 비행생활">
+                    <img src="images/archaeopteryx.png" alt="아르케옵테릭스" class="dino-image">
+                    <h3>아르케옵테릭스</h3>
+                    <div class="tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 쥐라기 후기</li>
+                        <li><strong>크기:</strong> 길이 0.5m</li>
+                        <li><strong>무게:</strong> 0.5kg</li>
+                        <li><strong>특징:</strong> 공룡과 조류의 중간 형태</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
+                    <img src="images/microraptor.png" alt="미크로랩터" class="dino-image">
+                    <h3>미크로랩터</h3>
+                    <div class="tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 전기</li>
+                        <li><strong>크기:</strong> 길이 0.77m</li>
+                        <li><strong>무게:</strong> 1kg</li>
+                        <li><strong>특징:</strong> 네 개의 날개를 가진 작은 공룡</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
+                    <img src="images/hatzegopteryx.png" alt="하체고프테릭스" class="dino-image">
+                    <h3>하체고프테릭스</h3>
+                    <div class="tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>날개 폭:</strong> 10-12m</li>
+                        <li><strong>무게:</strong> 200-250kg</li>
+                        <li><strong>특징:</strong> 케찰코아틀루스와 비슷한 크기의 거대 비행 파충류</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
+                    <img src="images/anchiornis.png" alt="안키오르니스" class="dino-image">
+                    <h3>안키오르니스</h3>
+                    <div class="tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 전기</li>
+                        <li><strong>크기:</strong> 길이 35cm</li>
+                        <li><strong>무게:</strong> 0.3kg</li>
+                        <li><strong>특징:</strong> 현대 조류와 유사한 특징</li>
+                    </ul>
+                </div>
+
+                <!-- 해양 파충류 -->
+                <div class="dino-detail-card" data-tags="해양파충류 거대공룡 백악기 수생생활">
+                    <img src="images/mosasaurus.png" alt="모사사우루스" class="dino-image">
+                    <h3>모사사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">거대공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 15-18m</li>
+                        <li><strong>무게:</strong> 15-20톤</li>
+                        <li><strong>특징:</strong> 백악기 바다의 최상위 포식자</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="해양파충류 쥐라기 수생생활">
+                    <img src="images/plesiosaurus.png" alt="플레시오사우루스" class="dino-image">
+                    <h3>플레시오사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 쥐라기-백악기</li>
+                        <li><strong>크기:</strong> 길이 3-5m</li>
+                        <li><strong>무게:</strong> 1-2톤</li>
+                        <li><strong>특징:</strong> 매우 긴 목을 가진 해양 파충류</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="해양파충류 트라이아스기 수생생활">
+                    <img src="images/ichthyosaurus.png" alt="익티오사우루스" class="dino-image">
+                    <h3>익티오사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">트라이아스기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 트라이아스기 후기</li>
+                        <li><strong>크기:</strong> 길이 2-4m</li>
+                        <li><strong>무게:</strong> 200-400kg</li>
+                        <li><strong>특징:</strong> 돌고래와 유사한 체형</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="해양파충류 백악기 수생생활">
+                    <img src="images/tylosaurus.png" alt="틸로사우루스" class="dino-image">
+                    <h3>틸로사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 12m</li>
+                        <li><strong>무게:</strong> 8톤</li>
+                        <li><strong>특징:</strong> 강력한 턱과 이빨을 가진 모사사우루스류</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="해양파충류 백악기 수생생활">
+                    <img src="images/atractosteus.png" alt="아트락토스토무스" class="dino-image">
+                    <h3>아트락토스토무스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 백악기 후기</li>
+                        <li><strong>크기:</strong> 길이 5m</li>
+                        <li><strong>무게:</strong> 500kg</li>
+                        <li><strong>특징:</strong> 악어와 유사한 체형</li>
+                    </ul>
+                </div>
+
+                <div class="dino-detail-card" data-tags="해양파충류 트라이아스기 수생생활">
+                    <img src="images/shastasaurus.png" alt="샤스타사우루스" class="dino-image">
+                    <h3>샤스타사우루스</h3>
+                    <div class="tags">
+                        <span class="tag">해양파충류</span>
+                        <span class="tag">트라이아스기</span>
+                        <span class="tag">수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대:</strong> 트라이아스기 후기</li>
+                        <li><strong>크기:</strong> 길이 3m</li>
+                        <li><strong>무게:</strong> 150kg</li>
+                        <li><strong>특징:</strong> 물고기와 유사한 체형</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 공룡 목록 끝 -->
+
+            <!-- 푸터 -->
+            <footer>
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="공룡월드 로고" class="logo-img">
+                            <h3>공룡월드</h3>
+                            <p>시간을 뛰어넘는 공룡 탐험</p>
+                        </div>
+                        <div class="footer-links">
+                            <div class="link-column">
+                                <h4>탐험하기</h4>
+                                <ul>
+                                    <li><a href="herbivores.html">초식공룡</a></li>
+                                    <li><a href="carnivores.html">육식공룡</a></li>
+                                    <li><a href="flying.html">비행 파충류</a></li>
+                                    <li><a href="marine.html">해양 파충류</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2025 공룡월드. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+    <!-- 위로 가기 버튼 -->
+    <button id="scroll-to-top" aria-label="맨 위로 이동">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

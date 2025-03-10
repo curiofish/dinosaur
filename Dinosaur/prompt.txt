@@ -1,0 +1,128 @@
+# 공룡 프롬프트 및 파일명 목록
+
+## 초식공룡 (Herbivores)
+
+1. 브라키오사우루스
+파일명: brachiosaurus.png
+크기: 1024x1024
+프롬프트: "A professional cartoon illustration of a Brachiosaurus in a majestic pose, featuring its distinctive long neck and high shoulders. The dinosaur stands tall among Late Jurassic vegetation, reaching for treetops with its elongated neck. Set in a lush prehistoric forest with detailed foliage and ancient conifers. Using a clean cel-shaded style with bold outlines, emphasizing its massive yet gentle nature. The lighting creates depth and dimension, with warm sunlight filtering through the canopy. Scale is demonstrated through careful composition showing the dinosaur's impressive height. Square image size 1024x1024 pixels."
+
+2. 디플로도쿠스
+파일명: diplodocus.png
+크기: 1024x1024
+프롬프트: "A professional cartoon illustration of a Diplodocus showcasing its incredibly long neck and whip-like tail. The dinosaur is depicted in a natural pose, demonstrating its impressive length. Set in a Late Jurassic landscape with diverse vegetation and ancient cycads. Using a clean cel-shaded style with bold outlines, the illustration emphasizes the graceful proportions of this sauropod. The scene includes other dinosaurs or prehistoric plants for scale reference, highlighting its massive size. Square image size 1024x1024 pixels."
+
+3. 아르겐티노사우루스
+파일명: argentinosaurus.png
+크기: 1024x1024
+프롬프트: "A professional cartoon illustration of an Argentinosaurus, emphasizing its colossal size as the largest known land animal. The dinosaur is shown in a characteristic pose that highlights its massive body, long neck, and tail. Set in an Early Cretaceous environment with appropriate vegetation and landscape features. Using a clean cel-shaded style with bold outlines, the illustration includes elements for scale comparison. The lighting and shadows help convey the immense mass of this gentle giant. Square image size 1024x1024 pixels."
+
+4. 트리케라톱스
+파일명: triceratops.png
+크기: 1024x1024
+프롬프트: "A professional cartoon illustration of a Triceratops, featuring its iconic three horns and large bony frill. The dinosaur is shown in a dynamic pose that emphasizes its robust build and defensive features. Set in a Late Cretaceous environment with flowering plants and diverse vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures both the power and gentle herbivorous nature of this ceratopsian. The lighting enhances the texture of its skin and the impressive frill. Square image size 1024x1024 pixels."
+
+5. 스티라코사우루스
+파일명: styracosaurus.png
+크기: 1024x1024
+프롬프트: "A professional cartoon illustration of a Styracosaurus, highlighting its distinctive crown of long spikes around its neck frill and prominent nose horn. The dinosaur is shown in an alert pose that emphasizes its defensive features. Set in a Late Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures the unique ornamental features of this ceratopsian. The lighting emphasizes the dramatic spikes and the texture of its skin. Square image size 1024x1024 pixels."
+
+6. 파라사우롤로푸스
+파일명: parasaurolophus.png
+프롬프트: "A professional cartoon illustration of a Parasaurolophus, featuring its distinctive backward-sweeping hollow head crest and duck-like bill. The dinosaur is shown in a natural pose, possibly calling out using its resonating chamber. Set in a Late Cretaceous forest with diverse vegetation. Using a clean cel-shaded style with bold outlines, the illustration emphasizes both its unique head crest and graceful body proportions. The lighting highlights the textures and creates depth in the scene. Image size 1024x768 pixels."
+
+7. 코리토사우루스
+파일명: corythosaurus.png
+프롬프트: "A professional cartoon illustration of a Corythosaurus, highlighting its distinctive helmet-shaped head crest. The dinosaur is shown in an active pose, demonstrating its bipedal nature. Set in a Late Cretaceous environment with lush vegetation. Using a clean cel-shaded style with bold outlines, the illustration emphasizes the unique head ornamentation and duck-like bill. The lighting creates depth and enhances the texture of its scaly skin. Image size 1024x768 pixels."
+
+8. 스테고사우루스
+파일명: stegosaurus.png
+프롬프트: "A professional cartoon illustration of a Stegosaurus, featuring its iconic row of large bony plates along its back and defensive tail spikes. The dinosaur is shown in a characteristic pose that displays both its plates and thagomizer tail spikes. Set in a Late Jurassic environment with ancient cycads and ferns. Using a clean cel-shaded style with bold outlines, the illustration emphasizes the unique arrangement and shape of its plates. The lighting creates dramatic shadows from the plates and highlights the dinosaur's distinctive profile. Image size 1024x768 pixels."
+
+## 육식공룡 (Carnivores)
+
+1. 티라노사우루스 렉스
+파일명: tyrannosaurus.png
+프롬프트: "A professional cartoon illustration of a Tyrannosaurus Rex in a dynamic pose, featuring its massive skull with powerful jaws filled with banana-sized serrated teeth. The distinctive small but muscular forelimbs with two clawed fingers are accurately portrayed. Set in a Late Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures both the power and majesty of this apex predator. The lighting emphasizes its muscular build and creates dramatic shadows. Image size 1024x768 pixels."
+
+2. 스피노사우루스
+파일명: spinosaurus.png
+프롬프트: "A professional cartoon illustration of a Spinosaurus, highlighting its massive sail-like spinal extension and elongated crocodile-like snout. The dinosaur is shown in a semi-aquatic environment, demonstrating its adaptation to both water and land. Set in a Late Cretaceous river system with appropriate flora. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its unique sail and powerful build. The lighting creates dramatic effects on the sail and reflects off the water surface. Image size 1024x768 pixels."
+
+3. 벨로시랩터
+파일명: velociraptor.png
+프롬프트: "A professional cartoon illustration of a Velociraptor, featuring its distinctive sickle-shaped retractable foot claw and feathered body. The dinosaur is shown in a dynamic hunting pose that emphasizes its agility and intelligence. Set in a Late Cretaceous environment with arid vegetation. Using a clean cel-shaded style with bold outlines, the illustration accurately depicts its feathers and predatory features. The lighting enhances the texture of its feathers and the gleam of its claws. Image size 1024x768 pixels."
+
+4. 유타랩터
+파일명: utahraptor.png
+프롬프트: "A professional cartoon illustration of a Utahraptor, showcasing its large size among dromaeosaurs and powerful killing claws. The dinosaur is shown in an imposing pose that emphasizes its predatory nature and feathered body. Set in an Early Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures both its size and agility. The lighting dramatizes its fearsome appearance while highlighting its feathered covering. Image size 1024x768 pixels."
+
+5. 아크로칸토사우루스
+파일명: acrocanthosaurus.png
+프롬프트: "A professional cartoon illustration of an Acrocanthosaurus, featuring its distinctive high neural spines forming a ridge along its back. The dinosaur is shown in a hunting pose that emphasizes its powerful build and long skull. Set in an Early Cretaceous environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration captures its unique back ridge and strong limbs. The lighting creates dramatic shadows from the neural spines. Image size 1024x768 pixels."
+
+6. 데이노니쿠스
+파일명: deinonychus.png
+프롬프트: "A professional cartoon illustration of a Deinonychus, highlighting its deadly sickle-shaped claws and agile build. The dinosaur is shown in a dynamic hunting pose that emphasizes its predatory nature. Set in an Early Cretaceous forest environment. Using a clean cel-shaded style with bold outlines, the illustration accurately depicts its feathered body and sharp claws. The lighting enhances the texture of its feathers and creates dramatic shadows. Image size 1024x768 pixels."
+
+7. 메갈로사우루스
+파일명: megalosaurus.png
+프롬프트: "A professional cartoon illustration of a Megalosaurus, depicting this historic first-discovered dinosaur in an accurate modern interpretation. The dinosaur is shown in a powerful hunting pose that emphasizes its strong jaw and robust build. Set in a Middle Jurassic environment with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration balances historical significance with current scientific understanding. The lighting creates depth and enhances its predatory features."
+
+## 비행파충류 (Flying Reptiles)
+
+1. 케찰코아틀루스
+파일명: quetzalcoatlus.png
+프롬프트: "A professional cartoon illustration of a Quetzalcoatlus, showcasing its enormous wingspan and distinctive head crest. The pterosaur is shown both in flight and standing pose to demonstrate its impressive size. Set in a Late Cretaceous landscape with appropriate vegetation. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its unique proportions and graceful flight capability. The lighting creates dramatic shadows from its wings and enhances its majestic appearance."
+
+2. 프테라노돈
+파일명: pteranodon.png
+프롬프트: "A professional cartoon illustration of a Pteranodon, featuring its distinctive backward-projecting head crest and toothless beak. The pterosaur is shown gliding majestically over a Late Cretaceous seascape. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined body and impressive wingspan. The lighting creates a sense of atmosphere and highlights its graceful flight posture."
+
+3. 아르케옵테릭스
+파일명: archaeopteryx.png
+프롬프트: "A professional cartoon illustration of an Archaeopteryx, highlighting its unique transitional features between dinosaurs and birds. The creature is shown in a pose that displays both its feathers and reptilian features. Set in a Late Jurassic forest environment. Using a clean cel-shaded style with bold outlines, the illustration accurately depicts its feather arrangement and skeletal structure. The lighting enhances the detail of its preserved features."
+
+4. 미크로랩터
+파일명: microraptor.png
+프롬프트: "A professional cartoon illustration of a Microraptor, featuring its unique four-winged configuration and iridescent black feathers. The dinosaur is shown in a gliding pose that demonstrates its aerial capabilities. Set in an Early Cretaceous forest canopy. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its small size and remarkable adaptation for aerial locomotion. The lighting creates a shimmer effect on its feathers."
+
+5. 하체고프테릭스
+파일명: hatzegopteryx.png
+프롬프트: "A professional cartoon illustration of a Hatzegopteryx, emphasizing its massive size and robust build. The pterosaur is shown in both flight and standing poses to demonstrate its impressive scale. Set in a Late Cretaceous island environment. Using a clean cel-shaded style with bold outlines, the illustration captures its powerful neck and enormous wingspan. The lighting creates dramatic shadows and emphasizes its imposing presence."
+
+## 해양파충류 (Marine Reptiles)
+
+1. 모사사우루스
+파일명: mosasaurus.png
+프롬프트: "A professional cartoon illustration of a Mosasaurus, showcasing its powerful aquatic build and impressive size. The marine reptile is shown swimming through a Late Cretaceous ocean environment with various marine life for scale. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined body and powerful tail. The underwater lighting creates a sense of depth and movement in the ocean setting."
+
+2. 플레시오사우루스
+파일명: plesiosaurus.png
+프롬프트: "A professional cartoon illustration of a Plesiosaurus, featuring its characteristically long neck and flipper-like limbs. The marine reptile is shown gracefully swimming in a Jurassic ocean environment. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its unique body proportions and elegant swimming motion. The underwater lighting creates a serene atmosphere and highlights its streamlined form."
+
+3. 익티오사우루스
+파일명: ichthyosaurus.png
+프롬프트: "A professional cartoon illustration of an Ichthyosaurus, highlighting its dolphin-like body shape and large eyes. The marine reptile is shown in an active swimming pose that demonstrates its agility. Set in a Late Triassic ocean environment with appropriate marine life. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined form and fish-like tail. The underwater lighting enhances its sleek appearance."
+
+4. 틸로사우루스
+파일명: tylosaurus.png
+프롬프트: "A professional cartoon illustration of a Tylosaurus, featuring its powerful jaws and streamlined body. The marine reptile is shown in a hunting pose that emphasizes its predatory nature. Set in a Late Cretaceous marine environment with coral reefs and other sea life. Using a clean cel-shaded style with bold outlines, the illustration captures its impressive size and powerful swimming capabilities. The underwater lighting creates dramatic shadows and highlights its fearsome appearance."
+
+5. 아트락토스토무스
+파일명: atractosteus.png
+프롬프트: "A professional cartoon illustration of an Atractosteus, showcasing its crocodile-like appearance and powerful build. The marine reptile is shown in a shallow water environment, demonstrating its adaptation to both aquatic and semi-aquatic lifestyles. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its robust body and distinctive head shape. The lighting creates a mix of underwater and surface effects."
+
+6. 샤스타사우루스
+파일명: shastasaurus.png
+프롬프트: "A professional cartoon illustration of a Shastasaurus, featuring its fish-like body shape and unique adaptations. The marine reptile is shown swimming in a Late Triassic ocean environment with appropriate prehistoric marine life. Using a clean cel-shaded style with bold outlines, the illustration emphasizes its streamlined form and specialized swimming adaptations. The underwater lighting creates a sense of depth and ancient marine atmosphere."
+
+---
+모든 프롬프트는 다음 요소들을 포함하고 있습니다:
+1. 과학적 정확성
+2. 시대별 적절한 환경
+3. 특징적인 해부학적 구조
+4. 일관된 아트 스타일 (clean cel-shaded style)
+5. 적절한 조명과 분위기
+
+각 이미지는 교육적이면서도 친근한 느낌으로 제작될 수 있도록 프롬프트가 작성되었습니다. 

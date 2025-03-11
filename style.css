@@ -13,6 +13,7 @@
     --shadow: 0 4px 20px rgba(0,0,0,0.08);
     --card-shadow: 0 8px 30px rgba(0,0,0,0.12);
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --header-height: 80px;
 }
 
 * {
@@ -26,6 +27,7 @@ body {
     line-height: 1.7;
     color: var(--text-color);
     background-color: var(--background-color);
+    padding-top: var(--header-height);
 }
 
 /* 컨테이너 */
@@ -45,6 +47,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+    height: var(--header-height);
 }
 
 header.scrolled {
@@ -63,6 +66,7 @@ header .container {
     align-items: center;
     gap: 1rem;
     z-index: 1002;
+    position: relative;
 }
 
 .logo h1 {
@@ -74,6 +78,8 @@ header .container {
 .logo .logo-img {
     width: 40px;
     height: 40px;
+    position: relative;
+    z-index: 1002;
 }
 
 .logo .logo-img img {
@@ -122,6 +128,7 @@ nav {
     padding: 0.5rem;
     z-index: 1002;
     font-size: 2rem;
+    position: relative;
 }
 
 /* 메인 메뉴 */
@@ -185,7 +192,7 @@ nav {
 /* 히어로 섹션 */
 .hero-sub {
     position: relative;
-    padding: 4rem 0;
+    padding: 6rem 0 4rem;
     color: #fff;
     text-align: center;
     background-size: cover;
@@ -230,7 +237,7 @@ nav {
 
 /* index 페이지의 히어로 섹션에만 margin-top 적용 */
 .hero-main {
-    margin-top: 80px;
+    margin-top: 0;
 }
 
 /* 공룡 카드 스타일 */
@@ -518,42 +525,48 @@ footer {
 
 /* 반응형 디자인 */
 @media (max-width: 768px) {
+    :root {
+        --header-height: 60px;
+    }
+
     body {
-        padding-top: 60px;
+        padding-top: var(--header-height);
+    }
+
+    header {
+        height: var(--header-height);
+        padding: 0;
     }
 
     header .container {
-        padding: 0.5rem 1rem;
+        padding: 0 1rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .hero-sub {
-        padding: 3rem 0;
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
     }
-    
-    .hero-sub h1 {
-        font-size: 2.5rem;
-    }
-    
-    .hero-sub p {
+
+    .logo h1 {
         font-size: 1.2rem;
     }
 
-    .dino-cards {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 1rem;
-    }
-
-    .dino-detail-card {
-        margin-bottom: 2rem;
-    }
-
-    .container {
-        padding: 0 16px;
+    .logo .logo-img {
+        width: 32px;
+        height: 32px;
     }
 
     .mobile-menu-toggle {
         display: block;
+        padding: 0.5rem;
+        font-size: 1.8rem;
+        position: relative;
+        z-index: 1002;
     }
 
     .main-menu {
@@ -563,14 +576,13 @@ footer {
         left: 0;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(135deg, var(--primary-color) 0%, rgba(26, 35, 126, 0.98) 100%);
+        background: var(--primary-color);
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 2rem;
+        gap: 1.5rem;
         padding: 5rem 2rem;
         z-index: 1001;
-        backdrop-filter: blur(10px);
     }
 
     .main-menu.active {
@@ -595,37 +607,21 @@ footer {
         padding: 1rem;
         font-size: 1.4rem;
         width: 100%;
-        border-radius: 12px;
-        transition: all 0.3s ease;
-    }
-
-    .main-menu a:hover {
-        background: rgba(255, 255, 255, 0.1);
-        transform: translateX(10px);
+        color: white;
+        text-align: center;
     }
 
     .dropdown-menu {
         position: static;
-        background: rgba(0, 0, 0, 0.2);
-        box-shadow: none;
+        background: rgba(255, 255, 255, 0.1);
+        width: 100%;
         margin-top: 0.5rem;
-        border-radius: 12px;
-        display: none;
-    }
-
-    .dropdown.active .dropdown-menu {
-        display: block;
-        animation: fadeIn 0.3s ease-out;
     }
 
     .dropdown-menu a {
-        color: rgba(255, 255, 255, 0.9);
+        color: white;
         font-size: 1.2rem;
-    }
-
-    .dropdown-menu a:hover {
-        background: rgba(255, 255, 255, 0.1);
-        color: var(--accent-color);
+        padding: 0.8rem 1rem;
     }
 
     /* 드롭다운 화살표 아이콘 */
@@ -638,49 +634,36 @@ footer {
         transform: rotate(180deg);
     }
 
-    /* 카드 레이아웃 개선 */
-    .dino-cards {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-        padding: 1rem 0;
+    /* 히어로 섹션 모바일 조정 */
+    .hero-sub {
+        padding: 4rem 0 3rem;
+        margin-top: 0;
     }
 
-    .dino-detail-card {
-        margin: 0;
+    .hero-sub h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
 
-    /* 여백 및 타이포그래피 조정 */
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.75rem; }
-    h3 { font-size: 1.5rem; }
-    
-    .section-title {
-        margin-bottom: 1.5rem;
-        font-size: 1.75rem;
+    .hero-sub p {
+        font-size: 1.1rem;
+        padding: 0 1rem;
     }
 
-    /* 푸터 개선 */
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
+    /* 컨테이너 패딩 조정 */
+    .container {
+        padding: 0 1rem;
     }
 
-    .footer-links {
-        flex-direction: column;
-        gap: 1.5rem;
+    /* 섹션 패딩 조정 */
+    #categories, .categories {
+        padding: 3rem 0;
     }
 
-    /* 애니메이션 추가 */
-    @keyframes slideIn {
-        from {
-            opacity: 0;
-            transform: translateX(-100%);
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
+    .contact-section,
+    .privacy-section,
+    .terms-section {
+        padding: 4rem 1rem;
     }
 }
 
@@ -744,7 +727,7 @@ footer {
 
 /* 카테고리 섹션 */
 #categories, .categories {
-    padding: 3rem 0 4rem;
+    padding: 4rem 0;
     background: linear-gradient(to bottom, var(--light-gray), #ffffff);
     position: relative;
 }
@@ -1383,7 +1366,7 @@ p {
 .contact-section,
 .privacy-section,
 .terms-section {
-    padding: 4rem 0;
+    padding: 6rem 0 4rem;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -1535,7 +1518,11 @@ p {
     .contact-section,
     .privacy-section,
     .terms-section {
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
+    }
+
+    #categories, .categories {
+        padding: 3rem 0;
     }
 }
 

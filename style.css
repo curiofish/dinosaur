@@ -534,24 +534,16 @@ footer {
     }
 
     .container {
-        padding: 0 1rem;
+        padding: 0 16px;
     }
 
     .mobile-menu-toggle {
         display: block;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.8rem;
         cursor: pointer;
+        color: white;
+        font-size: 1.5rem;
+        z-index: 1000;
         padding: 0.5rem;
-        z-index: 1002;
-        position: relative;
-    }
-
-    .mobile-menu-toggle.active i {
-        transform: rotate(90deg);
-        color: var(--accent-color);
     }
 
     .main-menu {
@@ -559,59 +551,90 @@ footer {
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(26, 35, 126, 0.98);
-        backdrop-filter: blur(10px);
-        padding: 80px 2rem 2rem;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(135deg, var(--primary-color) 0%, rgba(26, 35, 126, 0.98) 100%);
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 2rem;
+        padding: 5rem 2rem;
         z-index: 1001;
+        backdrop-filter: blur(10px);
     }
 
     .main-menu.active {
         display: flex;
-        animation: fadeIn 0.3s ease-out;
+        animation: slideIn 0.3s ease-out;
     }
 
     .main-menu li {
         width: 100%;
         text-align: center;
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.5s ease forwards;
     }
 
+    .main-menu li:nth-child(1) { animation-delay: 0.1s; }
+    .main-menu li:nth-child(2) { animation-delay: 0.2s; }
+    .main-menu li:nth-child(3) { animation-delay: 0.3s; }
+    .main-menu li:nth-child(4) { animation-delay: 0.4s; }
+
     .main-menu a {
-        color: white;
-        font-size: 1.4rem;
-        padding: 1rem;
         display: block;
+        padding: 1rem;
+        font-size: 1.4rem;
+        color: white;
         width: 100%;
+        border-radius: 12px;
         transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .main-menu a:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--accent-color);
+        transition: width 0.3s ease;
+        transform: translateY(-50%);
+    }
+
+    .main-menu a:hover:before {
+        width: 100%;
     }
 
     .main-menu a:hover {
-        color: var(--accent-color);
         background: rgba(255, 255, 255, 0.1);
-        border-radius: 8px;
+        transform: translateX(10px);
     }
 
+    /* 드롭다운 메뉴 모바일 스타일 */
     .dropdown-menu {
         position: static;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.2);
         box-shadow: none;
-        padding: 1rem;
-        min-width: auto;
-        text-align: center;
-        border-radius: 8px;
+        display: none;
+        padding: 0.5rem;
         margin-top: 0.5rem;
-        z-index: auto;
+        border-radius: 12px;
+        animation: fadeIn 0.3s ease-out;
+    }
+
+    .dropdown.active .dropdown-menu {
+        display: block;
     }
 
     .dropdown-menu a {
         color: rgba(255, 255, 255, 0.9);
         padding: 0.8rem;
         font-size: 1.2rem;
-        white-space: normal;
+        background: transparent;
     }
 
     .dropdown-menu a:hover {
@@ -619,8 +642,8 @@ footer {
         color: var(--accent-color);
     }
 
+    /* 드롭다운 화살표 아이콘 */
     .main-menu .dropdown .fa-caret-down {
-        display: inline-block;
         margin-left: 0.5rem;
         transition: transform 0.3s ease;
     }
@@ -629,54 +652,67 @@ footer {
         transform: rotate(180deg);
     }
 
-    /* 로고 영역 z-index 조정 */
-    .logo {
-        position: relative;
-        z-index: 1002;
-    }
-
-    /* 기타 모바일 스타일 수정 */
-    h1 { font-size: 2.5rem; }
-    h2 { font-size: 2rem; }
-    h3 { font-size: 1.5rem; }
-    
+    /* 카드 레이아웃 개선 */
     .dino-cards {
         grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 1rem;
-    }
-    
-    .dino-detail-card {
-        margin-bottom: 2rem;
-    }
-    
-    .container {
-        padding: 0 1rem;
-    }
-
-    .hero-content {
-        padding: 1rem;
-    }
-
-    .category-grid {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
+        padding: 1rem 0;
     }
 
+    .dino-detail-card {
+        margin: 0;
+    }
+
+    /* 여백 및 타이포그래피 조정 */
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+    
+    .section-title {
+        margin-bottom: 1.5rem;
+        font-size: 1.75rem;
+    }
+
+    /* 푸터 개선 */
     .footer-content {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        text-align: center;
         gap: 2rem;
     }
 
     .footer-links {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    /* 애니메이션 추가 */
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
@@ -701,9 +737,16 @@ footer {
     display: none;
     background: none;
     border: none;
-    font-size: 1.5rem;
-    color: #333;
+    color: white;
     cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1002;
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.mobile-menu-toggle.active {
+    transform: rotate(90deg);
 }
 
 /* 영웅 배너 */

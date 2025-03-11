@@ -29,15 +29,56 @@ window.addEventListener('scroll', () => {
 });
 
 // 모바일 메뉴 토글 기능
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const mainMenu = document.querySelector('.main-menu');
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.mobile-menu-toggle');
+    const mainMenu = document.querySelector('.main-menu');
+    const dropdowns = document.querySelectorAll('.dropdown');
 
-if (mobileMenuToggle && mainMenu) {
-    mobileMenuToggle.addEventListener('click', () => {
+    // 메뉴 토글 버튼 클릭 이벤트
+    menuToggle.addEventListener('click', function() {
+        menuToggle.classList.toggle('active');
         mainMenu.classList.toggle('active');
-        mobileMenuToggle.classList.toggle('active');
+        document.body.style.overflow = mainMenu.classList.contains('active') ? 'hidden' : '';
     });
-}
+
+    // 드롭다운 메뉴 토글 기능
+    dropdowns.forEach(dropdown => {
+        const link = dropdown.querySelector('a');
+        link.addEventListener('click', function(e) {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                dropdown.classList.toggle('active');
+                
+                // 다른 드롭다운 메뉴 닫기
+                dropdowns.forEach(other => {
+                    if (other !== dropdown) {
+                        other.classList.remove('active');
+                    }
+                });
+            }
+        });
+    });
+
+    // 메뉴 외부 클릭시 닫기
+    document.addEventListener('click', function(e) {
+        if (!mainMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+            mainMenu.classList.remove('active');
+            menuToggle.classList.remove('active');
+            document.body.style.overflow = '';
+            dropdowns.forEach(dropdown => dropdown.classList.remove('active'));
+        }
+    });
+
+    // 창 크기 변경 시 모바일 메뉴 초기화
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            mainMenu.classList.remove('active');
+            menuToggle.classList.remove('active');
+            document.body.style.overflow = '';
+            dropdowns.forEach(dropdown => dropdown.classList.remove('active'));
+        }
+    });
+});
 
 // 드롭다운 메뉴 접근성 개선
 const dropdowns = document.querySelectorAll('.dropdown');

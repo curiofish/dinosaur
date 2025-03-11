@@ -48,7 +48,7 @@
                 <h2>연락처 정보</h2>
                 <div class="info-item">
                     <i class="fas fa-envelope"></i>
-                    <p>이메일: info@dinoworld.com</p>
+                    <p>이메일: fishcurio@gmail.com</p>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-phone"></i>
@@ -59,7 +59,9 @@
                     <p>운영시간: 평일 09:00 - 18:00</p>
                 </div>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" action="https://formsubmit.co/fishcurio@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="공룡월드 문의사항">
+                <input type="hidden" name="_next" value="https://your-website.com/thanks.html">
                 <div class="form-group">
                     <label for="name">이름</label>
                     <input type="text" id="name" name="name" required>
@@ -80,6 +82,39 @@
             </form>
         </div>
     </section>
+
+    <script>
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+            
+            if (name.length < 2) {
+                e.preventDefault();
+                alert('이름을 2자 이상 입력해주세요.');
+                return;
+            }
+            
+            if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+                e.preventDefault();
+                alert('올바른 이메일 주소를 입력해주세요.');
+                return;
+            }
+            
+            if (subject.length < 2) {
+                e.preventDefault();
+                alert('문의 제목을 2자 이상 입력해주세요.');
+                return;
+            }
+            
+            if (message.length < 10) {
+                e.preventDefault();
+                alert('문의 내용을 10자 이상 입력해주세요.');
+                return;
+            }
+        });
+    </script>
     <!-- 문의하기 섹션 끝 -->
 
     <!-- 푸터 시작 -->
@@ -87,33 +122,31 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="images/dino-logo-primary.png" alt="공룡월드" class="logo-img">
-                    <p style="color: #ffffff; font-weight: 500;">시간을 뛰어넘는 공룡 탐험</p>
+                    <img src="images/dino-logo-white.png" alt="공룡월드" class="logo-img">
+                    <p>시간을 뛰어넘는 공룡 탐험</p>
                 </div>
                 <div class="footer-links">
                     <div class="link-column">
-                        <h4 style="color: #ffffff; font-weight: 600;">공룡탐험</h4>
+                        <h4>탐험하기</h4>
                         <ul>
-                            <li><a href="herbivores.html" style="color: #ffffff;">초식공룡</a></li>
-                            <li><a href="carnivores.html" style="color: #ffffff;">육식공룡</a></li>
-                            <li><a href="flying.html" style="color: #ffffff;">비행 파충류</a></li>
-                            <li><a href="marine.html" style="color: #ffffff;">해양 파충류</a></li>
+                            <li><a href="herbivores.html">초식공룡</a></li>
+                            <li><a href="carnivores.html">육식공룡</a></li>
+                            <li><a href="flying.html">비행 파충류</a></li>
+                            <li><a href="marine.html">해양 파충류</a></li>
                         </ul>
                     </div>
                     <div class="link-column">
-                        <h4 style="color: #ffffff; font-weight: 600;">고객센터</h4>
+                        <h4>고객센터</h4>
                         <ul>
-                            <li><a href="contact.html" style="color: #ffffff;">문의하기</a></li>
-                            <li><a href="privacy.html" style="color: #ffffff;">개인정보처리방침</a></li>
-                            <li><a href="terms.html" style="color: #ffffff;">이용약관</a></li>
+                            <li><a href="contact.html">문의하기</a></li>
+                            <li><a href="privacy.html">개인정보처리방침</a></li>
+                            <li><a href="terms.html">이용약관</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 공룡월드 | All Rights Reserved</p>
-                <p>사업자등록번호: 123-45-67890 | 대표: 홍길동<br>
-                   서울특별시 강남구 테헤란로 123 공룡빌딩 4층</p>
+                <p>&copy; 2025 공룡월드. All rights reserved.</p>
             </div>
         </div>
     </footer>

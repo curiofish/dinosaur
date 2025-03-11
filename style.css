@@ -1758,7 +1758,11 @@ p {
 
 /* 모바일 화면에서도 일관된 여백 유지 */
 @media (max-width: 768px) {
-    .section-title {
+    .section-title,
+    #dictionary .section-title,
+    #timeline .section-title,
+    #dino-of-day .section-title,
+    .categories .section-title {
         font-size: 2rem;
         margin: 1.5rem 0;
         padding-left: 1rem;

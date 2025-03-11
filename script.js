@@ -33,9 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.mobile-menu-toggle');
     const mainMenu = document.querySelector('.main-menu');
     const dropdowns = document.querySelectorAll('.dropdown');
+    const header = document.querySelector('header');
 
     // 메뉴 토글 버튼 클릭 이벤트
-    menuToggle.addEventListener('click', function() {
+    menuToggle.addEventListener('click', function(e) {
+        e.stopPropagation();
         menuToggle.classList.toggle('active');
         mainMenu.classList.toggle('active');
         document.body.style.overflow = mainMenu.classList.contains('active') ? 'hidden' : '';
@@ -43,10 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 드롭다운 메뉴 토글 기능
     dropdowns.forEach(dropdown => {
-        const link = dropdown.querySelector('a');
+        const link = dropdown.querySelector('.dropdown-toggle');
         link.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
             if (window.innerWidth <= 768) {
-                e.preventDefault();
                 dropdown.classList.toggle('active');
                 
                 // 다른 드롭다운 메뉴 닫기
@@ -76,6 +80,15 @@ document.addEventListener('DOMContentLoaded', function() {
             menuToggle.classList.remove('active');
             document.body.style.overflow = '';
             dropdowns.forEach(dropdown => dropdown.classList.remove('active'));
+        }
+    });
+
+    // 스크롤 시 헤더 스타일 변경
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
         }
     });
 });

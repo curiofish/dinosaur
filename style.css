@@ -726,23 +726,29 @@ footer {
 }
 
 .section-title {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
     position: relative;
 }
 
 .section-title::after {
     content: '';
     position: absolute;
-    bottom: -0.8rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
+    bottom: 0;
+    left: 0;
+    width: 40px;
     height: 3px;
     background: var(--accent-color);
     border-radius: 2px;
+}
+
+.section-content {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
 }
 
 .category-grid {
@@ -1358,22 +1364,22 @@ p {
     margin: 0 auto;
 }
 
-.section-title {
-    color: var(--primary-color);
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+/* 특별한 섹션 타이틀 스타일 */
+.contact-section .section-title,
+.privacy-section .section-title,
+.terms-section .section-title {
     text-align: center;
-    position: relative;
+    font-size: 2.5rem;
 }
 
-.section-title::after {
-    content: '';
-    display: block;
+.contact-section .section-title::after,
+.privacy-section .section-title::after,
+.terms-section .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
     width: 60px;
     height: 4px;
     background: var(--primary-color);
-    margin: 1rem auto;
-    border-radius: 2px;
 }
 
 /* 문의하기 페이지 스타일 */

@@ -24,7 +24,7 @@
         }
         .dino-detail-card img {
             width: 100%;
-            height: auto;
+            height: 300px;
             margin-bottom: 1rem;
             border-radius: 8px;
             object-fit: cover;
@@ -54,6 +54,81 @@
             .filter-group {
                 width: 100%;
             }
+        }
+
+        /* 모달 스타일 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90vh;
+            position: relative;
+            animation: zoomIn 0.3s ease;
+        }
+
+        .modal-image {
+            max-width: 100%;
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 8px;
+        }
+
+        .close-modal:hover {
+            color: #ddd;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* 이미지에 커서 포인터 추가 */
+        .dino-detail-card img {
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .dino-detail-card img:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -106,7 +181,8 @@
                 <ol>
                     <li>분류, 시대, 특징, 생활방식 중 원하는 필터를 선택하세요.</li>
                     <li>선택한 필터는 상단에 태그로 표시됩니다.</li>
-                    <li>'공룡 찾기' 버튼을 클릭하면 선택한 필터에 맞는 공룡들이 표시됩니다.</li>
+                    <li>필터를 선택하면 자동으로 해당하는 공룡들이 표시됩니다.</li>
+                    <li>태그를 클릭하면 해당 필터가 해제됩니다.</li>
                     <li>'필터 초기화' 버튼을 누르면 모든 필터가 해제되고 전체 목록이 표시됩니다.</li>
                 </ol>
                 <p>여러 필터를 동시에 선택하면 모든 조건을 만족하는 공룡만 표시됩니다. (예: '초식공룡'과 '백악기'를 선택하면 백악기에 살았던 초식공룡만 표시)</p>
@@ -161,6 +237,9 @@
                                     <option value="갑옷공룡">갑옷공룡</option>
                                     <option value="오리주둥이공룡">오리주둥이공룡</option>
                                     <option value="랩터">랩터</option>
+                                    <option value="물고기사냥꾼">물고기사냥꾼</option>
+                                    <option value="날렵한사냥꾼">날렵한사냥꾼</option>
+                                    <option value="초기조류">초기조류</option>
                                 </select>
                             </div>
                         </div>
@@ -187,10 +266,6 @@
                         <i class="fas fa-undo"></i>
                         필터 초기화
                     </button>
-                    <button class="btn-search" id="search-dinos">
-                        <i class="fas fa-search"></i>
-                        공룡 찾기
-                    </button>
                 </div>
             </div>
             <!-- 태그 필터 끝 -->
@@ -199,7 +274,7 @@
             <div class="dinosaur-grid">
                 <!-- 초식공룡 -->
                 <div class="dino-detail-card" data-tags="초식공룡 거대공룡 쥐라기 육상생활">
-                    <img src="images/brachiosaurus.png" alt="브라키오사우루스">
+                    <img src="images/brachiosaurus.png" loading="lazy" width="400" height="300" alt="브라키오사우루스">
                     <h3>브라키오사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -215,7 +290,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 거대공룡 쥐라기 육상생활">
-                    <img src="images/diplodocus.png" alt="디플로도쿠스">
+                    <img src="images/diplodocus.png" loading="lazy" width="400" height="300" alt="디플로도쿠스">
                     <h3>디플로도쿠스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -231,7 +306,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 거대공룡 백악기 육상생활">
-                    <img src="images/argentinosaurus.png" alt="아르겐티노사우루스">
+                    <img src="images/argentinosaurus.png" loading="lazy" width="400" height="300" alt="아르겐티노사우루스">
                     <h3>아르겐티노사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -247,7 +322,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 뿔공룡 백악기 육상생활">
-                    <img src="images/triceratops.png" alt="트리케라톱스">
+                    <img src="images/triceratops.png" loading="lazy" width="400" height="300" alt="트리케라톱스">
                     <h3>트리케라톱스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -263,7 +338,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 뿔공룡 백악기 육상생활">
-                    <img src="images/styracosaurus.png" alt="스티라코사우루스">
+                    <img src="images/styracosaurus.png" loading="lazy" width="400" height="300" alt="스티라코사우루스">
                     <h3>스티라코사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -279,7 +354,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 무리생활">
-                    <img src="images/parasaurolophus.png" alt="파라사우롤로푸스">
+                    <img src="images/parasaurolophus.png" loading="lazy" width="400" height="300" alt="파라사우롤로푸스">
                     <h3>파라사우롤로푸스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -296,7 +371,7 @@
 
                 <!-- 추가: 코리토사우루스 -->
                 <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 무리생활">
-                    <img src="images/corythosaurus.png" alt="코리토사우루스">
+                    <img src="images/corythosaurus.png" loading="lazy" width="400" height="300" alt="코리토사우루스">
                     <h3>코리토사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -313,7 +388,7 @@
 
                 <!-- 추가: 스테고사우루스 -->
                 <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 쥐라기 육상생활">
-                    <img src="images/stegosaurus.png" alt="스테고사우루스">
+                    <img src="images/stegosaurus.png" loading="lazy" width="400" height="300" alt="스테고사우루스">
                     <h3>스테고사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -330,7 +405,7 @@
 
                 <!-- 육식공룡 -->
                 <div class="dino-detail-card" data-tags="육식공룡 거대공룡 백악기 육상생활">
-                    <img src="images/tyrannosaurus.png" alt="티라노사우루스 렉스">
+                    <img src="images/tyrannosaurus.png" loading="lazy" width="400" height="300" alt="티라노사우루스 렉스">
                     <h3>티라노사우루스 렉스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -346,7 +421,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="육식공룡 거대공룡 백악기 육상생활">
-                    <img src="images/spinosaurus.png" alt="스피노사우루스">
+                    <img src="images/spinosaurus.png" loading="lazy" width="400" height="300" alt="스피노사우루스">
                     <h3>스피노사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -363,7 +438,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="육식공룡 랩터 백악기 육상생활">
-                    <img src="images/velociraptor.png" alt="벨로시랩터">
+                    <img src="images/velociraptor.png" loading="lazy" width="400" height="300" alt="벨로시랩터">
                     <h3>벨로시랩터</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -380,7 +455,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="육식공룡 랩터 백악기 육상생활">
-                    <img src="images/utahraptor.png" alt="유타랩터">
+                    <img src="images/utahraptor.png" loading="lazy" width="400" height="300" alt="유타랩터">
                     <h3>유타랩터</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -397,7 +472,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="육식공룡 거대공룡 백악기 육상생활">
-                    <img src="images/acrocanthosaurus.png" alt="아크로칸토사우루스">
+                    <img src="images/acrocanthosaurus.png" loading="lazy" width="400" height="300" alt="아크로칸토사우루스">
                     <h3>아크로칸토사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -414,7 +489,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="육식공룡 랩터 백악기 육상생활">
-                    <img src="images/deinonychus.png" alt="데이노니쿠스">
+                    <img src="images/deinonychus.png" loading="lazy" width="400" height="300" alt="데이노니쿠스">
                     <h3>데이노니쿠스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -431,7 +506,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="육식공룡 거대공룡 쥐라기 육상생활">
-                    <img src="images/megalosaurus.png" alt="메갈로사우루스">
+                    <img src="images/megalosaurus.png" loading="lazy" width="400" height="300" alt="메갈로사우루스">
                     <h3>메갈로사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -448,7 +523,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
-                    <img src="images/archaeopteryx.png" alt="시조새">
+                    <img src="images/archaeopteryx.png" loading="lazy" width="400" height="300" alt="시조새">
                     <h3>시조새</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
@@ -464,7 +539,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="해양파충류 백악기 수생생활">
-                    <img src="images/Elasmosaurus.png" alt="아트락토스토무스">
+                    <img src="images/atractosteus.png" loading="lazy" width="400" height="300" alt="아트락토스토무스">
                     <h3>아트락토스토무스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
@@ -480,7 +555,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="해양파충류 트라이아스기 수생생활">
-                    <img src="images/shastasaurus.png" alt="샤스타사우루스">
+                    <img src="images/shastasaurus.png" loading="lazy" width="400" height="300" alt="샤스타사우루스">
                     <h3>샤스타사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
@@ -497,7 +572,7 @@
 
                 <!-- 초식공룡 추가 -->
                 <div class="dino-detail-card" data-tags="초식공룡 거대공룡 쥐라기 육상생활 긴목공룡">
-                    <img src="images/mamenchisaurus.png" alt="마멘키사우루스">
+                    <img src="images/mamenchisaurus.png" loading="lazy" width="400" height="300" alt="마멘키사우루스">
                     <h3>마멘키사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -514,7 +589,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 거대공룡 백악기 육상생활 긴목공룡">
-                    <img src="images/patagotitan.png" alt="파타고타이탄">
+                    <img src="images/patagotitan.png" loading="lazy" width="400" height="300" alt="파타고타이탄">
                     <h3>파타고타이탄</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -531,7 +606,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 뿔공룡 백악기 육상생활 무리생활">
-                    <img src="images/torosaurus.png" alt="토로사우루스">
+                    <img src="images/torosaurus.png" loading="lazy" width="400" height="300" alt="토로사우루스">
                     <h3>토로사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -548,7 +623,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="육식공룡 뿔공룡 백악기 육상생활">
-                    <img src="images/ceratosaurus.png" alt="케라토사우루스">
+                    <img src="images/ceratosaurus.png" loading="lazy" width="400" height="300" alt="케라토사우루스">
                     <h3>케라토사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
@@ -565,7 +640,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 무리생활">
-                    <img src="images/edmontosaurus.png" alt="에드몬토사우루스">
+                    <img src="images/edmontosaurus.png" loading="lazy" width="400" height="300" alt="에드몬토사우루스">
                     <h3>에드몬토사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -582,7 +657,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 오리주둥이공룡 백악기 육상생활 소리내는공룡">
-                    <img src="images/saurolophus.png" alt="사우롤로푸스">
+                    <img src="images/saurolophus.png" loading="lazy" width="400" height="300" alt="사우롤로푸스">
                     <h3>사우롤로푸스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -599,7 +674,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 백악기 육상생활 방어특화">
-                    <img src="images/nodosaurus.png" alt="노도사우루스">
+                    <img src="images/nodosaurus.png" loading="lazy" width="400" height="300" alt="노도사우루스">
                     <h3>노도사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -616,7 +691,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 백악기 육상생활 가시공룡">
-                    <img src="images/sauropelta.png" alt="사우로펠타">
+                    <img src="images/sauropelta.png" loading="lazy" width="400" height="300" alt="사우로펠타">
                     <h3>사우로펠타</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -633,7 +708,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 갑옷공룡 백악기 육상생활 신종공룡">
-                    <img src="images/borealopelta.png" alt="보레알로펠타">
+                    <img src="images/borealopelta.png" loading="lazy" width="400" height="300" alt="보레알로펠타">
                     <h3>보레알로펠타</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -650,7 +725,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 특이공룡 백악기 육상생활 긴팔공룡">
-                    <img src="images/Deinocheirus.png" alt="데이노케이루스">
+                    <img src="images/Deinocheirus.png" loading="lazy" width="400" height="300" alt="데이노케이루스">
                     <h3>데이노케이루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -667,7 +742,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="초식공룡 특이공룡 백악기 육상생활 빠른공룡">
-                    <img src="images/tenontosaurus.png" alt="테논토사우루스">
+                    <img src="images/tenontosaurus.png" loading="lazy" width="400" height="300" alt="테논토사우루스">
                     <h3>테논토사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
@@ -685,7 +760,7 @@
 
                 <!-- 비행 파충류 -->
                 <div class="dino-detail-card" data-tags="비행파충류 거대공룡 백악기 비행생활">
-                    <img src="images/quetzalcoatlus.png" alt="케찰코아틀루스">
+                    <img src="images/quetzalcoatlus.png" loading="lazy" width="400" height="300" alt="케찰코아틀루스">
                     <h3>케찰코아틀루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
@@ -702,7 +777,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
-                    <img src="images/pteranodon.png" alt="프테라노돈">
+                    <img src="images/pteranodon.png" loading="lazy" width="400" height="300" alt="프테라노돈">
                     <h3>프테라노돈</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
@@ -718,7 +793,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
-                    <img src="images/microraptor.png" alt="미크로랩터">
+                    <img src="images/microraptor.png" loading="lazy" width="400" height="300" alt="미크로랩터">
                     <h3>미크로랩터</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
@@ -734,7 +809,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
-                    <img src="images/hatzegopteryx.png" alt="하체고프테릭스">
+                    <img src="images/hatzegopteryx.png" loading="lazy" width="400" height="300" alt="하체고프테릭스">
                     <h3>하체고프테릭스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
@@ -751,7 +826,7 @@
 
                 <!-- 해양 파충류 -->
                 <div class="dino-detail-card" data-tags="해양파충류 거대공룡 백악기 수생생활">
-                    <img src="images/mosasaurus.png" alt="모사사우루스">
+                    <img src="images/mosasaurus.png" loading="lazy" width="400" height="300" alt="모사사우루스">
                     <h3>모사사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
@@ -767,7 +842,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="해양파충류 쥐라기 수생생활">
-                    <img src="images/plesiosaurus.png" alt="플레시오사우루스">
+                    <img src="images/plesiosaurus.png" loading="lazy" width="400" height="300" alt="플레시오사우루스">
                     <h3>플레시오사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
@@ -783,7 +858,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="해양파충류 트라이아스기 수생생활">
-                    <img src="images/ichthyosaurus.png" alt="익티오사우루스">
+                    <img src="images/ichthyosaurus.png" loading="lazy" width="400" height="300" alt="익티오사우루스">
                     <h3>익티오사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
@@ -799,7 +874,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="해양파충류 백악기 수생생활">
-                    <img src="images/atractosteus.png" alt="아트락토스토무스">
+                    <img src="images/atractosteus.png" loading="lazy" width="400" height="300" alt="아트락토스토무스">
                     <h3>아트락토스토무스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
@@ -815,7 +890,7 @@
                 </div>
 
                 <div class="dino-detail-card" data-tags="해양파충류 트라이아스기 수생생활">
-                    <img src="images/shastasaurus.png" alt="샤스타사우루스">
+                    <img src="images/shastasaurus.png" loading="lazy" width="400" height="300" alt="샤스타사우루스">
                     <h3>샤스타사우루스</h3>
                     <div class="tags">
                         <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
@@ -832,12 +907,130 @@
             </div>
             <!-- 공룡 목록 끝 -->
 
+            <!-- 공룡 카드 섹션 시작 -->
+            <div class="dino-cards" id="dino-cards">
+                <!-- 델타드로메우스 -->
+                <div class="dino-detail-card" data-classification="육식공룡" data-era="백악기" data-characteristic="날렵한사냥꾼" data-lifestyle="육상생활">
+                    <div class="dino-image">
+                        <img src="images/deltadromeus.png" alt="델타드로메우스" loading="lazy">
+                    </div>
+                    <h3>델타드로메우스</h3>
+                    <div class="dino-tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대</strong> 백악기 후기 (9,500만 년 전)</li>
+                        <li><strong>크기</strong> 길이 8m</li>
+                        <li><strong>체중</strong> 2톤</li>
+                        <li><strong>특징</strong> 긴 다리와 날렵한 체형</li>
+                    </ul>
+                </div>
+
+                <!-- 마중가사우루스 -->
+                <div class="dino-detail-card" data-classification="육식공룡" data-era="백악기" data-characteristic="거대공룡" data-lifestyle="육상생활">
+                    <div class="dino-image">
+                        <img src="images/majungasaurus.png" alt="마중가사우루스" loading="lazy">
+                    </div>
+                    <h3>마중가사우루스</h3>
+                    <div class="dino-tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">육상생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대</strong> 백악기 후기 (7천만 년 전)</li>
+                        <li><strong>크기</strong> 길이 6-7m</li>
+                        <li><strong>체중</strong> 1.1톤</li>
+                        <li><strong>특징</strong> 두꺼운 머리와 짧은 뿔</li>
+                    </ul>
+                </div>
+
+                <!-- 수코미무스 -->
+                <div class="dino-detail-card" data-classification="육식공룡" data-era="백악기" data-characteristic="물고기사냥꾼" data-lifestyle="반수생생활">
+                    <div class="dino-image">
+                        <img src="images/suchomimus.png" alt="수코미무스" loading="lazy">
+                    </div>
+                    <h3>수코미무스</h3>
+                    <div class="dino-tags">
+                        <span class="tag">육식공룡</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">반수생생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대</strong> 백악기 초기 (1억 1천만 년 전)</li>
+                        <li><strong>크기</strong> 길이 11m</li>
+                        <li><strong>체중</strong> 2.5-5.2톤</li>
+                        <li><strong>특징</strong> 악어와 비슷한 긴 주둥이</li>
+                    </ul>
+                </div>
+
+                <!-- 타페자라 -->
+                <div class="dino-detail-card" data-classification="비행파충류" data-era="백악기" data-characteristic="거대공룡" data-lifestyle="비행생활">
+                    <div class="dino-image">
+                        <img src="images/tapejara.png" alt="타페자라" loading="lazy">
+                    </div>
+                    <h3>타페자라</h3>
+                    <div class="dino-tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대</strong> 백악기 초기 (1억 1천만 년 전)</li>
+                        <li><strong>날개 폭</strong> 5-6m</li>
+                        <li><strong>체중</strong> 20-25kg</li>
+                        <li><strong>특징</strong> 큰 머리 볏</li>
+                    </ul>
+                </div>
+
+                <!-- 닥틸링쿠스 -->
+                <div class="dino-detail-card" data-classification="비행파충류" data-era="쥐라기" data-characteristic="물고기사냥꾼" data-lifestyle="비행생활">
+                    <div class="dino-image">
+                        <img src="images/dactylrhynchus.png" alt="닥틸링쿠스" loading="lazy">
+                    </div>
+                    <h3>닥틸링쿠스</h3>
+                    <div class="dino-tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">쥐라기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대</strong> 쥐라기 후기 (1억 5천만 년 전)</li>
+                        <li><strong>날개 폭</strong> 4-5m</li>
+                        <li><strong>체중</strong> 10-15kg</li>
+                        <li><strong>특징</strong> 긴 부리와 날렵한 체형</li>
+                    </ul>
+                </div>
+
+                <!-- 익티오르니스 -->
+                <div class="dino-detail-card" data-classification="비행파충류" data-era="백악기" data-characteristic="초기조류" data-lifestyle="비행생활">
+                    <div class="dino-image">
+                        <img src="images/ichthyornis.png" alt="익티오르니스" loading="lazy">
+                    </div>
+                    <h3>익티오르니스</h3>
+                    <div class="dino-tags">
+                        <span class="tag">비행파충류</span>
+                        <span class="tag">백악기</span>
+                        <span class="tag">비행생활</span>
+                    </div>
+                    <ul class="dino-stats">
+                        <li><strong>시대</strong> 백악기 후기 (8,700만 년 전)</li>
+                        <li><strong>날개 폭</strong> 50cm</li>
+                        <li><strong>체중</strong> 0.5-1kg</li>
+                        <li><strong>특징</strong> 현대 새와 유사한 구조</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 공룡 카드 섹션 끝 -->
+
             <!-- 푸터 -->
             <footer>
                 <div class="container">
                     <div class="footer-content">
                         <div class="footer-logo">
-                            <img src="images/logo.png" alt="공룡월드 로고" class="logo-img">
+                            <img src="images/dino-logo-white.png" alt="공룡월드 로고" class="logo-img">
                             <h3>공룡월드</h3>
                             <p>시간을 뛰어넘는 공룡 탐험</p>
                         </div>
@@ -849,6 +1042,15 @@
                                     <li><a href="carnivores.html">육식공룡</a></li>
                                     <li><a href="flying.html">비행 파충류</a></li>
                                     <li><a href="marine.html">해양 파충류</a></li>
+                                </ul>
+                            </div>
+                            <div class="link-column">
+                                <h4>고객센터</h4>
+                                <ul>
+                                    <li><a href="contact.html">문의하기</a></li>
+                                    <li><a href="faq.html">자주 묻는 질문</a></li>
+                                    <li><a href="privacy.html">개인정보처리방침</a></li>
+                                    <li><a href="terms.html">이용약관</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -867,146 +1069,120 @@
     </button>
 
     <script>
-        // 필터 관련 변수
-        const filterSelects = document.querySelectorAll('.filter-select');
-        const activeFiltersContainer = document.getElementById('active-filters');
-        const resetFiltersBtn = document.getElementById('reset-filters');
-        const searchButton = document.getElementById('search-dinos');
-        const dinoCards = document.querySelectorAll('.dino-detail-card');
-        let activeFilters = new Map(); // 활성화된 필터를 저장할 Map 객체
-        let pendingFilters = new Map(); // 적용 대기 중인 필터를 저장할 Map 객체
-
-        // 필터 선택 이벤트 처리
-        filterSelects.forEach(select => {
-            select.addEventListener('change', function() {
-                const filterType = this.dataset.filterType;
-                const selectedValue = this.value;
-
-                if (selectedValue) {
-                    // 필터 추가
-                    pendingFilters.set(filterType, selectedValue);
-                    // 필터 태그 추가
-                    addFilterTag(filterType, selectedValue, true);
-                } else {
-                    // 필터 제거
-                    pendingFilters.delete(filterType);
-                    // 필터 태그 제거
-                    removeFilterTag(filterType);
-                }
-
-                // 검색 버튼 활성화 상태 업데이트
-                updateSearchButtonState();
-            });
-        });
-
-        // 검색 버튼 상태 업데이트
-        function updateSearchButtonState() {
-            const hasFilters = pendingFilters.size > 0;
-            searchButton.disabled = !hasFilters;
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterSelects = document.querySelectorAll('.filter-select');
+            const dinoCards = document.querySelectorAll('.dino-detail-card');
+            const activeFiltersContainer = document.getElementById('active-filters');
+            const resetButton = document.getElementById('reset-filters');
             
-            if (hasFilters) {
-                searchButton.innerHTML = `<i class="fas fa-search"></i> ${pendingFilters.size}개 필터로 찾기`;
-            } else {
-                searchButton.innerHTML = `<i class="fas fa-search"></i> 공룡 찾기`;
-            }
-        }
-
-        // 필터 태그 추가 함수
-        function addFilterTag(filterType, value, isPending = false) {
-            // 기존 같은 타입의 태그 제거
-            removeFilterTag(filterType);
-
-            const tag = document.createElement('div');
-            tag.className = 'filter-tag' + (isPending ? ' pending' : '');
-            tag.dataset.filterType = filterType;
-            tag.innerHTML = `
-                ${value}
-                <button onclick="removeFilter('${filterType}')">
-                    <i class="fas fa-times"></i>
-                </button>
-            `;
-            activeFiltersContainer.appendChild(tag);
-        }
-
-        // 필터 태그 제거 함수
-        function removeFilterTag(filterType) {
-            const existingTag = activeFiltersContainer.querySelector(`[data-filter-type="${filterType}"]`);
-            if (existingTag) {
-                existingTag.remove();
-            }
-        }
-
-        // 필터 제거 함수
-        function removeFilter(filterType) {
-            // 드롭다운 선택 초기화
-            const select = document.querySelector(`[data-filter-type="${filterType}"]`);
-            if (select) select.value = '';
-
-            // 필터 맵에서 제거
-            pendingFilters.delete(filterType);
-            activeFilters.delete(filterType);
-
-            // 태그 제거
-            removeFilterTag(filterType);
-
-            // 검색 버튼 상태 업데이트
-            updateSearchButtonState();
-        }
-
-        // 필터 초기화
-        resetFiltersBtn.addEventListener('click', function() {
-            // 모든 선택 초기화
-            filterSelects.forEach(select => select.value = '');
-
-            // 활성 필터 초기화
-            activeFilters.clear();
-            pendingFilters.clear();
-
-            // 필터 태그들 제거
-            activeFiltersContainer.innerHTML = '';
-
-            // 검색 버튼 상태 업데이트
-            updateSearchButtonState();
-
-            // 모든 카드 표시
-            dinoCards.forEach(card => {
-                card.style.display = 'block';
-                card.style.animation = 'none';
-                card.offsetHeight;
-                card.style.animation = 'fadeIn 0.6s ease-out forwards';
-            });
-        });
-
-        // 검색 버튼 클릭 이벤트
-        searchButton.addEventListener('click', function() {
-            // 대기 중인 필터를 활성 필터로 이동
-            activeFilters = new Map(pendingFilters);
-            
-            // 필터 적용
-            applyFilters();
-        });
-
-        // 필터 적용 함수
-        function applyFilters() {
-            dinoCards.forEach(card => {
-                const tags = card.dataset.tags.split(' ');
-                const shouldShow = Array.from(activeFilters.values()).every(filter => 
-                    tags.includes(filter)
-                );
-                
-                if (shouldShow) {
+            // 필터 초기화 함수
+            function resetFilters() {
+                filterSelects.forEach(select => {
+                    select.value = '';
+                });
+                activeFiltersContainer.innerHTML = '';
+                dinoCards.forEach(card => {
                     card.style.display = 'block';
-                    card.style.animation = 'none';
-                    card.offsetHeight; // 리플로우 트리거
-                    card.style.animation = 'fadeIn 0.6s ease-out forwards';
+                });
+                
+                // 결과 없음 메시지 제거
+                const noResultsMsg = document.getElementById('no-results-message');
+                if (noResultsMsg) {
+                    noResultsMsg.remove();
+                }
+            }
+
+            // 필터 적용 함수
+            function applyFilters() {
+                const activeFilters = {};
+                
+                // 현재 선택된 필터값들 수집
+                filterSelects.forEach(select => {
+                    const filterType = select.dataset.filterType;
+                    const value = select.value;
+                    if (value) {
+                        activeFilters[filterType] = value;
+                    }
+                });
+
+                // 활성화된 필터 태그 표시
+                activeFiltersContainer.innerHTML = '';
+                Object.entries(activeFilters).forEach(([type, value]) => {
+                    const tag = document.createElement('span');
+                    tag.className = 'filter-tag';
+                    tag.innerHTML = `${value} <i class="fas fa-times"></i>`;
+                    tag.onclick = () => {
+                        const select = document.querySelector(`[data-filter-type="${type}"]`);
+                        select.value = '';
+                        applyFilters();
+                    };
+                    activeFiltersContainer.appendChild(tag);
+                });
+
+                // 카드 필터링
+                dinoCards.forEach(card => {
+                    let shouldShow = true;
+                    
+                    Object.entries(activeFilters).forEach(([type, value]) => {
+                        const cardTags = card.dataset.tags ? card.dataset.tags.split(' ') : [];
+                        const cardValue = card.dataset[type] || '';
+                        
+                        if (!cardValue.includes(value) && !cardTags.includes(value)) {
+                            shouldShow = false;
+                        }
+                    });
+                    
+                    card.style.display = shouldShow ? 'block' : 'none';
+                });
+
+                // 결과가 없는 경우 메시지 표시
+                const visibleCards = document.querySelectorAll('.dino-detail-card[style="display: block"]');
+                const noResultsMsg = document.getElementById('no-results-message') || document.createElement('div');
+                noResultsMsg.id = 'no-results-message';
+                
+                if (visibleCards.length === 0 && Object.keys(activeFilters).length > 0) {
+                    noResultsMsg.textContent = '검색 결과가 없습니다.';
+                    noResultsMsg.style.textAlign = 'center';
+                    noResultsMsg.style.padding = '2rem';
+                    document.querySelector('.dinosaur-grid').appendChild(noResultsMsg);
                 } else {
-                    card.style.display = 'none';
+                    noResultsMsg.remove();
+                }
+            }
+
+            // 이벤트 리스너 설정
+            filterSelects.forEach(select => {
+                select.addEventListener('change', applyFilters);
+            });
+
+            resetButton.addEventListener('click', resetFilters);
+
+            // 이미지 모달 기능
+            const modal = document.createElement('div');
+            modal.className = 'modal';
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <button class="close-modal"><i class="fas fa-times"></i></button>
+                    <img class="modal-image" src="" alt="">
+                </div>
+            `;
+            document.body.appendChild(modal);
+
+            document.querySelectorAll('.dino-detail-card img').forEach(img => {
+                img.addEventListener('click', function() {
+                    const modalImg = modal.querySelector('.modal-image');
+                    modalImg.src = this.src;
+                    modalImg.alt = this.alt;
+                    modal.classList.add('show');
+                });
+            });
+
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal || e.target.closest('.close-modal')) {
+                    modal.classList.remove('show');
                 }
             });
-        }
-
-        // 초기 검색 버튼 상태 설정
-        updateSearchButtonState();
+        });
     </script>
 </body>
 </html> 

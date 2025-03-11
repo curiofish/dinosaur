@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>공룡월드: 시간을 뛰어넘는 공룡 탐험</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
@@ -46,9 +50,6 @@
         <div class="hero-content">
             <h1>공룡세계에 오신 것을 환영합니다!</h1>
             <p>머나먼 과거 공룡들이 지배했던 신비로운 세계로 떠나는 모험</p>
-            <div class="hero-buttons">
-                <a href="#explore" class="btn btn-primary">공룡 탐험 시작하기</a>
-            </div>
         </div>
         <div class="hero-slider">
             <!-- 슬라이더 이미지는 JavaScript로 제어됨 -->
@@ -96,7 +97,10 @@
 
     <!-- 공룡 시대 여행 시작 -->
     <section id="timeline" class="container">
-        <h2 class="section-title">공룡 시대 여행</h2>
+        <div class="section-title">
+            <h2>공룡 시대 여행</h2>
+            <a href="timeline.html" class="shortcut-btn">바로 가기</a>
+        </div>
         <div class="timeline-container">
             <div class="timeline-period">
                 <h3>트라이아스기 (2억 5100만 년 전 - 2억 100만 년 전)</h3>
@@ -153,37 +157,28 @@
 
     <!-- 공룡 도감 시작 -->
     <section id="dictionary" class="container dino-content">
-        <h2 class="section-title">공룡 도감</h2>
+        <div class="section-title">
+            <h2>공룡 도감</h2>
+            <a href="dictionary.html" class="shortcut-btn">바로 가기</a>
+        </div>
         <div class="dinosaur-grid">
             <div class="dinosaur-card">
                 <img src="images/tyrannosaurus.png" alt="티라노사우루스" loading="lazy">
-                <h3>티라노사우루스</h3>
-                <p>백악기 후기의 대표적인 육식공룡</p>
-            </div>
-            <div class="dinosaur-card">
-                <img src="images/velociraptor.png" alt="벨로시랩터" loading="lazy">
-                <h3>벨로시랩터</h3>
-                <p>날렵하고 지능이 높은 소형 육식공룡</p>
-            </div>
-            <div class="dinosaur-card">
-                <img src="images/triceratops.png" alt="트리케라톱스" loading="lazy">
-                <h3>트리케라톱스</h3>
-                <p>세 개의 뿔을 가진 초식공룡</p>
-            </div>
-            <div class="dinosaur-card">
-                <img src="images/stegosaurus.png" alt="스테고사우루스" loading="lazy">
-                <h3>스테고사우루스</h3>
-                <p>등판에 특이한 골판을 가진 초식공룡</p>
             </div>
             <div class="dinosaur-card">
                 <img src="images/brachiosaurus.png" alt="브라키오사우루스" loading="lazy">
-                <h3>브라키오사우루스</h3>
-                <p>긴 목을 가진 거대 초식공룡</p>
+            </div>
+            <div class="dinosaur-card">
+                <img src="images/stegosaurus.png" alt="스테고사우루스" loading="lazy">
+            </div>
+            <div class="dinosaur-card">
+                <img src="images/velociraptor.png" alt="벨로시랍토르" loading="lazy">
+            </div>
+            <div class="dinosaur-card">
+                <img src="images/triceratops.png" alt="트리케라톱스" loading="lazy">
             </div>
             <div class="dinosaur-card">
                 <img src="images/ankylosaurus.png" alt="안킬로사우루스" loading="lazy">
-                <h3>안킬로사우루스</h3>
-                <p>전신 갑옷과 꼬리 방망이를 가진 초식공룡</p>
             </div>
         </div>
     </section>
@@ -279,5 +274,6 @@
     <script src="script.js"></script>
     <script src="js/main.js"></script>
     <script src="js/dino-of-day.js"></script>
+    <script src="js/random-dinos.js"></script>
 </body>
 </html>

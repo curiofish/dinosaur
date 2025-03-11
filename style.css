@@ -733,22 +733,23 @@ footer {
 }
 
 .section-title {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
+    color: var(--text-primary);
+    margin: 2rem 0;
+    padding-left: 1rem;
     position: relative;
 }
 
-.section-title::after {
+.section-title::before {
     content: '';
     position: absolute;
-    bottom: 0;
     left: 0;
-    width: 40px;
-    height: 3px;
-    background: var(--accent-color);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 70%;
+    background-color: var(--primary-color);
     border-radius: 2px;
 }
 
@@ -1752,5 +1753,14 @@ p {
     
     .period-image {
         margin-bottom: 1.5rem;
+    }
+}
+
+/* 모바일 화면에서도 일관된 여백 유지 */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+        margin: 1.5rem 0;
+        padding-left: 1rem;
     }
 } 

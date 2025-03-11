@@ -99,4 +99,61 @@ document.addEventListener('DOMContentLoaded', function() {
             card.style.display = shouldShow ? 'block' : 'none';
         });
     }
+});
+
+// 이미지 모달 기능
+function initializeImageModal() {
+    // 모달 요소 생성 및 추가
+    const modalHTML = `
+        <div class="modal" id="imageModal">
+            <div class="modal-content">
+                <button class="close-modal" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <img src="" alt="" class="modal-image" id="modalImage">
+            </div>
+        </div>
+    `;
+    document.body.insertAdjacentHTML('beforeend', modalHTML);
+
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+
+    // 모든 공룡 이미지에 클릭 이벤트 추가 (공룡 탐험 섹션 제외)
+    document.querySelectorAll('.dino-card img, .dino-detail-card img, .dinosaur-card img, .dino-image img, #featured-dino-img').forEach(img => {
+        // 공룡 탐험 섹션의 이미지는 제외
+        if (!img.closest('.category-grid')) {
+            img.addEventListener('click', function() {
+                modalImg.src = this.src;
+                modalImg.alt = this.alt;
+                modal.classList.add('show');
+                document.body.style.overflow = 'hidden'; // 스크롤 방지
+            });
+        }
+    });
+
+    // 모달 닫기 함수
+    window.closeModal = function() {
+        modal.classList.remove('show');
+        document.body.style.overflow = ''; // 스크롤 복구
+    };
+
+    // 모달 바깥 영역 클릭시 닫기
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+
+    // ESC 키로 모달 닫기
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.classList.contains('show')) {
+            closeModal();
+        }
+    });
+}
+
+// DOM이 로드되면 모달 초기화
+document.addEventListener('DOMContentLoaded', function() {
+    initializeImageModal();
 }); 

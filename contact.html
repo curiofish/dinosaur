@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의하기 - 공룡월드</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 헤더 시작 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-img" aria-label="공룡월드 홈으로 가기">
+                    <img src="images/dino-logo-primary.png" alt="공룡월드">
+                </a>
+            </div>
+            <nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li class="dropdown">
+                        <a href="#explore">공룡탐험 <i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="herbivores.html">육지의 거인들 (초식공룡)</a></li>
+                            <li><a href="carnivores.html">무시무시한 사냥꾼들 (육식공룡)</a></li>
+                            <li><a href="flying.html">하늘의 지배자들 (비행 파충류)</a></li>
+                            <li><a href="marine.html">바다의 공포 (해양 파충류)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="timeline.html">공룡 시대 여행</a></li>
+                    <li><a href="dictionary.html">공룡 도감</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 헤더 끝 -->
+
+    <!-- 문의하기 섹션 시작 -->
+    <section class="contact-section container">
+        <h1 class="section-title">문의하기</h1>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2>연락처 정보</h2>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>이메일: info@dinoworld.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>전화: 02-123-4567</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>운영시간: 평일 09:00 - 18:00</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">이름</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">문의 제목</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">문의 내용</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">문의하기</button>
+            </form>
+        </div>
+    </section>
+    <!-- 문의하기 섹션 끝 -->
+
+    <!-- 푸터 시작 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/dino-logo-primary.png" alt="공룡월드" class="logo-img">
+                    <p style="color: #ffffff; font-weight: 500;">시간을 뛰어넘는 공룡 탐험</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4 style="color: #ffffff; font-weight: 600;">공룡탐험</h4>
+                        <ul>
+                            <li><a href="herbivores.html" style="color: #ffffff;">초식공룡</a></li>
+                            <li><a href="carnivores.html" style="color: #ffffff;">육식공룡</a></li>
+                            <li><a href="flying.html" style="color: #ffffff;">비행 파충류</a></li>
+                            <li><a href="marine.html" style="color: #ffffff;">해양 파충류</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4 style="color: #ffffff; font-weight: 600;">고객센터</h4>
+                        <ul>
+                            <li><a href="contact.html" style="color: #ffffff;">문의하기</a></li>
+                            <li><a href="privacy.html" style="color: #ffffff;">개인정보처리방침</a></li>
+                            <li><a href="terms.html" style="color: #ffffff;">이용약관</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 공룡월드 | All Rights Reserved</p>
+                <p>사업자등록번호: 123-45-67890 | 대표: 홍길동<br>
+                   서울특별시 강남구 테헤란로 123 공룡빌딩 4층</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 푸터 끝 -->
+</body>
+</html> 

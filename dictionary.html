@@ -30,6 +30,31 @@
             object-fit: cover;
             display: block;
         }
+        .dino-filters {
+            margin-bottom: 2rem;
+        }
+        
+        .filter-groups-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        @media (max-width: 768px) {
+            .filter-groups-container {
+                flex-direction: column;
+            }
+            
+            .filter-group {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -37,7 +62,9 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html" class="logo-img" aria-label="공룡월드 홈으로 가기"></a>
+                <a href="index.html" class="logo-img" aria-label="공룡월드 홈으로 가기">
+                    <img src="images/dino-logo-primary.png" alt="공룡월드">
+                </a>
                 <h1>공룡월드</h1>
             </div>
             <nav>
@@ -75,56 +102,96 @@
             <!-- 사용법 시작 -->
             <div class="usage-guide">
                 <h2>공룡 찾기 가이드</h2>
-                <p>원하는 공룡을 쉽게 찾을 수 있도록 태그 필터 시스템을 제공합니다:</p>
+                <p>원하는 공룡을 쉽게 찾을 수 있도록 필터 시스템을 제공합니다:</p>
                 <ol>
-                    <li>분류: 초식공룡, 육식공룡, 비행파충류, 해양파충류 중 선택</li>
-                    <li>시대: 트라이아스기, 쥐라기, 백악기 중 선택</li>
-                    <li>특징: 거대공룡, 뿔공룡, 갑옷공룡, 오리주둥이공룡 등 선택</li>
-                    <li>생활방식: 육상생활, 비행생활, 수생생활, 반수생생활 중 선택</li>
+                    <li>분류, 시대, 특징, 생활방식 중 원하는 필터를 선택하세요.</li>
+                    <li>선택한 필터는 상단에 태그로 표시됩니다.</li>
+                    <li>'공룡 찾기' 버튼을 클릭하면 선택한 필터에 맞는 공룡들이 표시됩니다.</li>
+                    <li>'필터 초기화' 버튼을 누르면 모든 필터가 해제되고 전체 목록이 표시됩니다.</li>
                 </ol>
-                <p>여러 태그를 동시에 선택하면 AND 조건으로 검색됩니다. (예: '초식공룡'과 '백악기'를 선택하면 백악기의 초식공룡만 표시)</p>
+                <p>여러 필터를 동시에 선택하면 모든 조건을 만족하는 공룡만 표시됩니다. (예: '초식공룡'과 '백악기'를 선택하면 백악기에 살았던 초식공룡만 표시)</p>
             </div>
             <!-- 사용법 끝 -->
 
             <!-- 태그 필터 시작 -->
             <div class="dino-filters">
-                <div class="filter-group">
-                    <h3>분류</h3>
-                    <div class="tag-buttons">
-                        <button class="tag-btn" data-tag="초식공룡">초식공룡</button>
-                        <button class="tag-btn" data-tag="육식공룡">육식공룡</button>
-                        <button class="tag-btn" data-tag="비행파충류">비행파충류</button>
-                        <button class="tag-btn" data-tag="해양파충류">해양파충류</button>
+                <!-- 활성화된 필터 표시 영역 -->
+                <div class="active-filters" id="active-filters">
+                    <!-- 선택된 필터 태그들이 여기에 동적으로 추가됩니다 -->
+                </div>
+
+                <div class="filter-groups-container">
+                    <div class="filter-group">
+                        <h3><i class="fas fa-tags"></i> 분류</h3>
+                        <div class="filter-options">
+                            <div class="filter-option">
+                                <select class="filter-select" data-filter-type="classification">
+                                    <option value="">분류 선택</option>
+                                    <option value="초식공룡">초식공룡</option>
+                                    <option value="육식공룡">육식공룡</option>
+                                    <option value="비행파충류">비행파충류</option>
+                                    <option value="해양파충류">해양파충류</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3><i class="fas fa-clock"></i> 시대</h3>
+                        <div class="filter-options">
+                            <div class="filter-option">
+                                <select class="filter-select" data-filter-type="era">
+                                    <option value="">시대 선택</option>
+                                    <option value="트라이아스기">트라이아스기</option>
+                                    <option value="쥐라기">쥐라기</option>
+                                    <option value="백악기">백악기</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3><i class="fas fa-dna"></i> 특징</h3>
+                        <div class="filter-options">
+                            <div class="filter-option">
+                                <select class="filter-select" data-filter-type="characteristic">
+                                    <option value="">특징 선택</option>
+                                    <option value="거대공룡">거대공룡</option>
+                                    <option value="뿔공룡">뿔공룡</option>
+                                    <option value="갑옷공룡">갑옷공룡</option>
+                                    <option value="오리주둥이공룡">오리주둥이공룡</option>
+                                    <option value="랩터">랩터</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3><i class="fas fa-home"></i> 생활방식</h3>
+                        <div class="filter-options">
+                            <div class="filter-option">
+                                <select class="filter-select" data-filter-type="lifestyle">
+                                    <option value="">생활방식 선택</option>
+                                    <option value="육상생활">육상생활</option>
+                                    <option value="비행생활">비행생활</option>
+                                    <option value="수생생활">수생생활</option>
+                                    <option value="반수생생활">반수생생활</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="filter-group">
-                    <h3>시대</h3>
-                    <div class="tag-buttons">
-                        <button class="tag-btn" data-tag="트라이아스기">트라이아스기</button>
-                        <button class="tag-btn" data-tag="쥐라기">쥐라기</button>
-                        <button class="tag-btn" data-tag="백악기">백악기</button>
-                    </div>
+
+                <div class="filter-actions">
+                    <button class="btn-reset-filters" id="reset-filters">
+                        <i class="fas fa-undo"></i>
+                        필터 초기화
+                    </button>
+                    <button class="btn-search" id="search-dinos">
+                        <i class="fas fa-search"></i>
+                        공룡 찾기
+                    </button>
                 </div>
-                <div class="filter-group">
-                    <h3>특징</h3>
-                    <div class="tag-buttons">
-                        <button class="tag-btn" data-tag="거대공룡">거대공룡</button>
-                        <button class="tag-btn" data-tag="뿔공룡">뿔공룡</button>
-                        <button class="tag-btn" data-tag="갑옷공룡">갑옷공룡</button>
-                        <button class="tag-btn" data-tag="오리주둥이공룡">오리주둥이공룡</button>
-                        <button class="tag-btn" data-tag="랩터">랩터</button>
-                    </div>
-                </div>
-                <div class="filter-group">
-                    <h3>생활방식</h3>
-                    <div class="tag-buttons">
-                        <button class="tag-btn" data-tag="육상생활">육상생활</button>
-                        <button class="tag-btn" data-tag="비행생활">비행생활</button>
-                        <button class="tag-btn" data-tag="수생생활">수생생활</button>
-                        <button class="tag-btn" data-tag="반수생생활">반수생생활</button>
-                    </div>
-                </div>
-                <button id="reset-filters" class="btn">필터 초기화</button>
             </div>
             <!-- 태그 필터 끝 -->
 
@@ -135,13 +202,13 @@
                     <img src="images/brachiosaurus.png" alt="브라키오사우루스">
                     <h3>브라키오사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">쥐라기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>쥐라기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
-                        <li><strong>시대:</strong> 쥐라기 후기 (1억 5,400만 년 전)</li>
+                        <li><strong>시대:</strong> 쥐라기 후기</li>
                         <li><strong>크기:</strong> 키 13m</li>
                         <li><strong>무게:</strong> 35-58톤</li>
                     </ul>
@@ -151,10 +218,10 @@
                     <img src="images/diplodocus.png" alt="디플로도쿠스">
                     <h3>디플로도쿠스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">쥐라기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>쥐라기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 쥐라기 후기</li>
@@ -167,10 +234,10 @@
                     <img src="images/argentinosaurus.png" alt="아르겐티노사우루스">
                     <h3>아르겐티노사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 초기</li>
@@ -183,10 +250,10 @@
                     <img src="images/triceratops.png" alt="트리케라톱스">
                     <h3>트리케라톱스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">뿔공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>뿔공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -199,10 +266,10 @@
                     <img src="images/styracosaurus.png" alt="스티라코사우루스">
                     <h3>스티라코사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">뿔공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>뿔공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -215,10 +282,10 @@
                     <img src="images/parasaurolophus.png" alt="파라사우롤로푸스">
                     <h3>파라사우롤로푸스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">오리주둥이공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>오리주둥이공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -232,13 +299,13 @@
                     <img src="images/corythosaurus.png" alt="코리토사우루스">
                     <h3>코리토사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">오리주둥이공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>오리주둥이공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
-                        <li><strong>시대:</strong> 백악기 후기 (7,700만 년 전)</li>
+                        <li><strong>시대:</strong> 백악기 후기</li>
                         <li><strong>크기:</strong> 길이 9m</li>
                         <li><strong>무게:</strong> 3-5톤</li>
                     </ul>
@@ -249,13 +316,13 @@
                     <img src="images/stegosaurus.png" alt="스테고사우루스">
                     <h3>스테고사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">갑옷공룡</span>
-                        <span class="tag">쥐라기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>갑옷공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>쥐라기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
-                        <li><strong>시대:</strong> 쥐라기 후기 (1억 5,000만 년 전)</li>
+                        <li><strong>시대:</strong> 쥐라기 후기</li>
                         <li><strong>크기:</strong> 길이 9m</li>
                         <li><strong>무게:</strong> 5-7톤</li>
                     </ul>
@@ -266,10 +333,10 @@
                     <img src="images/tyrannosaurus.png" alt="티라노사우루스 렉스">
                     <h3>티라노사우루스 렉스</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -282,10 +349,10 @@
                     <img src="images/spinosaurus.png" alt="스피노사우루스">
                     <h3>스피노사우루스</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -299,10 +366,10 @@
                     <img src="images/velociraptor.png" alt="벨로시랩터">
                     <h3>벨로시랩터</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">랩터</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>랩터</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -316,10 +383,10 @@
                     <img src="images/utahraptor.png" alt="유타랩터">
                     <h3>유타랩터</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">랩터</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>랩터</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 전기</li>
@@ -333,10 +400,10 @@
                     <img src="images/acrocanthosaurus.png" alt="아크로칸토사우루스">
                     <h3>아크로칸토사우루스</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 전기</li>
@@ -350,10 +417,10 @@
                     <img src="images/deinonychus.png" alt="데이노니쿠스">
                     <h3>데이노니쿠스</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">랩터</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>랩터</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 전기</li>
@@ -367,10 +434,10 @@
                     <img src="images/megalosaurus.png" alt="메갈로사우루스">
                     <h3>메갈로사우루스</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">쥐라기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>쥐라기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 쥐라기 중기</li>
@@ -384,9 +451,9 @@
                     <img src="images/archaeopteryx.png" alt="시조새">
                     <h3>시조새</h3>
                     <div class="tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">비행생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 쥐라기 후기</li>
@@ -400,9 +467,9 @@
                     <img src="images/Elasmosaurus.png" alt="아트락토스토무스">
                     <h3>아트락토스토무스</h3>
                     <div class="tags">
-                        <span class="tag">해양파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">수생생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -416,9 +483,9 @@
                     <img src="images/shastasaurus.png" alt="샤스타사우루스">
                     <h3>샤스타사우루스</h3>
                     <div class="tags">
-                        <span class="tag">해양파충류</span>
-                        <span class="tag">트라이아스기</span>
-                        <span class="tag">수생생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>트라이아스기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 트라이아스기 후기</li>
@@ -433,11 +500,10 @@
                     <img src="images/mamenchisaurus.png" alt="마멘키사우루스">
                     <h3>마멘키사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">쥐라기</span>
-                        <span class="tag">긴목공룡</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>쥐라기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 쥐라기 후기</li>
@@ -451,11 +517,10 @@
                     <img src="images/patagotitan.png" alt="파타고타이탄">
                     <h3>파타고타이탄</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">긴목공룡</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 중기</li>
@@ -469,11 +534,10 @@
                     <img src="images/torosaurus.png" alt="토로사우루스">
                     <h3>토로사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">뿔공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">무리생활</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>뿔공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -487,10 +551,10 @@
                     <img src="images/ceratosaurus.png" alt="케라토사우루스">
                     <h3>케라토사우루스</h3>
                     <div class="tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">뿔공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>뿔공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 초기</li>
@@ -504,11 +568,10 @@
                     <img src="images/edmontosaurus.png" alt="에드몬토사우루스">
                     <h3>에드몬토사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">오리주둥이공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">무리생활</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>오리주둥이공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -522,11 +585,10 @@
                     <img src="images/saurolophus.png" alt="사우롤로푸스">
                     <h3>사우롤로푸스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">오리주둥이공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">소리내는공룡</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>오리주둥이공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -540,11 +602,10 @@
                     <img src="images/nodosaurus.png" alt="노도사우루스">
                     <h3>노도사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">갑옷공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">방어특화</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>갑옷공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 중기</li>
@@ -558,11 +619,10 @@
                     <img src="images/sauropelta.png" alt="사우로펠타">
                     <h3>사우로펠타</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">갑옷공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">가시공룡</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>갑옷공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 초기</li>
@@ -576,11 +636,10 @@
                     <img src="images/borealopelta.png" alt="보레알로펠타">
                     <h3>보레알로펠타</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">갑옷공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">신종공룡</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>갑옷공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 초기</li>
@@ -594,11 +653,10 @@
                     <img src="images/Deinocheirus.png" alt="데이노케이루스">
                     <h3>데이노케이루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">특이공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">긴팔공룡</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>특이공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -612,11 +670,10 @@
                     <img src="images/tenontosaurus.png" alt="테논토사우루스">
                     <h3>테논토사우루스</h3>
                     <div class="tags">
-                        <span class="tag">초식공룡</span>
-                        <span class="tag">특이공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">빠른공룡</span>
-                        <span class="tag">육상생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>초식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>특이공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 초기</li>
@@ -631,10 +688,10 @@
                     <img src="images/quetzalcoatlus.png" alt="케찰코아틀루스">
                     <h3>케찰코아틀루스</h3>
                     <div class="tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">비행생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -648,9 +705,9 @@
                     <img src="images/pteranodon.png" alt="프테라노돈">
                     <h3>프테라노돈</h3>
                     <div class="tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">비행생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -664,9 +721,9 @@
                     <img src="images/microraptor.png" alt="미크로랩터">
                     <h3>미크로랩터</h3>
                     <div class="tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">비행생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 전기</li>
@@ -680,9 +737,9 @@
                     <img src="images/hatzegopteryx.png" alt="하체고프테릭스">
                     <h3>하체고프테릭스</h3>
                     <div class="tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">비행생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -697,10 +754,9 @@
                     <img src="images/mosasaurus.png" alt="모사사우루스">
                     <h3>모사사우루스</h3>
                     <div class="tags">
-                        <span class="tag">해양파충류</span>
-                        <span class="tag">거대공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">수생생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -714,9 +770,9 @@
                     <img src="images/plesiosaurus.png" alt="플레시오사우루스">
                     <h3>플레시오사우루스</h3>
                     <div class="tags">
-                        <span class="tag">해양파충류</span>
-                        <span class="tag">쥐라기</span>
-                        <span class="tag">수생생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>쥐라기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 쥐라기-백악기</li>
@@ -730,9 +786,9 @@
                     <img src="images/ichthyosaurus.png" alt="익티오사우루스">
                     <h3>익티오사우루스</h3>
                     <div class="tags">
-                        <span class="tag">해양파충류</span>
-                        <span class="tag">트라이아스기</span>
-                        <span class="tag">수생생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>트라이아스기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 트라이아스기 후기</li>
@@ -746,9 +802,9 @@
                     <img src="images/atractosteus.png" alt="아트락토스토무스">
                     <h3>아트락토스토무스</h3>
                     <div class="tags">
-                        <span class="tag">해양파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">수생생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 백악기 후기</li>
@@ -762,9 +818,9 @@
                     <img src="images/shastasaurus.png" alt="샤스타사우루스">
                     <h3>샤스타사우루스</h3>
                     <div class="tags">
-                        <span class="tag">해양파충류</span>
-                        <span class="tag">트라이아스기</span>
-                        <span class="tag">수생생활</span>
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>해양파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>트라이아스기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대:</strong> 트라이아스기 후기</li>
@@ -810,6 +866,147 @@
         <i class="fas fa-chevron-up"></i>
     </button>
 
-    <script src="script.js"></script>
+    <script>
+        // 필터 관련 변수
+        const filterSelects = document.querySelectorAll('.filter-select');
+        const activeFiltersContainer = document.getElementById('active-filters');
+        const resetFiltersBtn = document.getElementById('reset-filters');
+        const searchButton = document.getElementById('search-dinos');
+        const dinoCards = document.querySelectorAll('.dino-detail-card');
+        let activeFilters = new Map(); // 활성화된 필터를 저장할 Map 객체
+        let pendingFilters = new Map(); // 적용 대기 중인 필터를 저장할 Map 객체
+
+        // 필터 선택 이벤트 처리
+        filterSelects.forEach(select => {
+            select.addEventListener('change', function() {
+                const filterType = this.dataset.filterType;
+                const selectedValue = this.value;
+
+                if (selectedValue) {
+                    // 필터 추가
+                    pendingFilters.set(filterType, selectedValue);
+                    // 필터 태그 추가
+                    addFilterTag(filterType, selectedValue, true);
+                } else {
+                    // 필터 제거
+                    pendingFilters.delete(filterType);
+                    // 필터 태그 제거
+                    removeFilterTag(filterType);
+                }
+
+                // 검색 버튼 활성화 상태 업데이트
+                updateSearchButtonState();
+            });
+        });
+
+        // 검색 버튼 상태 업데이트
+        function updateSearchButtonState() {
+            const hasFilters = pendingFilters.size > 0;
+            searchButton.disabled = !hasFilters;
+            
+            if (hasFilters) {
+                searchButton.innerHTML = `<i class="fas fa-search"></i> ${pendingFilters.size}개 필터로 찾기`;
+            } else {
+                searchButton.innerHTML = `<i class="fas fa-search"></i> 공룡 찾기`;
+            }
+        }
+
+        // 필터 태그 추가 함수
+        function addFilterTag(filterType, value, isPending = false) {
+            // 기존 같은 타입의 태그 제거
+            removeFilterTag(filterType);
+
+            const tag = document.createElement('div');
+            tag.className = 'filter-tag' + (isPending ? ' pending' : '');
+            tag.dataset.filterType = filterType;
+            tag.innerHTML = `
+                ${value}
+                <button onclick="removeFilter('${filterType}')">
+                    <i class="fas fa-times"></i>
+                </button>
+            `;
+            activeFiltersContainer.appendChild(tag);
+        }
+
+        // 필터 태그 제거 함수
+        function removeFilterTag(filterType) {
+            const existingTag = activeFiltersContainer.querySelector(`[data-filter-type="${filterType}"]`);
+            if (existingTag) {
+                existingTag.remove();
+            }
+        }
+
+        // 필터 제거 함수
+        function removeFilter(filterType) {
+            // 드롭다운 선택 초기화
+            const select = document.querySelector(`[data-filter-type="${filterType}"]`);
+            if (select) select.value = '';
+
+            // 필터 맵에서 제거
+            pendingFilters.delete(filterType);
+            activeFilters.delete(filterType);
+
+            // 태그 제거
+            removeFilterTag(filterType);
+
+            // 검색 버튼 상태 업데이트
+            updateSearchButtonState();
+        }
+
+        // 필터 초기화
+        resetFiltersBtn.addEventListener('click', function() {
+            // 모든 선택 초기화
+            filterSelects.forEach(select => select.value = '');
+
+            // 활성 필터 초기화
+            activeFilters.clear();
+            pendingFilters.clear();
+
+            // 필터 태그들 제거
+            activeFiltersContainer.innerHTML = '';
+
+            // 검색 버튼 상태 업데이트
+            updateSearchButtonState();
+
+            // 모든 카드 표시
+            dinoCards.forEach(card => {
+                card.style.display = 'block';
+                card.style.animation = 'none';
+                card.offsetHeight;
+                card.style.animation = 'fadeIn 0.6s ease-out forwards';
+            });
+        });
+
+        // 검색 버튼 클릭 이벤트
+        searchButton.addEventListener('click', function() {
+            // 대기 중인 필터를 활성 필터로 이동
+            activeFilters = new Map(pendingFilters);
+            
+            // 필터 적용
+            applyFilters();
+        });
+
+        // 필터 적용 함수
+        function applyFilters() {
+            dinoCards.forEach(card => {
+                const tags = card.dataset.tags.split(' ');
+                const shouldShow = Array.from(activeFilters.values()).every(filter => 
+                    tags.includes(filter)
+                );
+                
+                if (shouldShow) {
+                    card.style.display = 'block';
+                    card.style.animation = 'none';
+                    card.offsetHeight; // 리플로우 트리거
+                    card.style.animation = 'fadeIn 0.6s ease-out forwards';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // 초기 검색 버튼 상태 설정
+        updateSearchButtonState();
+    </script>
 </body>
 </html> 

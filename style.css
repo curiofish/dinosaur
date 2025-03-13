@@ -195,9 +195,8 @@ nav {
     padding: 6rem 0 4rem;
     color: #fff;
     text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('images/pattern-fossil-tile.png') repeat center center;
+    background-size: 400px;
     overflow: hidden;
 }
 
@@ -208,7 +207,7 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background: linear-gradient(135deg, rgba(26, 35, 126, 0.9), rgba(0, 0, 0, 0.85));
     z-index: 1;
 }
 

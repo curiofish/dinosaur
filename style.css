@@ -101,6 +101,13 @@ header .container {
     display: block;
 }
 
+.footer-logo img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1rem;
+    filter: brightness(0) invert(1) contrast(1) saturate(0);
+}
+
 .footer-logo h3 {
     color: white;
     margin-bottom: 0.5rem;
@@ -168,6 +175,7 @@ nav {
     padding: 0.5rem 0;
     border-radius: 4px;
     box-shadow: var(--shadow);
+    list-style: none;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -191,13 +199,12 @@ nav {
 
 /* 히어로 섹션 */
 .hero-sub {
-    position: relative;
-    padding: 6rem 0 4rem;
-    color: #fff;
+    padding: 4rem 0;
+    color: white;
     text-align: center;
-    background: url('images/pattern-fossil-tile.png') repeat center center;
-    background-size: 400px;
-    overflow: hidden;
+    position: relative;
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.95) 0%, rgba(52, 73, 94, 0.95) 100%), url('images/timeline-bg-desktop.png') repeat center;
+    background-size: 300px;
 }
 
 .hero-sub::before {

@@ -1,0 +1,54 @@
+high resolution 1792x1024  pixels.
+
+육식공룡:
+1. allosaurus.png
+프롬프트: A detailed, scientifically accurate illustration of an Allosaurus, a large theropod dinosaur with distinctive crests above its eyes, side view, natural environment, realistic lighting, high detail, natural colors
+
+2. carcharodontosaurus.png
+프롬프트: A detailed, scientifically accurate illustration of a Carcharodontosaurus, a massive theropod dinosaur with shark-like teeth, side view, natural environment, realistic lighting, high detail, natural colors
+
+3. giganotosaurus.png
+프롬프트: A detailed, scientifically accurate illustration of a Giganotosaurus, one of the largest theropod dinosaurs, side view, natural environment, realistic lighting, high detail, natural colors
+
+4. baryonyx.png
+프롬프트: A detailed, scientifically accurate illustration of a Baryonyx, a spinosaurid dinosaur with crocodile-like snout and large claws, side view, natural environment, realistic lighting, high detail, natural colors
+The holotype specimen, which may not have been fully grown, was estimated to have been between 7.5 and 10 metres (25 and 33 feet) long and to have weighed between 1.2 and 2 metric tons (1.3 and 2.2 short tons; 1.2 and 2.0 long tons). Baryonyx had a long, low, and narrow snout, which has been compared to that of a gharial. The tip of the snout expanded to the sides in the shape of a rosette. Behind this, the upper jaw had a notch which fitted into the lower jaw (which curved upwards in the same area). It had a triangular crest on the top of its nasal bones. Baryonyx had a large number of finely serrated, conical teeth, with the largest teeth in front. The neck formed an S-shape, and the neural spines of its dorsal vertebrae increased in height from front to back. One elongated neural spine indicates it may have had a hump or ridge along the centre of its back. It had robust forelimbs, with the eponymous first-finger claw measuring about 31 centimetres (12 inches) long.
+5. suchomimus.png
+프롬프트: A detailed, scientifically accurate illustration of a Suchomimus, a spinosaurid dinosaur with sail-like back and long snout, side view, natural environment, realistic lighting, high detail, natural colors
+
+6. majungasaurus.png
+프롬프트: A detailed, scientifically accurate illustration of a Majungasaurus, an abelisaurid theropod dinosaur with short skull and tiny arms, side view, natural environment, realistic lighting, high detail, natural colors
+
+7. deltadromeus.png
+프롬프트: A detailed, scientifically accurate illustration of a Deltadromeus, a slender theropod dinosaur built for speed, side view, natural environment, realistic lighting, high detail, natural colors
+
+비행 파충류:
+8. anchiornis.png
+프롬프트: 
+9. tapejara.png
+프롬프트: A detailed, scientifically accurate illustration of a Tapejara, a pterosaur with distinctive head crest, side view, natural environment, realistic lighting, high detail, natural colors
+
+10. dactylrhynchus.png
+프롬프트: A detailed, scientifically accurate illustration of a Dactylrhynchus, a long-tailed pterosaur, side view, natural environment, realistic lighting, high detail, natural colors
+
+11. ichthyornis.png
+프롬프트: A detailed, scientifically accurate illustration of an Ichthyornis, a prehistoric seabird with teeth, side view, natural environment, realistic lighting, high detail, natural colors
+
+12. anguantera.png
+프롬프트: A detailed, scientifically accurate illustration of an Anguantera, a pterosaur with long wings, side view, natural environment, realistic lighting, high detail, natural colors
+
+--------
+13. dimorphodon.png
+프롬프트: A detailed, scientifically accurate illustration of a Dimorphodon, a pterosaur with large head and two distinct types of teeth, side view, natural environment, realistic lighting, high detail, natural colors
+
+해양 파충류:
+14. elasmosaurus.png
+프롬프트: A detailed, scientifically accurate illustration of an Elasmosaurus, a long-necked plesiosaur, side view, underwater environment, realistic lighting, high detail, natural colors
+
+이미지 생성 시 주의사항:
+- 해상도: 1024x1024 픽셀
+- 배경: 자연스러운 환경 (육지/하늘/바다)
+- 스타일: 과학적 정확성을 갖춘 일러스트레이션
+- 시점: 측면도가 잘 보이는 각도
+- 품질: 고해상도, 섬세한 디테일
+- 색상: 자연스러운 배색 

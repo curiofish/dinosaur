@@ -173,7 +173,7 @@
             </div>
         </section>
 
-        <section class="container dino-content">
+        <section id="dictionary" class="container dino-content">
             <!-- 사용법 시작 -->
             <div class="usage-guide">
                 <h2>공룡 찾기 가이드</h2>
@@ -904,21 +904,19 @@
                         <li><strong>특징:</strong> 물고기와 유사한 체형</li>
                     </ul>
                 </div>
-            </div>
-            <!-- 공룡 목록 끝 -->
 
-            <!-- 공룡 카드 섹션 시작 -->
-            <div class="dino-cards" id="dino-cards">
+                <!-- 육식공룡 -->
                 <!-- 델타드로메우스 -->
-                <div class="dino-detail-card" data-classification="육식공룡" data-era="백악기" data-characteristic="날렵한사냥꾼" data-lifestyle="육상생활">
+                <div class="dino-detail-card" data-tags="육식공룡 날렵한사냥꾼 백악기 육상생활">
                     <div class="dino-image">
                         <img src="images/deltadromeus.png" alt="델타드로메우스" loading="lazy">
                     </div>
                     <h3>델타드로메우스</h3>
-                    <div class="dino-tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                    <div class="tags">
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>날렵한사냥꾼</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대</strong> 백악기 후기 (9,500만 년 전)</li>
@@ -929,15 +927,16 @@
                 </div>
 
                 <!-- 마중가사우루스 -->
-                <div class="dino-detail-card" data-classification="육식공룡" data-era="백악기" data-characteristic="거대공룡" data-lifestyle="육상생활">
+                <div class="dino-detail-card" data-tags="육식공룡 거대공룡 백악기 육상생활">
                     <div class="dino-image">
                         <img src="images/majungasaurus.png" alt="마중가사우루스" loading="lazy">
                     </div>
                     <h3>마중가사우루스</h3>
-                    <div class="dino-tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">육상생활</span>
+                    <div class="tags">
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>거대공룡</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-home"></i>육상생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대</strong> 백악기 후기 (7천만 년 전)</li>
@@ -948,15 +947,16 @@
                 </div>
 
                 <!-- 수코미무스 -->
-                <div class="dino-detail-card" data-classification="육식공룡" data-era="백악기" data-characteristic="물고기사냥꾼" data-lifestyle="반수생생활">
+                <div class="dino-detail-card" data-tags="육식공룡 물고기사냥꾼 백악기 반수생생활">
                     <div class="dino-image">
                         <img src="images/suchomimus.png" alt="수코미무스" loading="lazy">
                     </div>
                     <h3>수코미무스</h3>
-                    <div class="dino-tags">
-                        <span class="tag">육식공룡</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">반수생생활</span>
+                    <div class="tags">
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>육식공룡</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>물고기사냥꾼</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-water"></i>반수생생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대</strong> 백악기 초기 (1억 1천만 년 전)</li>
@@ -967,15 +967,15 @@
                 </div>
 
                 <!-- 타페자라 -->
-                <div class="dino-detail-card" data-classification="비행파충류" data-era="백악기" data-characteristic="거대공룡" data-lifestyle="비행생활">
+                <div class="dino-detail-card" data-tags="비행파충류 백악기 비행생활">
                     <div class="dino-image">
                         <img src="images/tapejara.png" alt="타페자라" loading="lazy">
                     </div>
                     <h3>타페자라</h3>
-                    <div class="dino-tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">비행생활</span>
+                    <div class="tags">
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대</strong> 백악기 초기 (1억 1천만 년 전)</li>
@@ -986,15 +986,15 @@
                 </div>
 
                 <!-- 닥틸링쿠스 -->
-                <div class="dino-detail-card" data-classification="비행파충류" data-era="쥐라기" data-characteristic="물고기사냥꾼" data-lifestyle="비행생활">
+                <div class="dino-detail-card" data-tags="비행파충류 쥐라기 비행생활">
                     <div class="dino-image">
                         <img src="images/dactylrhynchus.png" alt="닥틸링쿠스" loading="lazy">
                     </div>
                     <h3>닥틸링쿠스</h3>
-                    <div class="dino-tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">쥐라기</span>
-                        <span class="tag">비행생활</span>
+                    <div class="tags">
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>쥐라기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대</strong> 쥐라기 후기 (1억 5천만 년 전)</li>
@@ -1005,15 +1005,16 @@
                 </div>
 
                 <!-- 익티오르니스 -->
-                <div class="dino-detail-card" data-classification="비행파충류" data-era="백악기" data-characteristic="초기조류" data-lifestyle="비행생활">
+                <div class="dino-detail-card" data-tags="비행파충류 초기조류 백악기 비행생활">
                     <div class="dino-image">
                         <img src="images/ichthyornis.png" alt="익티오르니스" loading="lazy">
                     </div>
                     <h3>익티오르니스</h3>
-                    <div class="dino-tags">
-                        <span class="tag">비행파충류</span>
-                        <span class="tag">백악기</span>
-                        <span class="tag">비행생활</span>
+                    <div class="tags">
+                        <span class="tag" data-type="classification"><i class="fas fa-tag"></i>비행파충류</span>
+                        <span class="tag" data-type="characteristic"><i class="fas fa-dna"></i>초기조류</span>
+                        <span class="tag" data-type="era"><i class="fas fa-clock"></i>백악기</span>
+                        <span class="tag" data-type="lifestyle"><i class="fas fa-feather"></i>비행생활</span>
                     </div>
                     <ul class="dino-stats">
                         <li><strong>시대</strong> 백악기 후기 (8,700만 년 전)</li>
@@ -1023,7 +1024,7 @@
                     </ul>
                 </div>
             </div>
-            <!-- 공룡 카드 섹션 끝 -->
+            <!-- 공룡 목록 끝 -->
 
             <!-- 푸터 -->
             <footer>

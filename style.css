@@ -992,83 +992,65 @@ footer {
     }
 }
 
-.dinosaur-grid {
+#dictionary .dinosaur-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+/* index 페이지의 공룡도감 섹션 스타일 */
+.dino-content:not(#dictionary) .dinosaur-grid {
+    display: flex;
+    justify-content: space-between;
     gap: 1rem;
-    padding: 0;
+    padding: 2rem 0;
+    overflow-x: auto;
 }
 
-@media (max-width: 768px) {
-    .dinosaur-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 0;
-    }
-}
-
-.dinosaur-card {
+.dino-content:not(#dictionary) .dinosaur-card {
+    flex: 0 0 280px;
     background: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--card-shadow);
     transition: var(--transition);
-    position: relative;
-    aspect-ratio: 1;
 }
 
-.dinosaur-card:hover {
-    transform: translateY(-5px);
+.dino-content:not(#dictionary) .dinosaur-card:hover {
+    transform: translateY(-8px);
     box-shadow: 0 12px 40px rgba(0,0,0,0.15);
 }
 
-.dinosaur-card img {
+.dino-content:not(#dictionary) .dinosaur-card img {
     width: 100%;
-    height: 100%;
+    height: 280px;
     object-fit: contain;
-    transition: transform 0.3s ease;
-    padding: 0.5rem;
+    transition: var(--transition);
+    padding: 1rem;
+}
+
+.dino-content:not(#dictionary) .dinosaur-card:hover img {
+    transform: scale(1.05);
+}
+
+/* index 페이지의 공룡도감 섹션 스크롤바 스타일 */
+.dino-content:not(#dictionary) .dinosaur-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.dino-content:not(#dictionary) .dinosaur-grid::-webkit-scrollbar-track {
     background: var(--light-gray);
+    border-radius: 4px;
 }
 
-.dinosaur-card h3 {
-    margin: 0.5rem 1rem;
-    font-size: 1.2rem;
-    color: var(--text-primary);
+.dino-content:not(#dictionary) .dinosaur-grid::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
 }
 
-.dinosaur-card p {
-    margin: 0.5rem 1rem;
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.dinosaur-card .tags {
-    padding: 0 1rem 1rem;
-    display: flex;
-    gap: 0.5rem;
-}
-
-@media (max-width: 768px) {
-    .dinosaur-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 0;
-    }
-    
-    .dinosaur-card h3 {
-        font-size: 1rem;
-        margin: 0.5rem;
-    }
-    
-    .dinosaur-card p {
-        font-size: 0.8rem;
-        margin: 0.5rem;
-    }
-    
-    .dinosaur-card .tags {
-        padding: 0 0.5rem 0.5rem;
-    }
+.dino-content:not(#dictionary) .dinosaur-grid::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color-rgb);
 }
 
 /* 오늘의 공룡 */
